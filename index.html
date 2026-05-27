@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz i REL170 for balistudentene, våren 2026</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">Pedagogisk øvingsquiz</p>
+      <h1>Quiz i REL170 for balistudentene, våren 2026</h1>
+      <p class="intro">Velg ett pensumspørsmål, flere pensumspørsmål eller hele quizen. Det er ingen tidsbegrensning. Resultatene lagres bare lokalt i denne nettleseren.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="setup" class="panel">
+      <h2>Velg innhold</h2>
+      <div class="controls">
+        <label>
+          Antall spørsmål
+          <select id="questionCount">
+            <option value="20">20 spørsmål</option>
+            <option value="50">50 spørsmål</option>
+            <option value="100">100 spørsmål</option>
+            <option value="all">Alle valgte spørsmål</option>
+          </select>
+        </label>
+        <label>
+          Rekkefølge
+          <select id="orderMode">
+            <option value="shuffle">Tilfeldig blanding</option>
+            <option value="ordered">Pensumrekkefølge</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="quick-buttons">
+        <button id="selectAll" type="button">Velg alle 18</button>
+        <button id="clearAll" type="button">Fjern valg</button>
+      </div>
+
+      <div id="categoryList" class="category-list"></div>
+      <div class="start-row">
+        <button id="startQuiz" class="primary" type="button">Start quiz</button>
+        <p id="selectionSummary" class="muted"></p>
+      </div>
+    </section>
+
+    <section id="quiz" class="panel hidden" aria-live="polite">
+      <div class="quiz-topline">
+        <button id="backToSetup" type="button">Til forsiden</button>
+        <span id="progressText"></span>
+      </div>
+      <div class="progressbar"><div id="progressFill"></div></div>
+      <p id="topicText" class="eyebrow"></p>
+      <h2 id="questionText"></h2>
+      <div id="answerList" class="answers"></div>
+      <div id="feedback" class="feedback hidden"></div>
+      <div class="nav-row">
+        <button id="nextQuestion" class="primary" type="button" disabled>Neste spørsmål</button>
+      </div>
+    </section>
+
+    <section id="results" class="panel hidden">
+      <h2>Resultat</h2>
+      <p id="scoreText" class="score"></p>
+      <div id="progressComparison" class="comparison"></div>
+      <div id="topicBreakdown" class="breakdown"></div>
+      <div class="start-row">
+        <button id="retrySame" class="primary" type="button">Prøv samme utvalg på nytt</button>
+        <button id="resultsToSetup" type="button">Til forsiden</button>
+      </div>
+    </section>
+
+    <section class="panel small">
+      <h2>Din progresjon</h2>
+      <p class="muted">Dette er lokal lagring i nettleseren, ikke innlogging. Tallene forsvinner hvis nettleserdata slettes.</p>
+      <div id="historyBox"></div>
+      <button id="clearHistory" type="button">Slett lokal progresjon</button>
+    </section>
+  </main>
+
+  <footer class="wrap footer">REL170 – øving, repetisjon og egen progresjon.</footer>
+
+  <script src="data/questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
