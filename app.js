@@ -1,131 +1,26 @@
-const DATA = window.QUIZ_DATA;
-const STORAGE_KEY = "rel170-quiz-progress-v1";
-let state = { selectedIds: [], pool: [], index: 0, answers: [], lastSettings: null };
-
-const $ = (id) => document.getElementById(id);
-function shuffle(arr) { const a=[...arr]; for (let i=a.length-1;i>0;i--) { const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
-function loadHistory(){ try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; } catch { return []; } }
-function saveHistory(items){ localStorage.setItem(STORAGE_KEY, JSON.stringify(items.slice(-100))); }
-function allQuestionsFor(ids){ return DATA.categories.filter(c=>ids.includes(c.id)).flatMap(c=>c.questions.map(q=>({...q, categoryId:c.id, categoryTitle:c.title}))); }
-function pct(n,d){ return d ? Math.round((n/d)*100) : 0; }
-
-function renderCategories(){
-  const box = $("categoryList"); box.innerHTML = "";
-  DATA.categories.forEach(cat => {
-    const label = document.createElement("label"); label.className = "category";
-    label.innerHTML = `<input type="checkbox" value="${cat.id}"><div><strong>${cat.title}</strong><span>${cat.questions.length} spørsmål</span></div>`;
-    label.querySelector("input").addEventListener("change", updateSummary);
-    box.appendChild(label);
-  });
-  document.querySelectorAll("#categoryList input").forEach(cb => cb.checked = true);
-  updateSummary();
-}
-
-function selectedCategoryIds(){ return [...document.querySelectorAll("#categoryList input:checked")].map(x=>x.value); }
-function updateSummary(){
-  const ids = selectedCategoryIds();
-  const total = allQuestionsFor(ids).length;
-  $("selectionSummary").textContent = ids.length ? `${ids.length} pensumspørsmål valgt, ${total} mulige spørsmål.` : "Ingen pensumspørsmål valgt.";
-}
-
-function startQuiz(){
-  const ids = selectedCategoryIds();
-  if(!ids.length){ alert("Velg minst ett pensumspørsmål."); return; }
-  let qs = allQuestionsFor(ids);
-  const order = $("orderMode").value;
-  if(order === "shuffle") qs = shuffle(qs);
-  const countVal = $("questionCount").value;
-  const count = countVal === "all" ? qs.length : Math.min(Number(countVal), qs.length);
-  qs = qs.slice(0, count).map(q => ({...q, displayOptions: shuffle(q.options)}));
-  state = { selectedIds: ids, pool: qs, index: 0, answers: [], lastSettings: {ids, countVal, order} };
-  $("setup").classList.add("hidden"); $("results").classList.add("hidden"); $("quiz").classList.remove("hidden");
-  showQuestion();
-}
-
-function showQuestion(){
-  const q = state.pool[state.index];
-  $("progressText").textContent = `Spørsmål ${state.index+1} av ${state.pool.length}`;
-  $("progressFill").style.width = `${((state.index)/state.pool.length)*100}%`;
-  $("topicText").textContent = q.subtopic ? `${q.categoryTitle} – ${q.subtopic}` : q.categoryTitle;
-  $("questionText").textContent = q.question;
-  $("feedback").classList.add("hidden"); $("feedback").textContent = "";
-  $("nextQuestion").disabled = true;
-  const list = $("answerList"); list.innerHTML = "";
-  q.displayOptions.forEach((opt, idx) => {
-    const btn = document.createElement("button"); btn.type="button"; btn.className="answer";
-    const displayLetter = String.fromCharCode(65+idx);
-    btn.innerHTML = `<span class="letter">${displayLetter}</span><span>${opt.text}</span>`;
-    btn.addEventListener("click", () => chooseAnswer(btn, opt));
-    list.appendChild(btn);
-  });
-}
-
-function chooseAnswer(button, opt){
-  const q = state.pool[state.index];
-  const correct = opt.key === q.answer;
-  [...document.querySelectorAll(".answer")].forEach(btn => btn.disabled = true);
-  button.classList.add(correct ? "correct" : "wrong");
-  [...document.querySelectorAll(".answer")].forEach((btn, idx) => {
-    if(q.displayOptions[idx].key === q.answer) btn.classList.add("correct");
-  });
-  const correctText = q.options.find(o=>o.key===q.answer)?.text || "";
-  $("feedback").classList.remove("hidden");
-  $("feedback").textContent = correct ? "Riktig." : `Ikke helt. Riktig svar er: ${correctText}`;
-  state.answers.push({ questionId:q.globalId, categoryId:q.categoryId, categoryTitle:q.categoryTitle, correct, selected: opt.key, answer:q.answer });
-  $("nextQuestion").disabled = false;
-}
-
-function nextQuestion(){
-  if(state.index < state.pool.length-1){ state.index++; showQuestion(); }
-  else finishQuiz();
-}
-
-function finishQuiz(){
-  $("progressFill").style.width = "100%";
-  const correct = state.answers.filter(a=>a.correct).length;
-  const total = state.answers.length;
-  const percent = pct(correct,total);
-  const history = loadHistory();
-  const comparable = history.filter(h => JSON.stringify(h.selectedIds) === JSON.stringify(state.selectedIds) && h.total === total);
-  const bestBefore = comparable.length ? Math.max(...comparable.map(h=>h.percent)) : null;
-  const record = { date: new Date().toISOString(), selectedIds: state.selectedIds, total, correct, percent };
-  history.push(record); saveHistory(history);
-  $("quiz").classList.add("hidden"); $("results").classList.remove("hidden");
-  $("scoreText").textContent = `${correct} av ${total} riktige (${percent} %).`;
-  $("progressComparison").textContent = bestBefore === null ? "Dette er første registrerte forsøk med samme utvalg i denne nettleseren." : percent > bestBefore ? `Ny personlig forbedring: tidligere beste var ${bestBefore} %.` : `Tidligere beste med samme utvalg var ${bestBefore} %.`;
-  renderBreakdown(); renderHistory();
-}
-
-function renderBreakdown(){
-  const box=$("topicBreakdown"); box.innerHTML='<h3>Fordeling per pensumspørsmål</h3>';
-  const by = new Map();
-  state.answers.forEach(a => { if(!by.has(a.categoryTitle)) by.set(a.categoryTitle,{c:0,t:0}); const x=by.get(a.categoryTitle); x.t++; if(a.correct)x.c++; });
-  [...by.entries()].forEach(([title,x]) => { const row=document.createElement('div'); row.className='breakdown-row'; row.innerHTML=`<span>${title}</span><strong>${x.c}/${x.t} (${pct(x.c,x.t)} %)</strong>`; box.appendChild(row); });
-}
-
-function renderHistory(){
-  const history = loadHistory().slice(-10).reverse();
-  const box=$("historyBox");
-  if(!history.length){ box.innerHTML='<p class="muted">Ingen registrerte forsøk ennå.</p>'; return; }
-  box.innerHTML = '<table><thead><tr><th>Dato</th><th>Utvalg</th><th>Resultat</th></tr></thead><tbody></tbody></table>';
-  const tb=box.querySelector('tbody');
-  history.forEach(h => { const d=new Date(h.date); const tr=document.createElement('tr'); tr.innerHTML=`<td>${d.toLocaleString('no-NO')}</td><td>${h.selectedIds.length} pensumspørsmål</td><td>${h.correct}/${h.total} (${h.percent} %)</td>`; tb.appendChild(tr); });
-}
-
-function backToSetup(){ $("quiz").classList.add("hidden"); $("results").classList.add("hidden"); $("setup").classList.remove("hidden"); renderHistory(); }
-function retrySame(){
-  document.querySelectorAll("#categoryList input").forEach(cb => cb.checked = state.lastSettings.ids.includes(cb.value));
-  $("questionCount").value = state.lastSettings.countVal; $("orderMode").value = state.lastSettings.order; updateSummary(); startQuiz();
-}
-
-$("selectAll").addEventListener("click",()=>{ document.querySelectorAll("#categoryList input").forEach(cb=>cb.checked=true); updateSummary(); });
-$("clearAll").addEventListener("click",()=>{ document.querySelectorAll("#categoryList input").forEach(cb=>cb.checked=false); updateSummary(); });
-$("startQuiz").addEventListener("click", startQuiz);
-$("nextQuestion").addEventListener("click", nextQuestion);
-$("backToSetup").addEventListener("click", backToSetup);
-$("resultsToSetup").addEventListener("click", backToSetup);
-$("retrySame").addEventListener("click", retrySame);
-$("questionCount").addEventListener("change", updateSummary);
-$("clearHistory").addEventListener("click",()=>{ if(confirm("Slette lokal progresjon i denne nettleseren?")){ localStorage.removeItem(STORAGE_KEY); renderHistory(); } });
-
-renderCategories(); renderHistory();
+'use strict';
+const $=id=>document.getElementById(id), DATA=window.QUIZ_DATA, API=(window.QUIZ_API||'').replace(/\/$/,'');
+const KEY='rel170-h26-history', IDKEY='rel170-h26-player';
+const read=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))??f}catch{return f}}, write=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}};
+let player=read(IDKEY,null);if(!player){player=crypto.randomUUID();write(IDKEY,player)}
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const bonus=ms=>Math.max(0,Math.round(20*(1-ms/30000))), fmt=ms=>(ms/1000).toLocaleString('nb-NO',{maximumFractionDigits:1})+' s';
+let state={}, started=0,ticker, busy=false,boardRequest=0;
+const groups=DATA.categories.flatMap(c=>c.id==='8'?['Hume','Kant'].map(s=>({id:'8-'+s,title:s,number:8,questions:c.questions.filter(q=>q.subtopic===s)})):[c]);
+const poolFor=ids=>groups.filter(c=>ids.includes(c.id)).flatMap(c=>c.questions.map(q=>({...q,categoryId:c.id,categoryTitle:c.title})));
+function settings(){const ids=[...document.querySelectorAll('#topics input:checked')].map(x=>x.value).sort();return {ids,count:$('count').value,nickname:$('nickname').value.trim(),mode:$('mode').value}}
+function boardKey(s){return s.ids.join(',')+'|'+s.count}
+function renderTopics(){ $('topics').innerHTML=groups.map(c=>`<label class="topic-choice"><input type="checkbox" value="${c.id}" checked><span>${esc(c.title)}<small>Pensumspørsmål ${c.number} · ${c.questions.length} quizspørsmål</small></span></label>`).join('');$('topics').onchange=summary;summary() }
+function summary(){const s=settings(),n=poolFor(s.ids).length;$('summary').textContent=`${s.ids.length} temaer valgt · ${n} spørsmål tilgjengelig`;$('start').disabled=!n;boardRequest++;$('board').textContent='Trykk «Oppdater resultatliste» for dette utvalget.'}
+function view(id){for(const x of ['setup','play','result'])$(x).classList.toggle('hidden',x!==id);$(id).scrollIntoView({block:'start',behavior:'instant'})}
+async function api(path,body){const r=await fetch(API+path,{method:body?'POST':'GET',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined});const d=await r.json();if(!r.ok)throw Error(d.error||'Serveren svarte ikke som forventet.');return d}
+async function start(){if(busy)return;const s=settings();if(!s.ids.length)return;if(s.mode==='competition'&&!API){alert('Felles resultatliste er ikke koblet til ennå. Du kan øve med poeng og tid.');return}if(s.mode==='competition'&&!s.nickname){$('nickname').focus();alert('Velg et kallenavn først.');return}write('rel170-h26-nickname',s.nickname);busy=true;$('start').disabled=true;try{state={settings:s,index:0,answers:[],pool:[],session:null};if(s.mode==='competition'){const d=await api('/start',{...s,player});state.session=d.session;state.total=d.total;state.current=d.question}else{let p=shuffle(poolFor(s.ids));state.pool=p.slice(0,s.count==='all'?p.length:Number(s.count));state.total=state.pool.length;state.current=localQuestion()}view('play');show()}catch(e){alert(e.message)}finally{busy=false;summary()}}
+function localQuestion(){const q=state.pool[state.index];return {...q,options:shuffle(q.options)}}
+function show(){const q=state.current;$('position').textContent=`${state.index+1} / ${state.total}`;$('progress').value=100*state.index/state.total;$('topic').textContent=q.categoryTitle;$('question').textContent=q.question;$('feedback').classList.add('hidden');$('playError').textContent='';$('next').disabled=true;$('next').textContent=state.index+1===state.total?'Se resultatet →':'Neste spørsmål →';$('options').innerHTML='';state.answered=false;q.options.forEach((o,i)=>{const b=document.createElement('button');b.className='answer';b.innerHTML=`<span class="letter">${String.fromCharCode(65+i)}</span><span>${esc(o.text)}</span>`;b.onclick=()=>answer(o.key);$('options').append(b)});started=performance.now();clearInterval(ticker);$('timer').textContent='0 s';ticker=setInterval(()=>{$('timer').textContent=fmt(performance.now()-started)},100);$('question').focus({preventScroll:true})}
+async function answer(key){if(busy||state.answered)return;busy=true;const elapsed=performance.now()-started;clearInterval(ticker);$('timer').textContent=fmt(elapsed);const buttons=[...$('options').children];buttons.forEach(b=>b.disabled=true);try{const q=state.current;let d;if(state.session)d=await api('/answer',{session:state.session,index:state.index,key});else{const correct=key===q.answer;d={correct,answer:q.answer,correctText:q.options.find(o=>o.key===q.answer).text,explanation:q.explanation,elapsed,points:correct?100+bonus(elapsed):0}}state.answered=true;state.answers.push({...d,categoryTitle:q.categoryTitle});q.options.forEach((o,i)=>{if(o.key===d.answer)buttons[i].classList.add('correct');if(o.key===key&&!d.correct)buttons[i].classList.add('wrong')});$('feedback').classList.remove('hidden');$('feedback').textContent=`${d.correct?'Riktig!':'Ikke riktig denne gangen.'} Riktig svar: ${d.correctText}. ${d.explanation&&d.explanation.replace(/[.\s]+$/,'')!==d.correctText.replace(/[.\s]+$/,'')?d.explanation:''} +${d.points} poeng.`;$('next').disabled=false;$('playError').textContent='';if(d.result)state.serverResult=d.result}catch(e){$('playError').textContent=e.message+' Trykk svaret på nytt for å prøve igjen.';buttons.forEach(b=>b.disabled=false)}finally{busy=false}}
+async function next(){if(busy||!state.answered)return;if(state.index+1===state.total){finish();return}busy=true;$('next').disabled=true;try{if(state.session){const d=await api('/next',{session:state.session,index:state.index+1});state.current=d.question;state.index++}else{state.index++;state.current=localQuestion()}show();$('play').scrollIntoView({block:'start',behavior:'instant'})}catch(e){$('playError').textContent=e.message;$('next').disabled=false}finally{busy=false}}
+function finish(){clearInterval(ticker);const a=state.answers,correct=a.filter(x=>x.correct).length,points=a.reduce((n,x)=>n+x.points,0),elapsed=a.reduce((n,x)=>n+x.elapsed,0);const record={date:new Date().toISOString(),correct,total:state.total,points,elapsed,topics:state.settings.ids};const h=read(KEY,[]);h.push(record);write(KEY,h.slice(-100));view('result');$('score').textContent=`${correct} / ${state.total} riktige`;$('details').textContent=`${points} poeng · ${fmt(elapsed)} svartid`;$('saveStatus').textContent=state.session?'Resultatet er lagret i den felles resultatlisten. Ditt beste resultat for dette opplegget vises.':'Øvingsresultatet er lagret i denne nettleseren.';const titles=[...new Set(a.map(x=>x.categoryTitle))];$('breakdown').innerHTML=titles.map(t=>{const z=a.filter(x=>x.categoryTitle===t);return `<div class="row"><span>${esc(t)}</span><strong>${z.filter(x=>x.correct).length} / ${z.length}</strong></div>`}).join('');history();if(state.session)board()}
+function history(){const h=read(KEY,[]).slice(-5).reverse();$('history').innerHTML=h.length?h.map(x=>`<div class="row"><span>${new Date(x.date).toLocaleDateString('nb-NO')} · ${x.correct}/${x.total}</span><strong>${x.points} poeng</strong></div>`).join(''):'<p class="muted">Din første runde venter.</p>'}
+async function board(){const req=++boardRequest,s=settings();if(!API){$('board').textContent='Felles resultatliste er ikke aktivert ennå.';return}if(!s.ids.length)return;$('board').textContent='Henter resultater …';try{const d=await api('/leaderboard?board='+encodeURIComponent(boardKey(s)));if(req!==boardRequest)return;$('boardInfo').textContent='Beste resultat per deltaker for de valgte temaene og rundelengden. Flest riktige rangeres først, deretter tidsbonus.';$('board').innerHTML=d.length?d.map((r,i)=>`<div class="row"><span>${i+1}. ${esc(r.nickname)}<br><small>${r.correct}/${r.total} riktige · ${fmt(r.elapsed)}</small></span><strong>${r.points} p</strong></div>`).join(''):'Ingen resultater for dette opplegget ennå.'}catch(e){if(req===boardRequest)$('board').textContent=e.message}}
+$('all').onclick=()=>{document.querySelectorAll('#topics input').forEach(x=>x.checked=true);summary()};$('none').onclick=()=>{document.querySelectorAll('#topics input').forEach(x=>x.checked=false);summary()};$('count').onchange=summary;$('start').onclick=start;$('next').onclick=next;$('refresh').onclick=board;$('home').onclick=()=>view('setup');$('retry').onclick=start;$('exit').onclick=()=>{if(busy)return;if(confirm('Avslutte denne runden? Ufullførte runder kommer ikke på resultatlisten.')){clearInterval(ticker);view('setup')}};$('clear').onclick=()=>{if(confirm('Slette historikken i denne nettleseren?')){write(KEY,[]);history()}};$('nickname').value=read('rel170-h26-nickname','');$('connection').textContent=API?'Konkurranse har en felles resultatliste. Øving lagres bare i nettleseren.':'Øving med poeng og tid er klar. Konkurranse åpnes når felles resultatliste er koblet til.';renderTopics();history();
