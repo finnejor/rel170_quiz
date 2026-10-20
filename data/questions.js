@@ -1,1027 +1,13 @@
 window.QUIZ_DATA = {
-  "title": "Quiz i REL170 for balistudentene, våren 2026",
+  "title": "Modernitetens idéhistorie · høsten 2026",
   "categories": [
     {
       "id": "1",
-      "title": "Pensumspørsmål 1: Hva er idéhistorie",
-      "shortTitle": "Hva er idéhistorie",
+      "title": "Modernitetens særtrekk",
+      "number": 1,
+      "sourceTitle": "Spørsmål 1: Idéhistoriske særtrekk ved moderniteten",
       "questions": [
         {
-          "id": "hva-er-idéhistorie-1",
-          "number": 1,
-          "question": "Hvem er Trond Berg Eriksen?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Den norske idéhistorikeren som blant annet skrev Hva er idéhistorie?"
-            },
-            {
-              "key": "B",
-              "text": "Den norske filosofen som blant annet skrev Alt om Kant"
-            },
-            {
-              "key": "C",
-              "text": "Den norske historikeren som blant annet skrev Feminisme i går og i dag"
-            },
-            {
-              "key": "D",
-              "text": "En skjønnlitterær norsk forfatter som vant Ignobelprisen"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p1-1"
-        },
-        {
-          "id": "hva-er-idéhistorie-2",
-          "number": 2,
-          "question": "Hvilken rolle spiller kontekst i idéhistoriske studier?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Ingen rolle overhodet: Kun nærlesning av tekst betyr noe"
-            },
-            {
-              "key": "B",
-              "text": "Iblant betraktet som relevant, iblant ikke"
-            },
-            {
-              "key": "C",
-              "text": "En definerende rolle: uten kontekst ingen idéhistorie"
-            },
-            {
-              "key": "D",
-              "text": "En altfor stor rolle: teksten koker bort i kontekst"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p1-2"
-        },
-        {
-          "id": "hva-er-idéhistorie-3",
-          "number": 3,
-          "question": "Det sies ofte at enhver tenker er «barn av sin tid». Hva menes med det?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At store tenkere er evig barnslige"
-            },
-            {
-              "key": "B",
-              "text": "At ingen fortidige tenkere har selvstendige tanker"
-            },
-            {
-              "key": "C",
-              "text": "At alt vi tenker bare et ekko av hva samtiden mener"
-            },
-            {
-              "key": "D",
-              "text": "At den tiden en tenker lever i har stor innvirkning på hvordan hen tenker"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p1-3"
-        },
-        {
-          "id": "hva-er-idéhistorie-4",
-          "number": 4,
-          "question": "Det sies at idéhistorie er «tverrfaglig». Hva innebærer det?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At faget kombinerer perspektiver fra flere disipliner, som filosofi, realhistorie, litteratur og samfunnsvitenskap, politikk med mer"
-            },
-            {
-              "key": "B",
-              "text": "At faget først og fremst studerer én tenker om gangen, grundig og isolert"
-            },
-            {
-              "key": "C",
-              "text": "At faget kun handler om politiske ideologier i moderne tid"
-            },
-            {
-              "key": "D",
-              "text": "At faget baserer seg utelukkende på kvantitative metoder og statistiske analyser"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p1-4"
-        },
-        {
-          "id": "hva-er-idéhistorie-5",
-          "number": 5,
-          "question": "Idéhistoriske studier handler om å gi fortolkninger av fortidige tenkere. Hva innebærer det?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At man gjengir hva tenkerne skrev, ord for ord, uten å tolke eller sette det i sammenheng"
-            },
-            {
-              "key": "B",
-              "text": "At man forsøker å forstå hva tenkerne mente, ved å tolke tekstene deres i lys av historisk kontekst og begrepsbruk"
-            },
-            {
-              "key": "C",
-              "text": "At man vurderer om tenkerne hadde rett eller galt ut fra dagens kunnskap"
-            },
-            {
-              "key": "D",
-              "text": "At man oversetter gamle tekster til moderne språk uten videre analyse"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p1-5"
-        },
-        {
-          "id": "hva-er-idéhistorie-6",
-          "number": 6,
-          "question": "Hva innebærer «idéhistorisk relativisme»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At idéhistorikere mener at alt er relativt"
-            },
-            {
-              "key": "B",
-              "text": "At idéhistorikere ikke mener det finnes noen sannhet"
-            },
-            {
-              "key": "C",
-              "text": "At idéhistorikere metodisk setter sine egen tids oppfatninger og holdninger til side når en tekst studeres"
-            },
-            {
-              "key": "D",
-              "text": "At idéhistorikere mener at alle verdier er relative"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p1-6"
-        },
-        {
-          "id": "hva-er-idéhistorie-7",
-          "number": 7,
-          "question": "Hva utforsker en idéhistoriker?",
-          "options": [
-            {
-              "key": "A",
-              "text": "All slags fortidig filosofi"
-            },
-            {
-              "key": "B",
-              "text": "All slags fortidig tenkning"
-            },
-            {
-              "key": "C",
-              "text": "All slags fortidig litteratur"
-            },
-            {
-              "key": "D",
-              "text": "Alle slags fortidige bibeloversettelser"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p1-7"
-        },
-        {
-          "id": "hva-er-idéhistorie-8",
-          "number": 8,
-          "question": "Hva sikter Finn til med uttrykket «de syv små dverger»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En henvisning til et eventyr av Br. Grimm"
-            },
-            {
-              "key": "B",
-              "text": "De syv siste vinnerne av Nobels litteraturpris"
-            },
-            {
-              "key": "C",
-              "text": "Syv former for idéhistorisk undersøkelse"
-            },
-            {
-              "key": "D",
-              "text": "Syv kortvokste albanske fascister"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p1-8"
-        },
-        {
-          "id": "hva-er-idéhistorie-9",
-          "number": 9,
-          "question": "Hva utforsker den idéhistoriske «metodedvergen»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Snøhvits 10 beste middagsoppskrifter"
-            },
-            {
-              "key": "B",
-              "text": "Brødrene Grimms samlede verker"
-            },
-            {
-              "key": "C",
-              "text": "Effektiv fotball"
-            },
-            {
-              "key": "D",
-              "text": "Fremgangsmåter for å skrive idéhistorie"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p1-9"
-        },
-        {
-          "id": "hva-er-idéhistorie-10",
-          "number": 10,
-          "question": "Hva utforsker den idéhistoriske «begrepsdvergen»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Ogdens tegntrekant, men utelukkende c-spissen"
-            },
-            {
-              "key": "B",
-              "text": "Begreper som kjærlighet, død og natur gjennom tidene"
-            },
-            {
-              "key": "C",
-              "text": "Ordbøker fra karolingisk tid"
-            },
-            {
-              "key": "D",
-              "text": "Helleristninger i Østfold"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p1-10"
-        },
-        {
-          "id": "hva-er-idéhistorie-11",
-          "number": 11,
-          "question": "Hva utforsker den idéhistoriske «motivdvergen»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Strikkeoppskrifter fra Eirik Blodøks’ tid"
-            },
-            {
-              "key": "B",
-              "text": "Trafikkmønstret på Bali"
-            },
-            {
-              "key": "C",
-              "text": "Skjebnens innvirkning på våre liv"
-            },
-            {
-              "key": "D",
-              "text": "Temaer som kjærlighet, død og natur gjennom historien"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p1-11"
-        },
-        {
-          "id": "hva-er-idéhistorie-12",
-          "number": 12,
-          "question": "Hva forsker den idéhistoriske «mentalitetsdvergen» på?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Hvordan «vanlige» mennesker tenker"
-            },
-            {
-              "key": "B",
-              "text": "Hvordan konger tenker"
-            },
-            {
-              "key": "C",
-              "text": "Hvordan amerikanske presidenter tenker"
-            },
-            {
-              "key": "D",
-              "text": "Hvorfor strutser stikker hodet i sanden når de blir redde"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p1-12"
-        },
-        {
-          "id": "hva-er-idéhistorie-13",
-          "number": 13,
-          "question": "Hva forsker den idéhistoriske «ideologidvergen på?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Politiske ideologier"
-            },
-            {
-              "key": "B",
-              "text": "Religiøse læresetninger i middelalderen"
-            },
-            {
-              "key": "C",
-              "text": "Descartes’ tidlige filosofi"
-            },
-            {
-              "key": "D",
-              "text": "Menneskelig dårskap og idioti"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p1-13"
-        },
-        {
-          "id": "hva-er-idéhistorie-14",
-          "number": 14,
-          "question": "Hva utforsker «arbeidsdvergen»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Arbeidsmiljølovens utvikling"
-            },
-            {
-              "key": "B",
-              "text": "Det intellektuelle arbeidets historie"
-            },
-            {
-              "key": "C",
-              "text": "Filosofiens og idédannelsens historie"
-            },
-            {
-              "key": "D",
-              "text": "Arbeiderbevegelsens historie"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p1-14"
-        },
-        {
-          "id": "hva-er-idéhistorie-15",
-          "number": 15,
-          "question": "Hva utforsker den idéhistoriske «sosiologdvergen»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Hva sosiale medier gjør med unge mennesker"
-            },
-            {
-              "key": "B",
-              "text": "Hvordan fattigdom påvirker læreevnen"
-            },
-            {
-              "key": "C",
-              "text": "Hvordan sosiologiske faktorer påvirker tenkning"
-            },
-            {
-              "key": "D",
-              "text": "Hvordan utdannelse fører til opplysning"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p1-15"
-        },
-        {
-          "id": "hva-er-idéhistorie-16",
-          "number": 16,
-          "question": "Den norske idéhistorikeren Trond Berg Eriksen: Hva slags dverg er han (altså hva har han forsket på)?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Han er en arbeidsdverg"
-            },
-            {
-              "key": "B",
-              "text": "Han er en sosiologdverg"
-            },
-            {
-              "key": "C",
-              "text": "Ingen dverg i det hele tatt (han skriver stort sett bøker om store tenkere)"
-            },
-            {
-              "key": "D",
-              "text": "Han er Snøhvit – før hun våknet"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p1-16"
-        },
-        {
-          "id": "hva-er-idéhistorie-17",
-          "number": 17,
-          "question": "Hva innebærer det at idéhistorie er et dannelsesfag?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At idéhistorikere lærer seg hvordan fortiden var utenat"
-            },
-            {
-              "key": "B",
-              "text": "At idéhistorie skal bidra til å utvikle menneskers evne til refleksjon, perspektivforståelse og kritisk tenkning"
-            },
-            {
-              "key": "C",
-              "text": "At idéhistorie hovedsakelig er et fag for dem som ønsker å bli forskere eller akademikere"
-            },
-            {
-              "key": "D",
-              "text": "At idéhistorie søker å bevise at moderne tanker alltid er bedre enn eldre tanker."
-            }
-          ],
-          "answer": "B",
-          "globalId": "p1-17"
-        },
-        {
-          "id": "hva-er-idéhistorie-18",
-          "number": 18,
-          "question": "Hva innebærer det at idéhistorie kan forstås som en reaksjon mot et positivistisk historiesyn?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At idéhistorikere avviser all bruk av empiri, kilder og fakta i historieforskning."
-            },
-            {
-              "key": "B",
-              "text": "At idéhistorien mener at historien først og fremst drives fram av økonomiske forhold."
-            },
-            {
-              "key": "C",
-              "text": "At idéhistorien legger større vekt på å fortolke tanker, forestillinger og kulturelle sammenhenger på en hermeneutisk måte."
-            },
-            {
-              "key": "D",
-              "text": "At idéhistorien forsøker å gjøre historie til en naturvitenskap etter mønster av fysikken."
-            }
-          ],
-          "answer": "D",
-          "globalId": "p1-18"
-        },
-        {
-          "id": "hva-er-idéhistorie-19",
-          "number": 19,
-          "question": "Hva vil det si å plassere en tenker idéhistorisk?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At man setter hen i en relevant kontekst."
-            },
-            {
-              "key": "B",
-              "text": "At man putter hen på en spesiell trone"
-            },
-            {
-              "key": "C",
-              "text": "At man løfter en fortidig tenker ut av skapet."
-            },
-            {
-              "key": "D",
-              "text": "At man avviser tanken om at mennesker påvirker hverandre."
-            }
-          ],
-          "answer": "A",
-          "globalId": "p1-19"
-        },
-        {
-          "id": "hva-er-idéhistorie-20",
-          "number": 20,
-          "question": "Hvilken idéhistorisk epoke kom rett etter middelalderen?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Opplysningstiden"
-            },
-            {
-              "key": "B",
-              "text": "Romantikken"
-            },
-            {
-              "key": "C",
-              "text": "Antikken"
-            },
-            {
-              "key": "D",
-              "text": "Renessansen"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p1-20"
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "title": "Pensumspørsmål 2: Stephen Toulmin: Cosmopolis",
-      "shortTitle": "Stephen Toulmin: Cosmopolis",
-      "questions": [
-        {
-          "id": "stephen-toulmin:-cosmopolis-1",
-          "number": 1,
-          "question": "Hvem er Stephen Toulmin?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En engelsk idéhistoriker"
-            },
-            {
-              "key": "B",
-              "text": "En engelsk filosof"
-            },
-            {
-              "key": "C",
-              "text": "En engelsk komponist"
-            },
-            {
-              "key": "D",
-              "text": "En engelsk historiker"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p2-1"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-2",
-          "number": 2,
-          "question": "Datering av moderniteten: Når burde moderniteten begynne, ifølge Toulmin?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Middelalderen"
-            },
-            {
-              "key": "B",
-              "text": "Renessansen"
-            },
-            {
-              "key": "C",
-              "text": "Barokken"
-            },
-            {
-              "key": "D",
-              "text": "Opplysningstiden"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p2-2"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-3",
-          "number": 3,
-          "question": "Hva sikter Toulmin til med ordet cosmopolis?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Et samfunn der alt er fornuftig ordnet"
-            },
-            {
-              "key": "B",
-              "text": "En person som reiser over hele verden"
-            },
-            {
-              "key": "C",
-              "text": "En internasjonal storby"
-            },
-            {
-              "key": "D",
-              "text": "En form for alternativ vitenskap"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p2-3"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-4",
-          "number": 4,
-          "question": "Hvilken av disse er ikke en «variant av moderniteten», ifølge Toulmin?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Middelalderen"
-            },
-            {
-              "key": "B",
-              "text": "Renessansen"
-            },
-            {
-              "key": "C",
-              "text": "Opplysningstiden"
-            },
-            {
-              "key": "D",
-              "text": "Freuds psykoanalyse"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p2-4"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-5",
-          "number": 5,
-          "question": "Hva sikter Toulmin til med uttrykket «standardfortellingen om moderniteten»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Forestillingen om at moderniteten først og fremst er en historie om fornuft, vitenskap og stadig fremskritt."
-            },
-            {
-              "key": "B",
-              "text": "Tanken om at middelalderen var den mest moderne perioden i europeisk historie."
-            },
-            {
-              "key": "C",
-              "text": "En teori om at moderniteten begynte med den industrielle revolusjonen alene."
-            },
-            {
-              "key": "D",
-              "text": "Oppfatningen av at religion ble sterkere og sterkere gjennom hele moderniteten."
-            }
-          ],
-          "answer": "A",
-          "globalId": "p2-5"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-6",
-          "number": 6,
-          "question": "Hvorfor er Toulmin kritisk til René Descartes?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Fordi Descartes mente at følelser var viktigere enn fornuft."
-            },
-            {
-              "key": "B",
-              "text": "Fordi Descartes ønsket å bygge kunnskap på sikkerhet, abstrakt fornuft og universelle prinsipper, på bekostning av det konkrete og menneskelige."
-            },
-            {
-              "key": "C",
-              "text": "Fordi Descartes avviste naturvitenskapen fullstendig."
-            },
-            {
-              "key": "D",
-              "text": "Fordi Descartes mente at middelalderen var en bedre epoke enn moderniteten."
-            }
-          ],
-          "answer": "B",
-          "globalId": "p2-6"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-7",
-          "number": 7,
-          "question": "Det er mange uriktige årstall i Toulmins bok. Hvilken av disse er IKKE uriktig?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Gutenberg utviklet boktrykkerkunsten i 1436"
-            },
-            {
-              "key": "B",
-              "text": "Martin Luther begynte reformasjonen i 1520"
-            },
-            {
-              "key": "C",
-              "text": "30-årskrigen sluttet i 1648"
-            },
-            {
-              "key": "D",
-              "text": "Freud utga boken Drømmetydning i 1895."
-            }
-          ],
-          "answer": "C",
-          "globalId": "p2-7"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-8",
-          "number": 8,
-          "question": "Når ble Toulmins bok Cosmopolis utgitt?",
-          "options": [
-            {
-              "key": "A",
-              "text": "1990"
-            },
-            {
-              "key": "B",
-              "text": "2000"
-            },
-            {
-              "key": "C",
-              "text": "2010"
-            },
-            {
-              "key": "D",
-              "text": "2020"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p2-8"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-9",
-          "number": 9,
-          "question": "Når sluttet moderniteten, ifølge Toulmin?",
-          "options": [
-            {
-              "key": "A",
-              "text": "I 1789"
-            },
-            {
-              "key": "B",
-              "text": "I 1830"
-            },
-            {
-              "key": "C",
-              "text": "1914"
-            },
-            {
-              "key": "D",
-              "text": "1965"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p2-9"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-10",
-          "number": 10,
-          "question": "Når burde moderniteten ha begynt, ifølge Toulmin?",
-          "options": [
-            {
-              "key": "A",
-              "text": "I middelalderen"
-            },
-            {
-              "key": "B",
-              "text": "I renessansen"
-            },
-            {
-              "key": "C",
-              "text": "I opplysningstiden"
-            },
-            {
-              "key": "D",
-              "text": "I romantikken"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p2-10"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-11",
-          "number": 11,
-          "question": "Hvem var Michel de Montaigne?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En fransk humanist fra renessansen som la vekt på skepsis, tvil og toleranse."
-            },
-            {
-              "key": "B",
-              "text": "En italiensk humanist fra renessansen som ledet reformasjonen."
-            },
-            {
-              "key": "C",
-              "text": "En tysk kantianer som opphevet tyngdeloven ved to anledninger."
-            },
-            {
-              "key": "D",
-              "text": "En middelaldersk ridder kjent for sine vakre kjærligsdikt til dronningen av Saba."
-            }
-          ],
-          "answer": "A",
-          "globalId": "p2-11"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-12",
-          "number": 12,
-          "question": "Hvorfor er Montaigne Toulmins «helt»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Fordi Montaigne ønsket å bygge et fullstendig sikkert og matematisk verdensbilde."
-            },
-            {
-              "key": "B",
-              "text": "Fordi Montaigne mente at religion burde styre all filosofi og politikk."
-            },
-            {
-              "key": "C",
-              "text": "Fordi Montaigne representerer en mer menneskelig, praktisk og tolerant måte å tenke på enn den abstrakte rasjonalismen Toulmin kritiserer."
-            },
-            {
-              "key": "D",
-              "text": "Fordi Montaigne forsøkte å gjenreise middelalderens føydalsystem."
-            }
-          ],
-          "answer": "C",
-          "globalId": "p2-12"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-13",
-          "number": 13,
-          "question": "Hva er forbindelsen mellom Descartes og «standardfortellingen om moderniteten», ifølge Toulmin?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Descartes blir av Toulmin sett som en sentral skikkelse i den fortellingen som framhever sikker kunnskap, abstrakt fornuft og universelle prinsipper som modernitetens grunnlag."
-            },
-            {
-              "key": "B",
-              "text": "Descartes blir fremstilt som en motstander av all rasjonalitet og vitenskap."
-            },
-            {
-              "key": "C",
-              "text": "Toulmin mener Descartes hovedsakelig videreførte middelalderens tenkning uten nye ideer."
-            },
-            {
-              "key": "D",
-              "text": "Toulmin hevder at Descartes først og fremst var kjent som politisk revolusjonær."
-            }
-          ],
-          "answer": "A",
-          "globalId": "p2-13"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-14",
-          "number": 14,
-          "question": "Ulike idéhistorikere daterer modernitenes begynnelse til forskjellige tider. Hva avhenger dette gjerne av?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Det avhenger hovedsakelig av hvilket land historikeren kommer fra."
-            },
-            {
-              "key": "B",
-              "text": "Det avhenger gjerne av hvilke temaer, interesser og utviklingstrekk historikeren legger mest vekt på."
-            },
-            {
-              "key": "C",
-              "text": "Det skyldes at det finnes ett offisielt årstall som mange historikere ikke kjenner til."
-            },
-            {
-              "key": "D",
-              "text": "Det avhenger bare av hvilken religion historikeren tilhører."
-            }
-          ],
-          "answer": "B",
-          "globalId": "p2-14"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-15",
-          "number": 15,
-          "question": "Når begynte 30-årskrigen?",
-          "options": [
-            {
-              "key": "A",
-              "text": "1274"
-            },
-            {
-              "key": "B",
-              "text": "1618"
-            },
-            {
-              "key": "C",
-              "text": "1789"
-            },
-            {
-              "key": "D",
-              "text": "1914"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p2-15"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-16",
-          "number": 16,
-          "question": "Hvordan innvirket 30-årskrigen på Descartes tenkning, ifølge Toulmin?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Den fikk Descartes til å forkaste all bruk av fornuft og vitenskap."
-            },
-            {
-              "key": "B",
-              "text": "Den førte til at Descartes søkte sikre, universelle sannheter som kunne skape orden i en kaotisk og konfliktfylt verden."
-            },
-            {
-              "key": "C",
-              "text": "Den overbeviste Descartes om at kunst og estetikk var viktigere enn filosofi."
-            },
-            {
-              "key": "D",
-              "text": "Den gjorde Descartes til tilhenger av middelalderens politiske system."
-            }
-          ],
-          "answer": "B",
-          "globalId": "p2-16"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-17",
-          "number": 17,
-          "question": "Hvorfor passer Freud egentlig ikke i Toulmins fortelling om moderniteten?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Fordi Freud levde før moderniteten begynte."
-            },
-            {
-              "key": "B",
-              "text": "Fordi Freud først og fremst var opptatt av middelalderfilosofi og religion."
-            },
-            {
-              "key": "C",
-              "text": "Fordi Toulmin blander sammen modernitet som historisk epoke og modernisme som estetisk og kulturell retning."
-            },
-            {
-              "key": "D",
-              "text": "Fordi Freud avviste all vitenskap og rasjonell tenkning."
-            }
-          ],
-          "answer": "C",
-          "globalId": "p2-17"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-18",
-          "number": 18,
-          "question": "Toulmin hevder feilaktig at Gutenberg oppfant boktrykkerkunsten i 1436. Hva er et riktigere årstall?",
-          "options": [
-            {
-              "key": "A",
-              "text": "1348"
-            },
-            {
-              "key": "B",
-              "text": "1392"
-            },
-            {
-              "key": "C",
-              "text": "1450"
-            },
-            {
-              "key": "D",
-              "text": "1517"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p2-18"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-19",
-          "number": 19,
-          "question": "Toulmin påstår at Luthers reformasjon begynte i 1520. Hva er et riktigere årstall?",
-          "options": [
-            {
-              "key": "A",
-              "text": "1502"
-            },
-            {
-              "key": "B",
-              "text": "1517"
-            },
-            {
-              "key": "C",
-              "text": "1527"
-            },
-            {
-              "key": "D",
-              "text": "1532"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p2-19"
-        },
-        {
-          "id": "stephen-toulmin:-cosmopolis-20",
-          "number": 20,
-          "question": "Toulmin hevder feilaktig at Freuds bok Drømmetydning kom i 1895. Hva er det riktige årstallet?",
-          "options": [
-            {
-              "key": "A",
-              "text": "1899"
-            },
-            {
-              "key": "B",
-              "text": "1902"
-            },
-            {
-              "key": "C",
-              "text": "1905"
-            },
-            {
-              "key": "D",
-              "text": "1966"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p2-20"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "title": "Pensumspørsmål 3: Hard og myk opplysning",
-      "shortTitle": "Hard og myk opplysning",
-      "questions": [
-        {
-          "id": "hard-og-myk-opplysning-1",
           "number": 1,
           "question": "Hvem utviklet begrepene «hard» og «myk opplysning»?",
           "options": [
@@ -1042,17 +28,18 @@ window.QUIZ_DATA = {
               "text": "Den norske idéhistorikeren Trond Berg Eriksen"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p3-1"
+          "explanation": "",
+          "globalId": "1-1"
         },
         {
-          "id": "hard-og-myk-opplysning-2",
           "number": 2,
           "question": "Hva menes «med hard» opplysning?",
           "options": [
             {
               "key": "A",
-              "text": "Pugging av salmer"
+              "text": "Knallhard salmepugging"
             },
             {
               "key": "B",
@@ -1067,11 +54,12 @@ window.QUIZ_DATA = {
               "text": "Vitenskap, teknologi og økonomi"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p3-2"
+          "explanation": "",
+          "globalId": "1-2"
         },
         {
-          "id": "hard-og-myk-opplysning-3",
           "number": 3,
           "question": "Hvilken av de følgende er ikke et eksempel på hard opplysning?",
           "options": [
@@ -1092,11 +80,12 @@ window.QUIZ_DATA = {
               "text": "Antibiotika"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p3-3"
+          "explanation": "",
+          "globalId": "1-3"
         },
         {
-          "id": "hard-og-myk-opplysning-4",
           "number": 4,
           "question": "Hva menes med «myk opplysning»?",
           "options": [
@@ -1110,18 +99,19 @@ window.QUIZ_DATA = {
             },
             {
               "key": "C",
-              "text": "Et begrep som har med utvikling av bedre madrasser å gjøre"
+              "text": "Et begrep som har med utvikling av mykere madrasser å gjøre"
             },
             {
               "key": "D",
-              "text": "Saftige, nybakte kanelboller"
+              "text": "Saftige, nybakte kanelboller som du har stått tre timer i kø for å få"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p3-4"
+          "explanation": "",
+          "globalId": "1-4"
         },
         {
-          "id": "hard-og-myk-opplysning-5",
           "number": 5,
           "question": "Hvilken av disse er IKKE et eksempel på myk opplysning?",
           "options": [
@@ -1139,14 +129,15 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "Sigrid Undsets roman Gymnadenia"
+              "text": "Mary Shelleys roman Frankenstein"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p3-5"
+          "explanation": "",
+          "globalId": "1-5"
         },
         {
-          "id": "hard-og-myk-opplysning-6",
           "number": 6,
           "question": "Hva går opplysningsprosjektet ut på, ifølge Liedman?",
           "options": [
@@ -1167,11 +158,12 @@ window.QUIZ_DATA = {
               "text": "«… at magiske riter skal skape en bedre verden»"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p3-6"
+          "explanation": "",
+          "globalId": "1-6"
         },
         {
-          "id": "hard-og-myk-opplysning-7",
           "number": 7,
           "question": "Hva går det moderne prosjekt ut på?",
           "options": [
@@ -1192,11 +184,12 @@ window.QUIZ_DATA = {
               "text": "Å videreføre opplysningsprosjektet"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p3-7"
+          "explanation": "",
+          "globalId": "1-7"
         },
         {
-          "id": "hard-og-myk-opplysning-8",
           "number": 8,
           "question": "Hvem sa: «Modernitetens ryggrad er derfor den harde opplysningens vei fremover»?",
           "options": [
@@ -1214,20 +207,21 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "Jan-Erik Ebbestad Hansen"
+              "text": "Else Marie Lingaas"
             }
           ],
-          "answer": "B",
-          "globalId": "p3-8"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "1-8"
         },
         {
-          "id": "hard-og-myk-opplysning-9",
           "number": 9,
           "question": "Hvilken av disse tenkerene mener at hard opplysning fører til myk?",
           "options": [
             {
               "key": "A",
-              "text": "Nicolas Condorcet"
+              "text": "William Godwin"
             },
             {
               "key": "B",
@@ -1242,17 +236,18 @@ window.QUIZ_DATA = {
               "text": "Friedrich Nietzsche"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p3-9"
+          "explanation": "",
+          "globalId": "1-9"
         },
         {
-          "id": "hard-og-myk-opplysning-10",
           "number": 10,
           "question": "Hvilken av disse tenkerne mener at hard opplysning IKKE fører til myk?",
           "options": [
             {
               "key": "A",
-              "text": "Nicolas Condorcet"
+              "text": "William Godwin"
             },
             {
               "key": "B",
@@ -1264,14 +259,15 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "Finn Eivind Jor"
+              "text": "Mary Wollstonecraft"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p3-10"
+          "explanation": "",
+          "globalId": "1-10"
         },
         {
-          "id": "hard-og-myk-opplysning-11",
           "number": 11,
           "question": "Mente Kant at hard opplysning fører til myk?",
           "options": [
@@ -1292,11 +288,12 @@ window.QUIZ_DATA = {
               "text": "Ja, men bare hvis vi kan sette en stopper for sekulariseringen"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p3-11"
+          "explanation": "",
+          "globalId": "1-11"
         },
         {
-          "id": "hard-og-myk-opplysning-12",
           "number": 12,
           "question": "Hvilken av disse har blitt beskrevet som opplysningsprosjektets største«fiende»?",
           "options": [
@@ -1317,11 +314,12 @@ window.QUIZ_DATA = {
               "text": "Ødeleggelsen av fornuften"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p3-12"
+          "explanation": "",
+          "globalId": "1-12"
         },
         {
-          "id": "hard-og-myk-opplysning-13",
           "number": 13,
           "question": "Levealder har med hard opplysning å gjøre. Hva var gjennomsnittlig levealder på Kants tid?",
           "options": [
@@ -1342,11 +340,12 @@ window.QUIZ_DATA = {
               "text": "Cirka 55 år"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p3-13"
+          "explanation": "",
+          "globalId": "1-13"
         },
         {
-          "id": "hard-og-myk-opplysning-14",
           "number": 14,
           "question": "Økonomi har med hard opplysning å gjøre. Hvor stor andel av menneskeheten levde under ekstrem fattigdom på Kants tid?",
           "options": [
@@ -1367,11 +366,12 @@ window.QUIZ_DATA = {
               "text": "Mellom 80 og 90 prosent"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p3-14"
+          "explanation": "",
+          "globalId": "1-14"
         },
         {
-          "id": "hard-og-myk-opplysning-15",
           "number": 15,
           "question": "Fremskrittstanken ble utviklet i en bestemt idéhistorisk epoke. Hvilken?",
           "options": [
@@ -1392,11 +392,12 @@ window.QUIZ_DATA = {
               "text": "Middelalderen"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p3-15"
+          "explanation": "",
+          "globalId": "1-15"
         },
         {
-          "id": "hard-og-myk-opplysning-16",
           "number": 16,
           "question": "Hvilken av disse påstandene gir en beskrivelse av opplysningsprosjektet?",
           "options": [
@@ -1417,11 +418,12 @@ window.QUIZ_DATA = {
               "text": "Myk opplysning er det eneste som har noen verdi!"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p3-16"
+          "explanation": "",
+          "globalId": "1-16"
         },
         {
-          "id": "hard-og-myk-opplysning-17",
           "number": 17,
           "question": "Hva ville en typisk postmoderne tenker mene om opplysningsprosjektet?",
           "options": [
@@ -1431,7 +433,7 @@ window.QUIZ_DATA = {
             },
             {
               "key": "B",
-              "text": "Vi kan få det til, men da må religionen få en større plass i menneskenes liv"
+              "text": "Vi kan få det til, men da må religionen få en større plass i menneskelivet"
             },
             {
               "key": "C",
@@ -1442,11 +444,12 @@ window.QUIZ_DATA = {
               "text": "Vi må forsvare Vestens tenkere som best vi kan"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p3-17"
+          "explanation": "",
+          "globalId": "1-17"
         },
         {
-          "id": "hard-og-myk-opplysning-18",
           "number": 18,
           "question": "Hvordan vil en typisk romantisk tenker betrakte opplysningsprosjektet?",
           "options": [
@@ -1467,13 +470,14 @@ window.QUIZ_DATA = {
               "text": "Det forutsetter en altfor stor tro på Gud"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p3-18"
+          "explanation": "",
+          "globalId": "1-18"
         },
         {
-          "id": "hard-og-myk-opplysning-19",
           "number": 19,
-          "question": "Hvem var Nicolas Condorcet?",
+          "question": "Hvem var William Godwin?",
           "options": [
             {
               "key": "A",
@@ -1489,16 +493,17 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "En superoptimistisk fransk opplysningsfilosof"
+              "text": "En superoptimistisk engelsk opplysningsfilosof"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p3-19"
+          "explanation": "",
+          "globalId": "1-19"
         },
         {
-          "id": "hard-og-myk-opplysning-20",
           "number": 20,
-          "question": "Hva mente Condorcet om myk opplysning?",
+          "question": "Hva mente Godwin om myk opplysning?",
           "options": [
             {
               "key": "A",
@@ -1517,525 +522,1604 @@ window.QUIZ_DATA = {
               "text": "Den bør bekjempes for enhver pris"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p3-20"
+          "explanation": "",
+          "globalId": "1-20"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Toulmin og Cosmopolis",
+      "number": 2,
+      "sourceTitle": "Pensumspørsmål 2: Stephen Toulmin: Cosmopolis",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Hvem er Stephen Toulmin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "En engelsk idéhistoriker"
+            },
+            {
+              "key": "B",
+              "text": "En engelsk filosof"
+            },
+            {
+              "key": "C",
+              "text": "En engelsk komponist"
+            },
+            {
+              "key": "D",
+              "text": "En engelsk historiker"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "2-1"
+        },
+        {
+          "number": 2,
+          "question": "Datering av moderniteten: Når burde moderniteten begynne, ifølge Toulmin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Middelalderen"
+            },
+            {
+              "key": "B",
+              "text": "Renessansen"
+            },
+            {
+              "key": "C",
+              "text": "Barokken"
+            },
+            {
+              "key": "D",
+              "text": "Opplysningstiden"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "2-2"
+        },
+        {
+          "number": 3,
+          "question": "Hva sikter Toulmin til med ordet cosmopolis?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Et samfunn der alt er fornuftig ordnet"
+            },
+            {
+              "key": "B",
+              "text": "En person som reiser over hele verden"
+            },
+            {
+              "key": "C",
+              "text": "En internasjonal storby"
+            },
+            {
+              "key": "D",
+              "text": "En form for alternativ vitenskap"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "2-3"
+        },
+        {
+          "number": 4,
+          "question": "Hvilken av disse er ikke en «variant av moderniteten», ifølge Toulmin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Middelalderen"
+            },
+            {
+              "key": "B",
+              "text": "Renessansen"
+            },
+            {
+              "key": "C",
+              "text": "Opplysningstiden"
+            },
+            {
+              "key": "D",
+              "text": "Freuds psykoanalyse"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "2-4"
+        },
+        {
+          "number": 5,
+          "question": "Hva sikter Toulmin til med uttrykket «standardfortellingen om moderniteten»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Forestillingen om at moderniteten først og fremst er en historie om fornuft, vitenskap og stadig fremskritt."
+            },
+            {
+              "key": "B",
+              "text": "Tanken om at middelalderen var den mest moderne perioden i europeisk historie."
+            },
+            {
+              "key": "C",
+              "text": "En teori om at moderniteten begynte med den industrielle revolusjonen alene."
+            },
+            {
+              "key": "D",
+              "text": "Oppfatningen av at religion ble sterkere og sterkere gjennom hele moderniteten."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "2-5"
+        },
+        {
+          "number": 6,
+          "question": "Hvorfor er Toulmin kritisk til René Descartes?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fordi Descartes mente at følelser var viktigere enn fornuft, logikk, tenkning og vitenskap"
+            },
+            {
+              "key": "B",
+              "text": "Fordi Descartes ønsket å bygge kunnskap på sikkerhet, abstrakt fornuft og universelle prinsipper, på bekostning av det konkrete og menneskelige."
+            },
+            {
+              "key": "C",
+              "text": "Fordi Descartes avviste naturvitenskap, matematikk og logikk fullstendig."
+            },
+            {
+              "key": "D",
+              "text": "Fordi Descartes mente at middelalderen var en bedre epoke enn moderniteten."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "2-6"
+        },
+        {
+          "number": 7,
+          "question": "Det er mange uriktige årstall i Toulmins bok. Hvilken av disse er IKKE uriktig?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Gutenberg utviklet boktrykkerkunsten i 1436"
+            },
+            {
+              "key": "B",
+              "text": "Martin Luther begynte reformasjonen i 1520"
+            },
+            {
+              "key": "C",
+              "text": "30-årskrigen sluttet i 1648"
+            },
+            {
+              "key": "D",
+              "text": "Freud utga boken Drømmetydning i 1895."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "2-7"
+        },
+        {
+          "number": 8,
+          "question": "Når ble Toulmins bok Cosmopolis utgitt?",
+          "options": [
+            {
+              "key": "A",
+              "text": "1990"
+            },
+            {
+              "key": "B",
+              "text": "2000"
+            },
+            {
+              "key": "C",
+              "text": "2010"
+            },
+            {
+              "key": "D",
+              "text": "2020"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "2-8"
+        },
+        {
+          "number": 9,
+          "question": "Når sluttet moderniteten, ifølge Toulmin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "I 1789"
+            },
+            {
+              "key": "B",
+              "text": "I 1830"
+            },
+            {
+              "key": "C",
+              "text": "1914"
+            },
+            {
+              "key": "D",
+              "text": "1965"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "2-9"
+        },
+        {
+          "number": 10,
+          "question": "Når burde moderniteten ha begynt, ifølge Toulmin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "I middelalderen"
+            },
+            {
+              "key": "B",
+              "text": "I renessansen"
+            },
+            {
+              "key": "C",
+              "text": "I opplysningstiden"
+            },
+            {
+              "key": "D",
+              "text": "I romantikken"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "2-10"
+        },
+        {
+          "number": 11,
+          "question": "Hvem var Michel de Montaigne?",
+          "options": [
+            {
+              "key": "A",
+              "text": "En humanist fra renessansen som la vekt på skepsis, tvil og toleranse."
+            },
+            {
+              "key": "B",
+              "text": "En humanist fra renessansen som ledet reformasjonen."
+            },
+            {
+              "key": "C",
+              "text": "En kantianer som opphevet tyngdeloven ved to anledninger."
+            },
+            {
+              "key": "D",
+              "text": "En middelaldersk ridder kjent for sine vakre kjærligsdikt til dronningen av Saba."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "2-11"
+        },
+        {
+          "number": 12,
+          "question": "Hvorfor er Montaigne Toulmins «helt»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fordi Montaigne ønsket å bygge et fullstendig sikkert og matematisk verdensbilde."
+            },
+            {
+              "key": "B",
+              "text": "Fordi Montaigne mente at religion burde styre all filosofi og politikk."
+            },
+            {
+              "key": "C",
+              "text": "Fordi Montaigne representerte en mer menneskelig, praktisk og tolerant måte å tenke på enn den abstrakte rasjonalismen Toulmin kritiserer."
+            },
+            {
+              "key": "D",
+              "text": "Fordi Montaigne forsøkte å gjenreise middelalderens føydalsystem."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "2-12"
+        },
+        {
+          "number": 13,
+          "question": "Hva er forbindelsen mellom Descartes og «standardfortellingen om moderniteten», ifølge Toulmin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Descartes blir av Toulmin sett som en sentral skikkelse i den fortellingen som framhever sikker kunnskap, abstrakt fornuft og universelle prinsipper som modernitetens grunnlag."
+            },
+            {
+              "key": "B",
+              "text": "Descartes blir fremstilt som en motstander av all rasjonalitet og vitenskap."
+            },
+            {
+              "key": "C",
+              "text": "Toulmin mener Descartes hovedsakelig videreførte middelalderens tenkning uten nye ideer."
+            },
+            {
+              "key": "D",
+              "text": "Toulmin hevder at Descartes først og fremst var kjent som politisk revolusjonær."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "2-13"
+        },
+        {
+          "number": 14,
+          "question": "Ulike idéhistorikere daterer modernitenes begynnelse til forskjellige tider. Hva avhenger dette gjerne av?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Det avhenger hovedsakelig av hvilket land historikeren kommer fra."
+            },
+            {
+              "key": "B",
+              "text": "Det avhenger gjerne av hvilke temaer, interesser og utviklingstrekk historikeren legger mest vekt på."
+            },
+            {
+              "key": "C",
+              "text": "Det skyldes at det finnes ett offisielt årstall som mange historikere ikke kjenner til."
+            },
+            {
+              "key": "D",
+              "text": "Det avhenger bare av hvilken religion historikeren tilhører."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "2-14"
+        },
+        {
+          "number": 15,
+          "question": "Når begynte 30-årskrigen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "1274"
+            },
+            {
+              "key": "B",
+              "text": "1618"
+            },
+            {
+              "key": "C",
+              "text": "1789"
+            },
+            {
+              "key": "D",
+              "text": "1914"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "2-15"
+        },
+        {
+          "number": 16,
+          "question": "Hvordan innvirket 30-årskrigen på Descartes tenkning, ifølge Toulmin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Toulim mener den fikk Descartes til å forkaste all bruk av fornuft og vitenskap."
+            },
+            {
+              "key": "B",
+              "text": "Toulmin mener den førte til at Descartes søkte sikre, universelle sannheter som kunne skape orden i en kaotisk og konfliktfylt verden."
+            },
+            {
+              "key": "C",
+              "text": "Toulmin mener den overbeviste Descartes om at kunst og estetikk var viktigere enn filosofi."
+            },
+            {
+              "key": "D",
+              "text": "Toulmin mener den gjorde Descartes til tilhenger av middelalderens politiske system."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "2-16"
+        },
+        {
+          "number": 17,
+          "question": "Hvorfor passer Freud egentlig ikke i Toulmins fortelling om moderniteten?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fordi Freud levde før moderniteten begynte."
+            },
+            {
+              "key": "B",
+              "text": "Fordi Freud først og fremst var opptatt av middelalderfilosofi og religion."
+            },
+            {
+              "key": "C",
+              "text": "Fordi Toulmin blander sammen modernitet som historisk epoke og modernisme som estetisk og kulturell retning."
+            },
+            {
+              "key": "D",
+              "text": "Fordi Freud avviste all vitenskap og rasjonell tenkning."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "2-17"
+        },
+        {
+          "number": 18,
+          "question": "Toulmin hevder feilaktig at Gutenberg oppfant boktrykkerkunsten i 1436. Hva er et riktigere årstall?",
+          "options": [
+            {
+              "key": "A",
+              "text": "1348"
+            },
+            {
+              "key": "B",
+              "text": "1392"
+            },
+            {
+              "key": "C",
+              "text": "1450"
+            },
+            {
+              "key": "D",
+              "text": "1517"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "2-18"
+        },
+        {
+          "number": 19,
+          "question": "Toulmin påstår at Luthers reformasjon begynte i 1520. Hva er et riktigere årstall?",
+          "options": [
+            {
+              "key": "A",
+              "text": "1502"
+            },
+            {
+              "key": "B",
+              "text": "1517"
+            },
+            {
+              "key": "C",
+              "text": "1527"
+            },
+            {
+              "key": "D",
+              "text": "1532"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "2-19"
+        },
+        {
+          "number": 20,
+          "question": "Toulmin hevder feilaktig at Freuds bok Drømmetydning kom i 1895. Hva er det riktige årstallet?",
+          "options": [
+            {
+              "key": "A",
+              "text": "1899"
+            },
+            {
+              "key": "B",
+              "text": "1902"
+            },
+            {
+              "key": "C",
+              "text": "1905"
+            },
+            {
+              "key": "D",
+              "text": "1966"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "2-20"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Hva er idéhistorie?",
+      "number": 3,
+      "sourceTitle": "Pensumspørsmål 3: Hva studerer man i faget idéhistorie?",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Hvem er Trond Berg Eriksen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Den norske idéhistorikeren som blant annet skrev Hva er idéhistorie?"
+            },
+            {
+              "key": "B",
+              "text": "Den norske filosofen som blant annet skrev Alt om Kant"
+            },
+            {
+              "key": "C",
+              "text": "Den norske historikeren som blant annet skrev Feminisme i går og i dag"
+            },
+            {
+              "key": "D",
+              "text": "En skjønnlitterær norsk forfatter som vant Ignobelprisen"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "3-1"
+        },
+        {
+          "number": 2,
+          "question": "Hvilken rolle spiller kontekst i idéhistoriske studier?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ingen rolle overhodet: Kun nærlesning av tekst betyr noe"
+            },
+            {
+              "key": "B",
+              "text": "Iblant betraktet som relevant, iblant ikke"
+            },
+            {
+              "key": "C",
+              "text": "En definerende rolle: uten kontekst ingen idéhistorie"
+            },
+            {
+              "key": "D",
+              "text": "En altfor stor rolle: teksten koker bort i kontekst"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "3-2"
+        },
+        {
+          "number": 3,
+          "question": "Idéhistorikere sier ofte at alle tenkere er «barn av sin tid». Hva menes med det?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At store tenkere er evig barnslige"
+            },
+            {
+              "key": "B",
+              "text": "At ingen fortidige tenkere har selvstendige tanker"
+            },
+            {
+              "key": "C",
+              "text": "At alt vi tenker bare et ekko av hva samtiden mener"
+            },
+            {
+              "key": "D",
+              "text": "At den tiden en tenker lever i har stor innvirkning på hvordan hen tenker"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "3-3"
+        },
+        {
+          "number": 4,
+          "question": "Det sies at idéhistorie er «tverrfaglig». Hva innebærer det?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At man kombinerer idéer fra flere fag, som filosofi, realhistorie, litteratur og samfunnsvitenskap, politikk etc."
+            },
+            {
+              "key": "B",
+              "text": "At faget først og fremst studerer én tenker om gangen, grundig og isolert"
+            },
+            {
+              "key": "C",
+              "text": "At faget kun handler om politiske ideologier i moderne tid"
+            },
+            {
+              "key": "D",
+              "text": "At faget baserer seg utelukkende på kvantitative metoder og statistiske analyser"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "3-4"
+        },
+        {
+          "number": 5,
+          "question": "Idéhistoriske studier handler fortolkning. Hva innebærer det?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At man gjengir hva tenkerne skrev, ord for ord, uten å tolke eller sette det i sammenheng"
+            },
+            {
+              "key": "B",
+              "text": "At man forsøker å forstå hva tenkerne mente, ved å tolke tekstene deres i lys av historisk kontekst og begrepsbruk"
+            },
+            {
+              "key": "C",
+              "text": "At man vurderer om tenkerne hadde rett eller galt ut fra dagens kunnskap"
+            },
+            {
+              "key": "D",
+              "text": "At man oversetter gamle tekster til moderne språk uten videre analyse"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "3-5"
+        },
+        {
+          "number": 6,
+          "question": "Hva innebærer «idéhistorisk relativisme»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At idéhistorikere mener at alt er relativt"
+            },
+            {
+              "key": "B",
+              "text": "At idéhistorikere ikke mener det finnes noen sannhet"
+            },
+            {
+              "key": "C",
+              "text": "At idéhistorikere metodisk setter sine egen tids oppfatninger og holdninger til side når en tekst studeres"
+            },
+            {
+              "key": "D",
+              "text": "At idéhistorikere mener at alle verdier er relative"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "3-6"
+        },
+        {
+          "number": 7,
+          "question": "Hva utforsker en idéhistoriker?",
+          "options": [
+            {
+              "key": "A",
+              "text": "All slags fortidig filosofi"
+            },
+            {
+              "key": "B",
+              "text": "All slags fortidig tenkning"
+            },
+            {
+              "key": "C",
+              "text": "All slags fortidig litteratur"
+            },
+            {
+              "key": "D",
+              "text": "Alle slags fortidige bibeloversettelser"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "3-7"
+        },
+        {
+          "number": 8,
+          "question": "Hva sikter Finn til med uttrykket «de syv små dverger»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "En henvisning til et eventyr av Br. Grimm"
+            },
+            {
+              "key": "B",
+              "text": "De syv siste vinnerne av Nobels litteraturpris"
+            },
+            {
+              "key": "C",
+              "text": "Syv former for idéhistorisk undersøkelse"
+            },
+            {
+              "key": "D",
+              "text": "Syv kortvokste albanske fascister"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "3-8"
+        },
+        {
+          "number": 9,
+          "question": "Hva utforsker den idéhistoriske «metodedvergen»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Snøhvits 10 beste middagsoppskrifter"
+            },
+            {
+              "key": "B",
+              "text": "Brødrene Grimms samlede verker"
+            },
+            {
+              "key": "C",
+              "text": "Effektiv fotball"
+            },
+            {
+              "key": "D",
+              "text": "Fremgangsmåter for å skrive idéhistorie"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "3-9"
+        },
+        {
+          "number": 10,
+          "question": "Hva utforsker den idéhistoriske «begrepsdvergen»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ogdens tegntrekant, men utelukkende c-spissen"
+            },
+            {
+              "key": "B",
+              "text": "Begreper som kjærlighet, død og natur gjennom tidene"
+            },
+            {
+              "key": "C",
+              "text": "Ordbøker fra karolingisk tid"
+            },
+            {
+              "key": "D",
+              "text": "Helleristninger i Østfold"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "3-10"
+        },
+        {
+          "number": 11,
+          "question": "Hva utforsker den idéhistoriske «motivdvergen»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Strikkeoppskrifter fra Eirik Blodøks’ tid"
+            },
+            {
+              "key": "B",
+              "text": "Trafikkmønstret på Bali"
+            },
+            {
+              "key": "C",
+              "text": "Skilpadders innvirkning på våre liv"
+            },
+            {
+              "key": "D",
+              "text": "Temaer som kjærlighet, død og natur gjennom historien"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "3-11"
+        },
+        {
+          "number": 12,
+          "question": "Hva forsker den idéhistoriske «mentalitetsdvergen» på?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hvordan «vanlige» mennesker tenker"
+            },
+            {
+              "key": "B",
+              "text": "Hvordan konger tenker"
+            },
+            {
+              "key": "C",
+              "text": "Hvordan amerikanske presidenter tenker"
+            },
+            {
+              "key": "D",
+              "text": "Hvorfor strutser stikker hodet i sanden når de blir redde"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "3-12"
+        },
+        {
+          "number": 13,
+          "question": "Hva forsker den idéhistoriske «ideologidvergen på?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Politiske ideologier"
+            },
+            {
+              "key": "B",
+              "text": "Religiøse læresetninger i middelalderen"
+            },
+            {
+              "key": "C",
+              "text": "Descartes’ tidlige filosofi"
+            },
+            {
+              "key": "D",
+              "text": "Menneskelig dårskap og idioti"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "3-13"
+        },
+        {
+          "number": 14,
+          "question": "Hva utforsker «arbeidsdvergen»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Arbeidsmiljølovens utvikling"
+            },
+            {
+              "key": "B",
+              "text": "Det intellektuelle arbeidets historie"
+            },
+            {
+              "key": "C",
+              "text": "Filosofiens og idédannelsens historie"
+            },
+            {
+              "key": "D",
+              "text": "Arbeiderbevegelsens historie"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "3-14"
+        },
+        {
+          "number": 15,
+          "question": "Hva utforsker den idéhistoriske «sosiologdvergen»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hva sosiale medier gjør med unge mennesker"
+            },
+            {
+              "key": "B",
+              "text": "Hvordan fattigdom påvirker læreevnen"
+            },
+            {
+              "key": "C",
+              "text": "Hvordan sosiologiske faktorer påvirker tenkning"
+            },
+            {
+              "key": "D",
+              "text": "Hvordan utdannelse frembringer til opplysning"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "3-15"
+        },
+        {
+          "number": 16,
+          "question": "Den norske idéhistorikeren Trond Berg Eriksen: Hva slags dverg er han (altså hva har han forsket på)?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han er en arbeidsdverg"
+            },
+            {
+              "key": "B",
+              "text": "Han er en sosiologdverg"
+            },
+            {
+              "key": "C",
+              "text": "Ingen dverg i det hele tatt (han skrev hovedsakelig bøker om store tenkere)"
+            },
+            {
+              "key": "D",
+              "text": "Han er Snøhvit – før hun våknet"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "3-16"
+        },
+        {
+          "number": 17,
+          "question": "Hva innebærer det at idéhistorie er et dannelsesfag?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At idéhistorikere lærer seg hvordan fortiden var utenat"
+            },
+            {
+              "key": "B",
+              "text": "At idéhistorie skal bidra til å utvikle menneskers evne til refleksjon, perspektivforståelse og kritisk tenkning"
+            },
+            {
+              "key": "C",
+              "text": "At idéhistorie hovedsakelig er et fag for dem som ønsker å bli forskere eller akademikere"
+            },
+            {
+              "key": "D",
+              "text": "At idéhistorie søker å bevise at moderne tanker alltid er bedre enn eldre tanker."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "3-17"
+        },
+        {
+          "number": 18,
+          "question": "Hva innebærer det at idéhistorie kan forstås som en reaksjon mot et positivistisk historiesyn?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At idéhistorikere avviser all bruk av empiri, kilder og fakta i historieforskning."
+            },
+            {
+              "key": "B",
+              "text": "At idéhistorien mener at historien først og fremst drives fram av økonomiske forhold."
+            },
+            {
+              "key": "C",
+              "text": "At idéhistorien legger større vekt på å fortolke tanker, forestillinger og kulturelle sammenhenger på en hermeneutisk måte."
+            },
+            {
+              "key": "D",
+              "text": "At idéhistorien forsøker å gjøre historie til en naturvitenskap etter mønster av fysikken."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "3-18"
+        },
+        {
+          "number": 19,
+          "question": "Hva vil det si å plassere en tenker idéhistorisk?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At man setter hen i sin relevante kontekst."
+            },
+            {
+              "key": "B",
+              "text": "At man putter hen på en spesiell forgylt trone"
+            },
+            {
+              "key": "C",
+              "text": "At man tvinger en fortidig tenker ut av skapet."
+            },
+            {
+              "key": "D",
+              "text": "At man avviser tanken om at mennesker påvirker hverandre."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "3-19"
+        },
+        {
+          "number": 20,
+          "question": "Hvilken idéhistorisk epoke kom rett etter middelalderen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Opplysningstiden"
+            },
+            {
+              "key": "B",
+              "text": "Romantikken"
+            },
+            {
+              "key": "C",
+              "text": "Antikken"
+            },
+            {
+              "key": "D",
+              "text": "Renessansen"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "3-20"
         }
       ]
     },
     {
       "id": "4",
-      "title": "Pensumspørsmål 4: Middelalderen",
-      "shortTitle": "Middelalderen",
+      "title": "Middelalderen",
+      "number": 4,
+      "sourceTitle": "Pensumspørsmål 4: Middelalderen som bakteppe",
       "questions": [
         {
-          "id": "middelalderen-1",
           "number": 1,
-          "question": "Når var middelalderen (ifølge et vanlig anslag)?",
+          "question": "Hvilken datering brukes vanligvis for middelalderen i europeisk historie?",
           "options": [
             {
               "key": "A",
-              "text": "I bronsealderen, dvs. fra 1700 fvt. Til 500 fvt"
+              "text": "Omtrent 200–1200"
             },
             {
               "key": "B",
-              "text": "I jernalderen, dvs. fra 500 fvt. og fremover"
+              "text": "Omtrent 500–1500"
             },
             {
               "key": "C",
-              "text": "I antikken, dvs. fra cirka år 800 fvt. til 476 evt."
+              "text": "Omtrent 1000–1750"
             },
             {
               "key": "D",
-              "text": "Fra cirka 500 til 1500"
+              "text": "Omtrent 1500–1800"
             }
           ],
-          "answer": "D",
-          "globalId": "p4-1"
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Omtrent 500–1500.",
+          "globalId": "4-1"
         },
         {
-          "id": "middelalderen-2",
           "number": 2,
-          "question": "Hvorfor kalles middelalderen ofte for «mørk»?",
+          "question": "Hva er særlig viktig å huske når vi daterer overgangen fra middelalder til modernitet?",
           "options": [
             {
               "key": "A",
-              "text": "Fordi de hadde dårlig tilgang på elektrisitet"
+              "text": "Hele Europa gikk inn i moderniteten samtidig."
             },
             {
               "key": "B",
-              "text": "Fordi man mislikte og baktalte den i renessansen"
+              "text": "Overgangen kan tidfestes nøyaktig til én politisk hendelse."
             },
             {
               "key": "C",
-              "text": "Fordi tilførselen av lyspærer var dårlig"
+              "text": "Middelalderen sluttet da kristendommen forsvant fra Europa."
             },
             {
               "key": "D",
-              "text": "På grunn av menneskesynet deres"
+              "text": "Overgangen bestod av flere prosesser med ulikt tempo og ulike geografiske tyngdepunkter."
             }
           ],
-          "answer": "B",
-          "globalId": "p4-2"
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Overgangen bestod av flere prosesser med ulikt tempo og ulike geografiske tyngdepunkter.",
+          "globalId": "4-2"
         },
         {
-          "id": "middelalderen-3",
           "number": 3,
-          "question": "I hvilket europeisk land hadde man beholdt en bykultur gjennom hele middelalderen",
+          "question": "Hva menes vanligvis med middelalderens «enhetskultur» i det latinske Vest-Europa?",
           "options": [
             {
               "key": "A",
-              "text": "Norge"
+              "text": "At kristendommen gav en felles overordnet ramme for mange sider av tilværelsen"
             },
             {
               "key": "B",
-              "text": "Tyskland"
+              "text": "At alle mennesker hadde samme politiske interesser"
             },
             {
               "key": "C",
-              "text": "Italia"
+              "text": "At kirken og kongemakten aldri var i konflikt"
             },
             {
               "key": "D",
-              "text": "Belgia"
+              "text": "At alle samfunnsgrupper hadde samme utdanning og livsvilkår"
             }
           ],
-          "answer": "C",
-          "globalId": "p4-3"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "At kristendommen gav en felles overordnet ramme for mange sider av tilværelsen.",
+          "globalId": "4-3"
         },
         {
-          "id": "middelalderen-4",
           "number": 4,
-          "question": "Enkelte middelalderfilosofer avviste både Platon og Aristoteles. Hva kalles de?",
+          "question": "Hva fremhever et kollektivistisk menneskesyn, slik uttrykket brukes i idehistoriske sammenhenger?",
           "options": [
             {
               "key": "A",
-              "text": "Nominalister"
+              "text": "At enkeltmennesket mangler personlige følelser"
             },
             {
               "key": "B",
-              "text": "Realister"
+              "text": "At alle skal eie like mye"
             },
             {
               "key": "C",
-              "text": "Sofister"
+              "text": "At menneskets identitet forstås gjennom inngår i et større fellesskap som familie, klan og laug"
             },
             {
               "key": "D",
-              "text": "Skolastikere"
+              "text": "At mennesker alltid setter fellesskapets interesser foran sine egne"
             }
           ],
-          "answer": "A",
-          "globalId": "p4-4"
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "At menneskets identitet inngår i et større fellesskap som familie, klan laug.",
+          "globalId": "4-4"
         },
         {
-          "id": "middelalderen-5",
           "number": 5,
-          "question": "Iblant kalles middelalderen for «modernitetens støpeskje». Hva menes med dette?",
+          "question": "Hva er Umberto Ecos hovedpoeng med hans «ti middelaldre»?",
           "options": [
             {
               "key": "A",
-              "text": "At middelalderen var en negativ forutsetning for moderniteten"
+              "text": "At middelalderen bør deles inn i ti like lange perioder"
             },
             {
               "key": "B",
-              "text": "At middelalderen var en positiv forutsetning for moderniteten"
+              "text": "At ettertiden forestiller seg og bruker middelalderen på forskjellige måter"
             },
             {
               "key": "C",
-              "text": "At middelalderen er det samme som modernitet"
+              "text": "At Europa bestod av nøyaktig ti middelalderske kulturer"
             },
             {
               "key": "D",
-              "text": "At moderniteten lærte mange nyttig teknikker av middelalderens utspekulerte torturister"
+              "text": "At bare middelalderhistorikere har forestillinger om middelalderen"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p4-5"
+          "explanation": "At ettertiden forestiller seg og bruker middelalderen på forskjellige måter.",
+          "globalId": "4-5"
         },
         {
-          "id": "middelalderen-6",
           "number": 6,
-          "question": "Hvor stor andel av europeiske barn døde før de fylte fem år i middelalderen?",
+          "question": "Hvilken idéhistorisk plassering passer best på Thomas Aquinas?",
           "options": [
             {
               "key": "A",
-              "text": "Rundt 30 prosent"
+              "text": "Renessansens humanisme på 1500-tallet"
             },
             {
               "key": "B",
-              "text": "Rundt 40 prosent"
+              "text": "Opplysningstidens empirisme på 1700-tallet"
             },
             {
               "key": "C",
-              "text": "Rundt 50 prosent"
+              "text": "Senantikkens nyplatonisme på 400-tallet"
             },
             {
               "key": "D",
-              "text": "Rundt 60 prosent"
+              "text": "Høymiddelalderens skolastikk på 1200-tallet"
             }
           ],
-          "answer": "A",
-          "globalId": "p4-6"
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Høymiddelalderens skolastikk på 1200-tallet.",
+          "globalId": "4-6"
         },
         {
-          "id": "middelalderen-7",
           "number": 7,
-          "question": "Det sies at Martin Luther og de andre reformatorene ville «tilbake til den antikke opprinnelse». Hva innebærer dette?",
+          "question": "Hva kjennetegner Aquinas’ forhold til Aristoteles?",
           "options": [
             {
               "key": "A",
-              "text": "De ville tilbake til Platons tid, den gang ingen visste hvem Jesus var"
+              "text": "Han bruker aristotelisk filosofi i en systematisk gjennomtenkning av kristen teologi."
             },
             {
               "key": "B",
-              "text": "De ville tilbake til keiser Neros tid da det var ekstra spennende å være kristen"
+              "text": "Han forkaster Aristoteles fordi denne ikke var kristen."
             },
             {
               "key": "C",
-              "text": "De ville tilbake til steinalderen for å rense troen all fornuft"
+              "text": "Han erstatter kristendommen med Aristoteles’ religion."
             },
             {
               "key": "D",
-              "text": "De ville tilbake til tiden før middelalderens korrupte kirke"
+              "text": "Han mener at Aristoteles allerede hadde bevist alle kristne trosartikler."
             }
           ],
-          "answer": "D",
-          "globalId": "p4-7"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Han bruker aristotelisk filosofi i en systematisk gjennomtenkning av kristen teologi.",
+          "globalId": "4-7"
         },
         {
-          "id": "middelalderen-8",
           "number": 8,
-          "question": "Hvem var Umberto Eco?",
+          "question": "Hva er forskjellen mellom naturlig sannheter og åpenbarte sannheter, hos Aquinas?",
           "options": [
             {
               "key": "A",
-              "text": "En italiensk renessansefilosof"
+              "text": "De første gjelder følelser; de andre gjelder observerbare fakta."
             },
             {
               "key": "B",
-              "text": "En sveitsisk historiker, venn av Nietzsche"
+              "text": "De første er usikre; de andre er selvinnlysende for alle."
             },
             {
               "key": "C",
-              "text": ") En italiensk filosof og forfatter som har skrevet en pensumtekst om middelalderen"
+              "text": "De første kan nås med menneskets fornuft; de andre overskrider dens selvstendige rekkevidde."
             },
             {
               "key": "D",
-              "text": "En dadaistisk italiensk kelner"
+              "text": "De første var sanne i antikken; de andre ble sanne i middelalderen."
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p4-8"
+          "explanation": "De første kan nås med menneskets fornuft; de andre overskrider dens selvstendige rekkevidde.",
+          "globalId": "4-8"
         },
         {
-          "id": "middelalderen-9",
           "number": 9,
-          "question": "Hvor mange ulike versjoner av («drømmer om) middelalderen skriver Umberto Eco om?",
+          "question": "Hvilket eksempel illustrerer Aquinas’ skille mellom naturlige og åpenbarte sannheter best?",
           "options": [
             {
               "key": "A",
-              "text": "4"
+              "text": "Treenigheten kan bevises filosofisk, mens Guds eksistens bare kan tros."
             },
             {
               "key": "B",
-              "text": "6"
+              "text": "Guds eksistens kan begrunnes filosofisk, mens Jesu korsfestelse og lidelse krever åpenbaring."
             },
             {
               "key": "C",
-              "text": "8"
+              "text": "Både Guds eksistens og treenigheten kan bare erkjennes gjennom sansene."
             },
             {
               "key": "D",
-              "text": "10"
+              "text": "Verken Guds eksistens eller treenigheten kan være gjenstand for tro."
             }
           ],
-          "answer": "D",
-          "globalId": "p4-9"
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Guds eksistens kan begrunnes filosofisk, mens Jesu korsfestelse og lidelse krever åpenbaring.",
+          "globalId": "4-9"
         },
         {
-          "id": "middelalderen-10",
           "number": 10,
-          "question": "Kan vår tid beskrives som en ny middelalder, ifølge Eco?",
+          "question": "Hvordan forstår Aquinas forholdet mellom tro og fornuft?",
           "options": [
             {
               "key": "A",
-              "text": "Ja, bare se på det som skjer i USA"
+              "text": "De gir nødvendigvis motstridende svar på samme spørsmål."
             },
             {
               "key": "B",
-              "text": "Ja, men bare i Øst-Europa"
+              "text": "Tro gjør all filosofisk undersøkelse overflødig."
             },
             {
               "key": "C",
-              "text": "Nei, nå lever vi en opplyst tid"
+              "text": "Fornuft kan bevise alt som står i Bibelen."
             },
             {
               "key": "D",
-              "text": "Det kommer an på hva man mener med ordet «middelalder»"
+              "text": "Sann tro og riktig fornuft kan ikke motsi hverandre, men åpenbaringen går utover fornuftens rekkevidde."
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p4-10"
+          "explanation": "Sann tro og riktig fornuft kan ikke motsi hverandre, men åpenbaringen går utover fornuftens rekkevidde.",
+          "globalId": "4-10"
         },
         {
-          "id": "middelalderen-11",
           "number": 11,
-          "question": "Hvilken av disse tingene ble oppfunnet i middelalderen?",
+          "question": "Hva handler middelalderens universaliestrid om?",
           "options": [
             {
               "key": "A",
-              "text": "Boktrykkerkunsten"
+              "text": "Om allmennbegreper, som «menneske», svarer til noe allment som eksisterer i virkeligheten"
             },
             {
               "key": "B",
-              "text": "Bindersen"
+              "text": "Om at alle mennesker bør ha samme politiske rettigheter"
             },
             {
               "key": "C",
-              "text": "Brillene"
+              "text": "Om at universet har en begynnelse i tid"
             },
             {
               "key": "D",
-              "text": "Bardunen"
+              "text": "Om at latin bør være fellesspråk ved universitetene"
             }
           ],
-          "answer": "C",
-          "globalId": "p4-11"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Om allmennbegreper, som «menneske», svarer til noe allment som eksisterer i virkeligheten.",
+          "globalId": "4-11"
         },
         {
-          "id": "middelalderen-12",
           "number": 12,
-          "question": "I hvilket århundre var risikoen størst for å bli brent på bålet som heks?",
+          "question": "Hva er hovedtanken i William av Ockhams nominalisme?",
           "options": [
             {
               "key": "A",
-              "text": "1000-tallet"
+              "text": "Allmennbegrepene eksisterer som selvstendige ideer utenfor verden."
             },
             {
               "key": "B",
-              "text": "1200-tallet"
+              "text": "Alle individuelle ting er bare forestillinger i menneskets bevissthet."
             },
             {
               "key": "C",
-              "text": "1400-tallet"
+              "text": "Det finnes individuelle ting, mens det allmenne finnes som begreper og tegn som kan betegne flere ting."
             },
             {
               "key": "D",
-              "text": "1600-tallet"
+              "text": "Språket kan bare brukes om ting vi har sett personlig."
             }
           ],
-          "answer": "D",
-          "globalId": "p4-12"
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Det finnes individuelle ting, mens det allmenne finnes som begreper og tegn som kan betegne flere ting.",
+          "globalId": "4-12"
         },
         {
-          "id": "middelalderen-13",
           "number": 13,
-          "question": "Hvilken av disse tenkerne på pensum var særlig opptatt av middelalderen?",
+          "question": "Hvordan vil Ockham forstå begrepet «menneske» brukt om både Sokrates og Putin?",
           "options": [
             {
               "key": "A",
-              "text": "Immanuel Kant"
+              "text": "Som en egen gjenstand som befinner seg mellom de to"
             },
             {
               "key": "B",
-              "text": "Mary Wollstonecraft"
+              "text": "Som et ord som kan betegne begge, uten en felles universell ting i dem"
             },
             {
               "key": "C",
-              "text": "Sigrid Undset"
+              "text": "Som et egennavn som egentlig bare kan betegne Sokrates"
             },
             {
               "key": "D",
-              "text": "Thomas Mann"
+              "text": "Som et meningsløst ord fordi Sokrates og Platon er forskjellige"
             }
           ],
-          "answer": "C",
-          "globalId": "p4-13"
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Som et ord som kan betegne begge, uten en felles universell ting i dem.",
+          "globalId": "4-13"
         },
         {
-          "id": "middelalderen-14",
           "number": 14,
-          "question": "Omtrent når begynte renessansen i «snever» forstand?",
+          "question": "Hvilken påstand følger ikke av Ockhams nominalisme?",
           "options": [
             {
               "key": "A",
-              "text": "1450"
+              "text": "At allmenne begreper kan brukes om flere individer"
             },
             {
               "key": "B",
-              "text": "1350"
+              "text": "At man kan avvise universelle ting uten å avvise individuelle ting"
             },
             {
               "key": "C",
-              "text": "1400"
+              "text": "At begreper og språklige uttrykk må skilles fra tingene de betegner"
             },
             {
               "key": "D",
-              "text": "1300"
+              "text": "At alle navn og inndelinger er vilkårlige, og at kunnskap derfor er umulig"
             }
           ],
-          "answer": "A",
-          "globalId": "p4-14"
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "At alle navn og inndelinger er vilkårlige, og at kunnskap derfor er umulig.",
+          "globalId": "4-14"
         },
         {
-          "id": "middelalderen-15",
           "number": 15,
-          "question": "Hva kjennetegner en nominalist?",
+          "question": "Hva betyr «renessanse» i denne historiske sammenhengen?",
           "options": [
             {
               "key": "A",
-              "text": "Hen avviser all empirisk forskning"
+              "text": "En gjenfødelse av interessen for antikkens kultur og lærdom"
             },
             {
               "key": "B",
-              "text": "Hen mener at Platonske idéer finnes ikke, ord som «menneske» eller «skjønnhet» er bare navn (latin nomen)"
+              "text": "En gjeninnføring av Romerrikets politiske grenser"
             },
             {
               "key": "C",
-              "text": "Hen drømmer om middelalderens enhetskultur"
+              "text": "En fullstendig avskaffelse av middelalderens institusjoner"
             },
             {
               "key": "D",
-              "text": "Hen er en tilhenger av Picos filosofi."
+              "text": "En tilbakevending til antikkens religion blant hele befolkningen"
             }
           ],
-          "answer": "B",
-          "globalId": "p4-15"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "En gjenfødelse av interessen for antikkens kultur og lærdom.",
+          "globalId": "4-15"
         },
         {
-          "id": "middelalderen-16",
           "number": 16,
-          "question": "Omtrent hvor stor andel av Europas befolkning kunne lese og skrive i år 1000?",
+          "question": "Hva var særlig viktig for den italienske renessansen?",
           "options": [
             {
               "key": "A",
-              "text": "Mellom 1 og 5 prosent"
+              "text": "Industrialiseringen på 1700-tallet"
             },
             {
               "key": "B",
-              "text": "Mellom 5 og 10 prosent"
+              "text": "Klosterbevegelsen på 800-tallet"
             },
             {
               "key": "C",
-              "text": "Mellom 10 og 15 prosent"
+              "text": "Velstående italienske bystater, deriblant Firenze"
             },
             {
               "key": "D",
-              "text": "Mellom 15 og 20 prosent"
+              "text": "Nasjonalismen på 1800-tallet"
             }
           ],
-          "answer": "A",
-          "globalId": "p4-16"
-        },
-        {
-          "id": "middelalderen-17",
-          "number": 17,
-          "question": "Umberto Eco skiller mellom to «middealdre». Hvilke?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Den gode og den onde"
-            },
-            {
-              "key": "B",
-              "text": "Den mørke og den lyse"
-            },
-            {
-              "key": "C",
-              "text": "Den som varte fra 500 til 1000 og den fra 1000 til 1500"
-            },
-            {
-              "key": "D",
-              "text": "Den som varte fra 1500 – 1600 og den som varte fra 1600 til 1700"
-            }
-          ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p4-17"
+          "explanation": "Velstående italienske bystater, deriblant Firenze.",
+          "globalId": "4-16"
         },
         {
-          "id": "middelalderen-18",
+          "number": 17,
+          "question": "Hva oversatte Marsilio Ficino?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Augustins samlede verker"
+            },
+            {
+              "key": "B",
+              "text": "Platons samlede verker"
+            },
+            {
+              "key": "C",
+              "text": "Kants artikkel: Hva er opplysning?"
+            },
+            {
+              "key": "D",
+              "text": "Martin Luthers samlede verker"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Platons samlede verker.",
+          "globalId": "4-17"
+        },
+        {
           "number": 18,
-          "question": "Hvordan ble middelalderen betraktet av mange romantikere?",
+          "question": "Hvilken tese forbindes særlig med Jacob Burckhardts fremstilling av den italienske renessansen?",
           "options": [
             {
               "key": "A",
-              "text": "Som et mørkt og dystert gotisk mareritt"
+              "text": "At renessansen fjernet enhver interesse for individuell berømmelse"
             },
             {
               "key": "B",
-              "text": "Som et slags ideal"
+              "text": "At mennesket først i opplysningstiden fikk en personlig identitet"
             },
             {
               "key": "C",
-              "text": "Som en tid da svært få kunne lese og skrive"
+              "text": "At renessansen var uten betydning for modernitetens fremvekst"
             },
             {
               "key": "D",
-              "text": "Som en advarsel"
+              "text": "At mennesket i sterkere grad oppdaget og utviklet seg selv som individ"
             }
           ],
-          "answer": "B",
-          "globalId": "p4-18"
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "At mennesket i sterkere grad oppdaget og utviklet seg selv som individ.",
+          "globalId": "4-18"
         },
         {
-          "id": "middelalderen-19",
           "number": 19,
-          "question": "Hvordan så renessansehumanistene på middelalderen?",
+          "question": "Hva kan innvendes mot et skarpt skille mellom en kollektivistisk middelalder og en individualistisk renessanse?",
           "options": [
             {
               "key": "A",
-              "text": "Som en mørk og dyster periode"
+              "text": "Middelalderen hadde også individualisme, mens renessansen videreførte sterke fellesskap og religiøse rammer."
             },
             {
               "key": "B",
-              "text": "Som en lys og trivelig tid"
+              "text": "Det fantes ingen forskjeller mellom periodenes menneskesyn."
             },
             {
               "key": "C",
-              "text": "Som et slags ideal"
+              "text": "Individualisme betyr at mennesker lever uten sosiale forbindelser."
             },
             {
               "key": "D",
-              "text": "Som en positiv forutsetning for moderniteten"
+              "text": "Renessansens mennesker kjente ikke begreper om personlig ansvar."
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p4-19"
+          "explanation": "Middelalderen hadde også individualitet, mens renessansen videreførte sterke fellesskap og religiøse rammer.",
+          "globalId": "4-19"
         },
         {
-          "id": "middelalderen-20",
           "number": 20,
-          "question": "Hvordan betraktet opplysningstenkerne middelalderen?",
+          "question": "Hvordan kan renessansens forhold til moderniteten beskrives?",
           "options": [
             {
               "key": "A",
-              "text": "Som lys, positiv og humanistisk"
+              "text": "Renessansen var allerede et fullt utviklet moderne industrisamfunn."
             },
             {
               "key": "B",
-              "text": "Som mørk, dyster og barbarisk"
+              "text": "Moderniteten oppstod ved at alle middelalderske tradisjoner plutselig forsvant."
             },
             {
               "key": "C",
-              "text": "Som den europeiske kulturs vugge"
+              "text": "Renessansen kan forstås som en forløper gjennom nye idealer om dannelse, individuell utfoldelse og forholdet til verden."
             },
             {
               "key": "D",
-              "text": "Som en kollektiv søvn"
+              "text": "Modernitet betyr bare at antikkens kultur ble gjeninnført uendret."
             }
           ],
-          "answer": "B",
-          "globalId": "p4-20"
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Renessansen kan forstås som en forløper gjennom nye idealer om dannelse, individuell utfoldelse og forholdet til verden.",
+          "globalId": "4-20"
         }
       ]
     },
     {
       "id": "5",
-      "title": "Pensumspørsmål 5: Pico della Mirandola",
-      "shortTitle": "Pico della Mirandola",
+      "title": "Pico della Mirandola",
+      "number": 5,
+      "sourceTitle": "Pensumspørsmål 5: Hvem var Pico della Mirandola? Hvordan vil du plassere ham idéhistorisk. Presenter hans Lovprisning av den menneskelige verdighet.",
       "questions": [
         {
-          "id": "pico-della-mirandola-1",
           "number": 1,
           "question": "Hvem var Pico della Mirandola?",
           "options": [
@@ -2056,11 +2140,12 @@ window.QUIZ_DATA = {
               "text": "En fransk opplysningsfilosof"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p5-1"
+          "explanation": "",
+          "globalId": "5-1"
         },
         {
-          "id": "pico-della-mirandola-2",
           "number": 2,
           "question": "Hvor kan Pico plasseres idéhistorisk?",
           "options": [
@@ -2081,11 +2166,12 @@ window.QUIZ_DATA = {
               "text": "i opplysningstiden"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p5-2"
+          "explanation": "",
+          "globalId": "5-2"
         },
         {
-          "id": "pico-della-mirandola-3",
           "number": 3,
           "question": "Hva er tittelen på Picos mest kjente verk?",
           "options": [
@@ -2103,14 +2189,15 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "Tale om menneskets verdighet"
+              "text": "Lovprisning av menneskets verdighet"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p5-3"
+          "explanation": "",
+          "globalId": "5-3"
         },
         {
-          "id": "pico-della-mirandola-4",
           "number": 4,
           "question": "Hva het Pico til fornavn?",
           "options": [
@@ -2131,11 +2218,12 @@ window.QUIZ_DATA = {
               "text": "David"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p5-4"
+          "explanation": "",
+          "globalId": "5-4"
         },
         {
-          "id": "pico-della-mirandola-5",
           "number": 5,
           "question": "Hva er hovedidéen i dette verket?",
           "options": [
@@ -2153,14 +2241,15 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "At mennesket er underlagt naturlover"
+              "text": "At mennesket er underlagt naturlovene"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p5-5"
+          "explanation": "",
+          "globalId": "5-5"
         },
         {
-          "id": "pico-della-mirandola-6",
           "number": 6,
           "question": "Hva sier Pico om menneskets plass i universet?",
           "options": [
@@ -2181,11 +2270,12 @@ window.QUIZ_DATA = {
               "text": "At det ikke er fastlagt"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p5-6"
+          "explanation": "",
+          "globalId": "5-6"
         },
         {
-          "id": "pico-della-mirandola-7",
           "number": 7,
           "question": "Hva er Picos såkalte «900 teser»?",
           "options": [
@@ -2206,11 +2296,12 @@ window.QUIZ_DATA = {
               "text": "900 politiske traktater"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p5-7"
+          "explanation": "",
+          "globalId": "5-7"
         },
         {
-          "id": "pico-della-mirandola-8",
           "number": 8,
           "question": "Hva ønsket Pico å oppnå med disse tesene?",
           "options": [
@@ -2231,11 +2322,12 @@ window.QUIZ_DATA = {
               "text": "At de sju idéhistoriske dverger skulle få noe å skrive om"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p5-8"
+          "explanation": "",
+          "globalId": "5-8"
         },
         {
-          "id": "pico-della-mirandola-9",
           "number": 9,
           "question": "Hva var en sentral idé i Picos 900 teser?",
           "options": [
@@ -2256,11 +2348,12 @@ window.QUIZ_DATA = {
               "text": "At alle ulike filosofiske tradisjoner kan forenes"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p5-9"
+          "explanation": "",
+          "globalId": "5-9"
         },
         {
-          "id": "pico-della-mirandola-10",
           "number": 10,
           "question": "Hvilke to særlig viktige filosofer mente Pico kunne forenes?",
           "options": [
@@ -2281,11 +2374,12 @@ window.QUIZ_DATA = {
               "text": "Descartes og Schelling"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p5-10"
+          "explanation": "",
+          "globalId": "5-10"
         },
         {
-          "id": "pico-della-mirandola-11",
           "number": 11,
           "question": "Hvordan omtaler Pico menneskets natur?",
           "options": [
@@ -2306,11 +2400,12 @@ window.QUIZ_DATA = {
               "text": "Den er identisk med dyrenes"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p5-11"
+          "explanation": "",
+          "globalId": "5-11"
         },
         {
-          "id": "pico-della-mirandola-12",
           "number": 12,
           "question": "Hva gir oss mennesker vår særlige verdighet, ifølge Pico?",
           "options": [
@@ -2331,11 +2426,12 @@ window.QUIZ_DATA = {
               "text": "Vår sans for skjønnhet"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p5-12"
+          "explanation": "",
+          "globalId": "5-12"
         },
         {
-          "id": "pico-della-mirandola-13",
           "number": 13,
           "question": "Hvordan skiller Picos menneskesyn seg fra det typisk middelalderske?",
           "options": [
@@ -2356,11 +2452,12 @@ window.QUIZ_DATA = {
               "text": "Det fremhever menneskets frihet"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p5-13"
+          "explanation": "",
+          "globalId": "5-13"
         },
         {
-          "id": "pico-della-mirandola-14",
           "number": 14,
           "question": "Hvilken rolle spiller Gud i Picos tenkning?",
           "options": [
@@ -2381,11 +2478,12 @@ window.QUIZ_DATA = {
               "text": "Gud bestemte alt direkte"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p5-14"
+          "explanation": "",
+          "globalId": "5-14"
         },
         {
-          "id": "pico-della-mirandola-15",
           "number": 15,
           "question": "Hvordan ser Pico på forholdet mellom mennesket og Gud?",
           "options": [
@@ -2406,11 +2504,12 @@ window.QUIZ_DATA = {
               "text": "Som en relasjon der mennesket kan nærme seg Gud"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p5-15"
+          "explanation": "",
+          "globalId": "5-15"
         },
         {
-          "id": "pico-della-mirandola-16",
           "number": 16,
           "question": "Hvilket særlig viktig trekk ved renessansen gir Pico uttrykk for?",
           "options": [
@@ -2431,11 +2530,12 @@ window.QUIZ_DATA = {
               "text": "Et kollektivt menneskesyn"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p5-16"
+          "explanation": "",
+          "globalId": "5-16"
         },
         {
-          "id": "pico-della-mirandola-17",
           "number": 17,
           "question": "Hva slags «hemmelig» kunnskap var Pico interessert i?",
           "options": [
@@ -2453,14 +2553,15 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "Esoteriske tradisjoner (som kabbala)"
+              "text": "Mystiske tradisjoner (som kabbala)"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p5-17"
+          "explanation": "",
+          "globalId": "5-17"
         },
         {
-          "id": "pico-della-mirandola-18",
           "number": 18,
           "question": "Hva var kontroversielt med Picos 900 teser?",
           "options": [
@@ -2481,11 +2582,12 @@ window.QUIZ_DATA = {
               "text": "De var politiske"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p5-18"
+          "explanation": "",
+          "globalId": "5-18"
         },
         {
-          "id": "pico-della-mirandola-19",
           "number": 19,
           "question": "Hvordan endte Picos drøm om en stor offentlig diskusjon i Roma?",
           "options": [
@@ -2495,7 +2597,7 @@ window.QUIZ_DATA = {
             },
             {
               "key": "B",
-              "text": "Den ble kalt kjettersk av paven"
+              "text": "Den ble erklært kjettersk av paven"
             },
             {
               "key": "C",
@@ -2506,11 +2608,12 @@ window.QUIZ_DATA = {
               "text": "Det ble flyttet til Paris"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p5-19"
+          "explanation": "",
+          "globalId": "5-19"
         },
         {
-          "id": "pico-della-mirandola-20",
           "number": 20,
           "question": "Hva er en rimelig kort karakteristikk av Picos menneskesyn?",
           "options": [
@@ -2531,24 +2634,26 @@ window.QUIZ_DATA = {
               "text": "Mennesket er fritt og selvskapende"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p5-20"
+          "explanation": "",
+          "globalId": "5-20"
         }
       ]
     },
     {
       "id": "6",
-      "title": "Pensumspørsmål 6: Martin Luther",
-      "shortTitle": "Martin Luther",
+      "title": "Martin Luther",
+      "number": 6,
+      "sourceTitle": "Pensumspørsmål 6: Hvem var Martin Luther? Presenter hovedtrekk ved den lutherske reformasjonen",
       "questions": [
         {
-          "id": "martin-luther-1",
           "number": 1,
           "question": "Hvem var Martin Luther?",
           "options": [
             {
               "key": "A",
-              "text": "En norsk pave"
+              "text": "En tysk pave"
             },
             {
               "key": "B",
@@ -2556,18 +2661,19 @@ window.QUIZ_DATA = {
             },
             {
               "key": "C",
-              "text": "En fransk filosof"
+              "text": "En tysk filosof"
             },
             {
               "key": "D",
               "text": "En amerikansk borgerrettsforkjemper"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p6-1"
+          "explanation": "",
+          "globalId": "6-1"
         },
         {
-          "id": "martin-luther-2",
           "number": 2,
           "question": "Hva utløste Luthers protest mot pavekirken?",
           "options": [
@@ -2588,13 +2694,14 @@ window.QUIZ_DATA = {
               "text": "Den politske makten paven hadde"
             }
           ],
-          "answer": "C",
-          "globalId": "p6-2"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "",
+          "globalId": "6-2"
         },
         {
-          "id": "martin-luther-3",
           "number": 3,
-          "question": "Hva betyr ordet «avlat»?",
+          "question": "Hva betyr  ordet «avlat»?",
           "options": [
             {
               "key": "A",
@@ -2613,11 +2720,12 @@ window.QUIZ_DATA = {
               "text": "En type italiensk bønnestuing med borlottibønner"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p6-3"
+          "explanation": "",
+          "globalId": "6-3"
         },
         {
-          "id": "martin-luther-4",
           "number": 4,
           "question": "Hva kritiserte Luther særlig ved avlatshandelen?",
           "options": [
@@ -2638,11 +2746,12 @@ window.QUIZ_DATA = {
               "text": "At frelse ble knyttet til betaling"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p6-4"
+          "explanation": "",
+          "globalId": "6-4"
         },
         {
-          "id": "martin-luther-5",
           "number": 5,
           "question": "Hva betyr sola fide?",
           "options": [
@@ -2663,11 +2772,12 @@ window.QUIZ_DATA = {
               "text": "Bare Bibelen frelser"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p6-5"
+          "explanation": "",
+          "globalId": "6-5"
         },
         {
-          "id": "martin-luther-6",
           "number": 6,
           "question": "Det sies at Luther ville «vende tilbake til den antikke opprinnelse». Hva menes med det?",
           "options": [
@@ -2688,36 +2798,38 @@ window.QUIZ_DATA = {
               "text": "Han ønsket seg tilbake til middeladerens mørke"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p6-6"
+          "explanation": "",
+          "globalId": "6-6"
         },
         {
-          "id": "martin-luther-7",
           "number": 7,
           "question": "Hva betyr sola scriptura?",
           "options": [
             {
               "key": "A",
-              "text": "At tradisjon er viktigere enn Bibelen"
+              "text": "At tradisjonen er kristendommens øverste autoritet"
             },
             {
               "key": "B",
-              "text": "At Bibelen alene er øverste autoritet"
+              "text": "At Bibelen alene er kristendommens øverste autoritet"
             },
             {
               "key": "C",
-              "text": "At paveord er ufeilbarlige"
+              "text": "At paven er kristendommens øverste autoritet"
             },
             {
               "key": "D",
-              "text": "At filosofi er viktigst"
+              "text": "At filosofi er kristendommens viktigste autoritet"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p6-7"
+          "explanation": "",
+          "globalId": "6-7"
         },
         {
-          "id": "martin-luther-8",
           "number": 8,
           "question": "Hvordan er Luthers menneskesyn ofte beskrevet?",
           "options": [
@@ -2738,11 +2850,12 @@ window.QUIZ_DATA = {
               "text": "Pessimistisk"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p6-8"
+          "explanation": "",
+          "globalId": "6-8"
         },
         {
-          "id": "martin-luther-9",
           "number": 9,
           "question": "Hva menes med arvesynd hos Luther?",
           "options": [
@@ -2763,17 +2876,18 @@ window.QUIZ_DATA = {
               "text": "At synd kan unngås med viljestyrke"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p6-9"
+          "explanation": "",
+          "globalId": "6-9"
         },
         {
-          "id": "martin-luther-10",
           "number": 10,
           "question": "Hva mente Luther om menneskets frie vilje?",
           "options": [
             {
               "key": "A",
-              "text": "At den er fin å se på"
+              "text": "At den er fin å se på i et flatterende lys"
             },
             {
               "key": "B",
@@ -2788,11 +2902,12 @@ window.QUIZ_DATA = {
               "text": "At den ikke finnes i det hele tatt"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p6-10"
+          "explanation": "",
+          "globalId": "6-10"
         },
         {
-          "id": "martin-luther-11",
           "number": 11,
           "question": "Hvilken av disse greske filosofene hatet Luther med stor lidenskap?",
           "options": [
@@ -2813,11 +2928,12 @@ window.QUIZ_DATA = {
               "text": "Protagoras"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p6-11"
+          "explanation": "",
+          "globalId": "6-11"
         },
         {
-          "id": "martin-luther-12",
           "number": 12,
           "question": "Hvilken humanist kranglet Luther med i spørsmålet om fri vilje?",
           "options": [
@@ -2838,11 +2954,12 @@ window.QUIZ_DATA = {
               "text": "Immanuel Kant"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p6-12"
+          "explanation": "",
+          "globalId": "6-12"
         },
         {
-          "id": "martin-luther-13",
           "number": 13,
           "question": "Hva er Luthers syn på nåde?",
           "options": [
@@ -2852,7 +2969,7 @@ window.QUIZ_DATA = {
             },
             {
               "key": "B",
-              "text": "Gud benåder oss om vi er snille (gjør gode gjerninger)"
+              "text": "Gud benåder oss om vi er skikkelig snille (gjør gode gjerninger)"
             },
             {
               "key": "C",
@@ -2863,11 +2980,12 @@ window.QUIZ_DATA = {
               "text": "Nåde er en nødvendig forutsetning frelse"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p6-13"
+          "explanation": "",
+          "globalId": "6-13"
         },
         {
-          "id": "martin-luther-14",
           "number": 14,
           "question": "Hvordan oppnår mennesket frelse ifølge Luther?",
           "options": [
@@ -2888,11 +3006,12 @@ window.QUIZ_DATA = {
               "text": "Gjennom filosofisk innsikt"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p6-14"
+          "explanation": "",
+          "globalId": "6-14"
         },
         {
-          "id": "martin-luther-15",
           "number": 15,
           "question": "Hva skal Luther ha sagt om fornuften?",
           "options": [
@@ -2913,11 +3032,12 @@ window.QUIZ_DATA = {
               "text": "At den er «en hore»"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p6-15"
+          "explanation": "",
+          "globalId": "6-15"
         },
         {
-          "id": "martin-luther-16",
           "number": 16,
           "question": "Hva ville Luther si med sin kritikk av fornuften?",
           "options": [
@@ -2938,11 +3058,12 @@ window.QUIZ_DATA = {
               "text": "At vitenskap er farlig"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p6-16"
+          "explanation": "",
+          "globalId": "6-16"
         },
         {
-          "id": "martin-luther-17",
           "number": 17,
           "question": "Hva var Luthers syn på gode gjerninger?",
           "options": [
@@ -2963,11 +3084,12 @@ window.QUIZ_DATA = {
               "text": "De er irrelevante for frelse"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p6-17"
+          "explanation": "",
+          "globalId": "6-17"
         },
         {
-          "id": "martin-luther-18",
           "number": 18,
           "question": "Hvilken særlig viktig handling utførte Luther i 1517?",
           "options": [
@@ -2988,11 +3110,12 @@ window.QUIZ_DATA = {
               "text": "Offentliggjorde 95 teser"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p6-18"
+          "explanation": "",
+          "globalId": "6-18"
         },
         {
-          "id": "martin-luther-19",
           "number": 19,
           "question": "Hvor fant reformasjonen først sted?",
           "options": [
@@ -3013,11 +3136,12 @@ window.QUIZ_DATA = {
               "text": "England"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p6-19"
+          "explanation": "",
+          "globalId": "6-19"
         },
         {
-          "id": "martin-luther-20",
           "number": 20,
           "question": "Hvilket av de følgende påstander var et sentralt mål for Luther?",
           "options": [
@@ -3038,915 +3162,20 @@ window.QUIZ_DATA = {
               "text": "Å innføre demokrati"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p6-20"
+          "explanation": "",
+          "globalId": "6-20"
         }
       ]
     },
     {
       "id": "7",
-      "title": "Pensumspørsmål 7: Immanuel Kant",
-      "shortTitle": "Immanuel Kant",
+      "title": "Mary Wollstonecraft",
+      "number": 7,
+      "sourceTitle": "Pensumpørsmål 7. Hvem var Mary Wollstonecraft? Hvordan vil du plassere henne idéhistorisk? Hvordan argumenterer hun i skriftet Et forsvar for kvinnens rettigheter?",
       "questions": [
         {
-          "id": "immanuel-kant-1",
-          "number": 1,
-          "question": "Hvem var Immanuel Kant?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En fransk revolusjonær"
-            },
-            {
-              "key": "B",
-              "text": "En tysk filosof"
-            },
-            {
-              "key": "C",
-              "text": "En engelsk naturviter"
-            },
-            {
-              "key": "D",
-              "text": "En italiensk kunstner"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p7-1"
-        },
-        {
-          "id": "immanuel-kant-2",
-          "number": 2,
-          "question": "Hvordan kan Kant plasseres idéhistorisk?",
-          "options": [
-            {
-              "key": "A",
-              "text": "I antikken"
-            },
-            {
-              "key": "B",
-              "text": "I middelalderen"
-            },
-            {
-              "key": "C",
-              "text": "I renessansen"
-            },
-            {
-              "key": "D",
-              "text": "I opplysningstiden"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p7-2"
-        },
-        {
-          "id": "immanuel-kant-3",
-          "number": 3,
-          "question": "Hva heter teksten «Hva er opplysning?» på originalspråket?",
-          "options": [
-            {
-              "key": "A",
-              "text": "De lumine rationis"
-            },
-            {
-              "key": "B",
-              "text": "Quid est veritas"
-            },
-            {
-              "key": "C",
-              "text": "Was ist Aufklärung"
-            },
-            {
-              "key": "D",
-              "text": "Discours sur les lumières"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p7-3"
-        },
-        {
-          "id": "immanuel-kant-4",
-          "number": 4,
-          "question": "Hva er hovedtemaet i «Hva er opplysning?»",
-          "options": [
-            {
-              "key": "A",
-              "text": "At vi bør adlyde autoriteter"
-            },
-            {
-              "key": "B",
-              "text": "At vi bør forbedre belysningen i bygatene"
-            },
-            {
-              "key": "C",
-              "text": "At vi bør søke trøst i Gud"
-            },
-            {
-              "key": "D",
-              "text": "At vi bør bli myndige"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p7-4"
-        },
-        {
-          "id": "immanuel-kant-5",
-          "number": 5,
-          "question": "Hvordan definerer Kant «opplysning»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som økt kunnskap"
-            },
-            {
-              "key": "B",
-              "text": "Som økonomisk vekst"
-            },
-            {
-              "key": "C",
-              "text": "Som frigjøring fra selvpålagt umyndighet"
-            },
-            {
-              "key": "D",
-              "text": "Som religiøs oppvåkning"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p7-5"
-        },
-        {
-          "id": "immanuel-kant-6",
-          "number": 6,
-          "question": "Hva betyr «umyndighet» hos Kant?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Manglende kunnskap"
-            },
-            {
-              "key": "B",
-              "text": "Manglende mot til å bruke egen fornuft"
-            },
-            {
-              "key": "C",
-              "text": "Manglende politisk makt"
-            },
-            {
-              "key": "D",
-              "text": "Manglende gudstro"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p7-6"
-        },
-        {
-          "id": "immanuel-kant-7",
-          "number": 7,
-          "question": "Hva er Kants berømte motto for opplysningen?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Cogito ergo sum"
-            },
-            {
-              "key": "B",
-              "text": "Deus vult"
-            },
-            {
-              "key": "C",
-              "text": "Sapere aude"
-            },
-            {
-              "key": "D",
-              "text": "Carpe diem"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p7-7"
-        },
-        {
-          "id": "immanuel-kant-8",
-          "number": 8,
-          "question": "Hva betyr «Sapere aude»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Lev i nuet"
-            },
-            {
-              "key": "B",
-              "text": "Tenk raskt"
-            },
-            {
-              "key": "C",
-              "text": "Stol på Gud"
-            },
-            {
-              "key": "D",
-              "text": "Ha mot til å bruke din egen fornuft"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p7-8"
-        },
-        {
-          "id": "immanuel-kant-9",
-          "number": 9,
-          "question": "Hvordan stilte Kant seg til fornuften?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Han avviser den"
-            },
-            {
-              "key": "B",
-              "text": "Han mener følelser er bedre"
-            },
-            {
-              "key": "C",
-              "text": "Han gir den en nøkkelrolle"
-            },
-            {
-              "key": "D",
-              "text": "Han mener den er ubrukelig"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p7-9"
-        },
-        {
-          "id": "immanuel-kant-10",
-          "number": 10,
-          "question": "Hva er opplysningstidens viktigste kjennetegn?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Fokus på tradisjon og fortid"
-            },
-            {
-              "key": "B",
-              "text": "Fokus på autoriteter og folk som vet bedre enn deg"
-            },
-            {
-              "key": "C",
-              "text": "Fokus på følelser og de irrasjonelle kreftene i oss"
-            },
-            {
-              "key": "D",
-              "text": "Tro på fornuft, frihet og fremskritt"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p7-10"
-        },
-        {
-          "id": "immanuel-kant-11",
-          "number": 11,
-          "question": "Hva mener Kant om frihet i opplysningsteksten?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Den er uviktig"
-            },
-            {
-              "key": "B",
-              "text": "Den gjelder bare staten"
-            },
-            {
-              "key": "C",
-              "text": "Den er farlig"
-            },
-            {
-              "key": "D",
-              "text": "Den er nødvendig for å bruke fornuften"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p7-11"
-        },
-        {
-          "id": "immanuel-kant-12",
-          "number": 12,
-          "question": "Hva er «offentlig bruk av fornuften», ifølge Kant?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Å tenke privat og uforståelig"
-            },
-            {
-              "key": "B",
-              "text": "Å si det alle andre sier"
-            },
-            {
-              "key": "C",
-              "text": "Å uttrykke seg fritt som borger"
-            },
-            {
-              "key": "D",
-              "text": "Å avsløre dype hemmeligheter"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p7-12"
-        },
-        {
-          "id": "immanuel-kant-13",
-          "number": 13,
-          "question": "Hva er «privat bruk av fornuften», ifølge Kant?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Full frihet"
-            },
-            {
-              "key": "B",
-              "text": "Å kritisere staten"
-            },
-            {
-              "key": "C",
-              "text": "Å publisere tekster"
-            },
-            {
-              "key": "D",
-              "text": "Å følge sin rolle i en institusjon"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p7-13"
-        },
-        {
-          "id": "immanuel-kant-14",
-          "number": 14,
-          "question": "Hva sier Kant om lydighet og frihet?",
-          "options": [
-            {
-              "key": "A",
-              "text": "De er uforenlige"
-            },
-            {
-              "key": "B",
-              "text": "Du er bare fri om du er ulydig"
-            },
-            {
-              "key": "C",
-              "text": "Du er bare fri om du er lydig overfor din fornuft"
-            },
-            {
-              "key": "D",
-              "text": "Lydighet er viktigere enn frihet"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p7-14"
-        },
-        {
-          "id": "immanuel-kant-15",
-          "number": 15,
-          "question": "Hva er sentralt i Kants syn på menneskets verdighet?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At mennesket er nyttig"
-            },
-            {
-              "key": "B",
-              "text": "At mennesket har verdi i kraft av fornuft"
-            },
-            {
-              "key": "C",
-              "text": "At mennesket er sterkt"
-            },
-            {
-              "key": "D",
-              "text": "At mennesket er religiøst"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p7-15"
-        },
-        {
-          "id": "immanuel-kant-16",
-          "number": 16,
-          "question": "Hvordan bør vi behandle andre, ifølge Kant?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som midler"
-            },
-            {
-              "key": "B",
-              "text": "Som konkurrenter"
-            },
-            {
-              "key": "C",
-              "text": "Som verktøy"
-            },
-            {
-              "key": "D",
-              "text": "Som mål i seg selv"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p7-16"
-        },
-        {
-          "id": "immanuel-kant-17",
-          "number": 17,
-          "question": "Hva innebærer Kants opptatthet av at mennesker aldri bare bør behandles som midler?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At mennesker kan brukes og misbrukes fritt"
-            },
-            {
-              "key": "B",
-              "text": "At mennesker har absolutt verdi"
-            },
-            {
-              "key": "C",
-              "text": "At mennesker må styres"
-            },
-            {
-              "key": "D",
-              "text": "At mennesker er like dyr"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p7-17"
-        },
-        {
-          "id": "immanuel-kant-18",
-          "number": 18,
-          "question": "Hvordan henger Kants syn på opplysning sammen med moderniteten?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Det styrker tradisjoner"
-            },
-            {
-              "key": "B",
-              "text": "Det svekker individet"
-            },
-            {
-              "key": "C",
-              "text": "Det gir individet større betydning"
-            },
-            {
-              "key": "D",
-              "text": "Det avviser frihet"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p7-18"
-        },
-        {
-          "id": "immanuel-kant-19",
-          "number": 19,
-          "question": "Hva eller hvem kritiserer Kant indirekte i «Hva er opplysning?»",
-          "options": [
-            {
-              "key": "A",
-              "text": "Den nye vitenskapen"
-            },
-            {
-              "key": "B",
-              "text": "Filosofer som feiret menneskets frie vilje"
-            },
-            {
-              "key": "C",
-              "text": "Kulten av individet"
-            },
-            {
-              "key": "D",
-              "text": "Autoriteter som hindrer selvstendig tenkning"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p7-19"
-        },
-        {
-          "id": "immanuel-kant-20",
-          "number": 20,
-          "question": "Hvilken av disse gir den rimeligste karakteristikken av Kants prosjekt?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Tro fremfor fornuft!"
-            },
-            {
-              "key": "B",
-              "text": "Tilbake til middelalderen!"
-            },
-            {
-              "key": "C",
-              "text": "Fornuft frigjør mennesket!"
-            },
-            {
-              "key": "D",
-              "text": "Tilbake til naturen!"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p7-20"
-        }
-      ]
-    },
-    {
-      "id": "8",
-      "title": "Pensumspørsmål 8: To opplysningstenkere",
-      "shortTitle": "To opplysningstenkere",
-      "questions": [
-        {
-          "id": "p8-condorcet-1",
-          "number": 1,
-          "question": "Hvem var Nicolas Condorcet?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En fransk romanforfatter som vant mange priser"
-            },
-            {
-              "key": "B",
-              "text": "En fransk fysiker som jobbet mye med Laplace"
-            },
-            {
-              "key": "C",
-              "text": "En genial fransk filosof og matematiker"
-            },
-            {
-              "key": "D",
-              "text": "En skallet fransk ornitolog og menneskekjenner"
-            }
-          ],
-          "answer": "C",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-1"
-        },
-        {
-          "id": "p8-condorcet-2",
-          "number": 2,
-          "question": "Hvem sa: «En dag kommer det øyeblikket da solen bare lyser over frie mennesker som ikke kjenner noen annen herre enn sin egen fornuft»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Nicolas Condorcet"
-            },
-            {
-              "key": "B",
-              "text": "Jean-Jacques Rousseau"
-            },
-            {
-              "key": "C",
-              "text": "Voltaire"
-            },
-            {
-              "key": "D",
-              "text": "Michel de Montaigne"
-            }
-          ],
-          "answer": "A",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-2"
-        },
-        {
-          "id": "p8-condorcet-3",
-          "number": 3,
-          "question": "Når døde Condorcet?",
-          "options": [
-            {
-              "key": "A",
-              "text": "1648"
-            },
-            {
-              "key": "B",
-              "text": "1733"
-            },
-            {
-              "key": "C",
-              "text": "1794"
-            },
-            {
-              "key": "D",
-              "text": "1813"
-            }
-          ],
-          "answer": "C",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-3"
-        },
-        {
-          "id": "p8-condorcet-4",
-          "number": 4,
-          "question": "Hva heter Condorcets filosofiske hovedverk?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Utkast til en historisk oversikt over fremskrittet i den menneskelige tenkning"
-            },
-            {
-              "key": "B",
-              "text": "En kritikk av den rene fornuft"
-            },
-            {
-              "key": "C",
-              "text": "Meditasjoner over den første filosofi"
-            },
-            {
-              "key": "D",
-              "text": "Enten-Eller"
-            }
-          ],
-          "answer": "A",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-4"
-        },
-        {
-          "id": "p8-condorcet-5",
-          "number": 5,
-          "question": "Condorcet var ikke bare filosof, han var også en av verdens ledende … Hva da?",
-          "options": [
-            {
-              "key": "A",
-              "text": "… matematikere innen sannsynlighetsregning"
-            },
-            {
-              "key": "B",
-              "text": "… teoretiske astrofysikere"
-            },
-            {
-              "key": "C",
-              "text": "… oppfinner av lazarusologien: Vitenskapen om hvordan vekke mennesker opp fra de døde"
-            },
-            {
-              "key": "D",
-              "text": "… sportsfiskere"
-            }
-          ],
-          "answer": "A",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-5"
-        },
-        {
-          "id": "p8-condorcet-6",
-          "number": 6,
-          "question": "Condorcet var konsekvensetiker. Hva innebærer det?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At hvis man utvikler dygd, så blir man god"
-            },
-            {
-              "key": "B",
-              "text": "At hvis man adlyder Gud, så kommer man til himmelen"
-            },
-            {
-              "key": "C",
-              "text": "At bare konsekvenser avgjør om en handling er etisk riktig"
-            },
-            {
-              "key": "D",
-              "text": "At bare våre plikter avgjør om en handling er etisk riktig"
-            }
-          ],
-          "answer": "C",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-6"
-        },
-        {
-          "id": "p8-condorcet-7",
-          "number": 7,
-          "question": "Condorcets drøm kan sies å svare til en av disse:",
-          "options": [
-            {
-              "key": "A",
-              "text": "Det Stephen Toulmin kaller cosmopolis"
-            },
-            {
-              "key": "B",
-              "text": "At USA blir storslagent igjen"
-            },
-            {
-              "key": "C",
-              "text": "At Norge vinner fotball-VM for herrer"
-            },
-            {
-              "key": "D",
-              "text": "At Frankrike melder seg ut av EU"
-            }
-          ],
-          "answer": "A",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-7"
-        },
-        {
-          "id": "p8-condorcet-8",
-          "number": 8,
-          "question": "Condorcet trodde på menneskenes «perfektibilitet». Hva betyr det?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At alle mennesker allerede er perfekte, og ikke behøver å jobbe for å forbedre seg"
-            },
-            {
-              "key": "B",
-              "text": "At all streben er meningsløs og absurd"
-            },
-            {
-              "key": "C",
-              "text": "At vi mennesker kan utvikle oss til å bli stadig mer perfekte"
-            },
-            {
-              "key": "D",
-              "text": "At det perfekte er taperens mål"
-            }
-          ],
-          "answer": "C",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-8"
-        },
-        {
-          "id": "p8-condorcet-9",
-          "number": 9,
-          "question": "Hvem av disse har blitt kalt «verdens beste menneske?»",
-          "options": [
-            {
-              "key": "A",
-              "text": "Trond Berg Eriksen"
-            },
-            {
-              "key": "B",
-              "text": "Jean-Jacques Rousseau"
-            },
-            {
-              "key": "C",
-              "text": "Nicolas Condorcet"
-            },
-            {
-              "key": "D",
-              "text": "Immanuel Kant"
-            }
-          ],
-          "answer": "C",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-9"
-        },
-        {
-          "id": "p8-condorcet-10",
-          "number": 10,
-          "question": "Hvordan stilte Condorcet seg til den franske revolusjonen av 1789?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Han hadde aldri hørt om den"
-            },
-            {
-              "key": "B",
-              "text": "Han støttet dens idealer om frihet, likhet og brorskap"
-            },
-            {
-              "key": "C",
-              "text": "Han avviste den totalt"
-            },
-            {
-              "key": "D",
-              "text": "Han forsto ingenting av den"
-            }
-          ],
-          "answer": "B",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-10"
-        },
-        {
-          "id": "p8-condorcet-11",
-          "number": 11,
-          "question": "Hvordan stilte Condorcet seg til kvinners rettigheter?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Han avviste enhver form for likestilling"
-            },
-            {
-              "key": "B",
-              "text": "Han mente de ikke burde gå for langt"
-            },
-            {
-              "key": "C",
-              "text": "Han forsvarte dem med stor lidenskap"
-            },
-            {
-              "key": "D",
-              "text": "Han var likegyldig til det"
-            }
-          ],
-          "answer": "C",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-11"
-        },
-        {
-          "id": "p8-condorcet-12",
-          "number": 12,
-          "question": "Hvordan stilte Condorcet seg til slaveri?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Han aksepterte det i visse tilfeller"
-            },
-            {
-              "key": "B",
-              "text": "Han mente det burde forbys"
-            },
-            {
-              "key": "C",
-              "text": "Han mente det var helt greit"
-            },
-            {
-              "key": "D",
-              "text": "Han mente ingenting om det"
-            }
-          ],
-          "answer": "B",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-12"
-        },
-        {
-          "id": "p8-condorcet-13",
-          "number": 13,
-          "question": "Hvordan stilte Condorcet seg til rasisme?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Han var en kjent rasistisk teoretiker"
-            },
-            {
-              "key": "B",
-              "text": "Han bekjempet rasisme"
-            },
-            {
-              "key": "C",
-              "text": "Han mente det var greit om man diskriminerte laverestående folkeslag"
-            },
-            {
-              "key": "D",
-              "text": "Han var likegyldig"
-            }
-          ],
-          "answer": "B",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-13"
-        },
-        {
-          "id": "p8-condorcet-14",
-          "number": 14,
-          "question": "Hvordan stilte Condorcet seg til hard opplysning?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Han visste ikke hva det innebar"
-            },
-            {
-              "key": "B",
-              "text": "Han mente den ville føre til myk opplysning"
-            },
-            {
-              "key": "C",
-              "text": "Han mente den burde bekjempes"
-            },
-            {
-              "key": "D",
-              "text": "Han trodde egentlig bare Gud kunne løse våre problemer"
-            }
-          ],
-          "answer": "B",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-14"
-        },
-        {
-          "id": "p8-condorcet-15",
-          "number": 15,
-          "question": "Trodde Condorcet på fremskrittsidéen?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Han avviste den helt og holdent"
-            },
-            {
-              "key": "B",
-              "text": "Han ville tilbake til middelalderen"
-            },
-            {
-              "key": "C",
-              "text": "Han misforstå den"
-            },
-            {
-              "key": "D",
-              "text": "Han trodde fullt og fast på den"
-            }
-          ],
-          "answer": "D",
-          "subtopic": "Nicolas Condorcet",
-          "globalId": "p8-15"
-        },
-        {
-          "id": "p8-wollstonecraft-1",
           "number": 1,
           "question": "Hva er Mary Wollstonecraft mest kjent for?",
           "options": [
@@ -3967,14 +3196,14 @@ window.QUIZ_DATA = {
               "text": "Å ha vært dronning av England"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-16"
+          "explanation": "",
+          "globalId": "7-1"
         },
         {
-          "id": "p8-wollstonecraft-2",
           "number": 2,
-          "question": "Hvor kan Wollstonecraft plasseres idéhistorisk?",
+          "question": "I hvilken epoke kan plassere Wollstonecraft idéhistorisk?",
           "options": [
             {
               "key": "A",
@@ -3993,12 +3222,12 @@ window.QUIZ_DATA = {
               "text": "Renessansen"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-17"
+          "explanation": "",
+          "globalId": "7-2"
         },
         {
-          "id": "p8-wollstonecraft-3",
           "number": 3,
           "question": "Hva er hovedidéen i Wollstonecrafts Et forsvar for kvinnens rettigheter?",
           "options": [
@@ -4019,12 +3248,12 @@ window.QUIZ_DATA = {
               "text": "Kjønn bør avskaffes"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-18"
+          "explanation": "",
+          "globalId": "7-3"
         },
         {
-          "id": "p8-wollstonecraft-4",
           "number": 4,
           "question": "Hvilken fransk filosof kritiserer Wollstonecraft særlig for hans kvinnesyn?",
           "options": [
@@ -4045,12 +3274,12 @@ window.QUIZ_DATA = {
               "text": "Pico della Mirandola"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-19"
+          "explanation": "",
+          "globalId": "7-4"
         },
         {
-          "id": "p8-wollstonecraft-5",
           "number": 5,
           "question": "Hva kritiserte Wollstonecraft hos Rousseau?",
           "options": [
@@ -4071,12 +3300,12 @@ window.QUIZ_DATA = {
               "text": "At han var motstander av naturvitenskap"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-20"
+          "explanation": "",
+          "globalId": "7-5"
         },
         {
-          "id": "p8-wollstonecraft-6",
           "number": 6,
           "question": "Hvordan passer Wollstonecraft inn i moderniteten?",
           "options": [
@@ -4097,12 +3326,12 @@ window.QUIZ_DATA = {
               "text": "Hun mener vitenskap er farlig"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-21"
+          "explanation": "",
+          "globalId": "7-6"
         },
         {
-          "id": "p8-wollstonecraft-7",
           "number": 7,
           "question": "Hvilken rolle spiller utdanning i Wollstonecrafts tenkning?",
           "options": [
@@ -4123,14 +3352,14 @@ window.QUIZ_DATA = {
               "text": "Den er mindre viktig enn skjønnhet"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-22"
+          "explanation": "",
+          "globalId": "7-7"
         },
         {
-          "id": "p8-wollstonecraft-8",
           "number": 8,
-          "question": "Hvilken kjent opplysiningstenker var Wollstonecraft gift med?",
+          "question": "Hvilken opplysiningstenker var Wollstonecraft gift med?",
           "options": [
             {
               "key": "A",
@@ -4146,15 +3375,15 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "Denis Diderot"
+              "text": "Immanuel Kant"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-23"
+          "explanation": "",
+          "globalId": "7-8"
         },
         {
-          "id": "p8-wollstonecraft-9",
           "number": 9,
           "question": "Hva er spesielt med forholdet mellom Wollstonecraft og Godwin i idéhistorisk sammenheng?",
           "options": [
@@ -4175,18 +3404,18 @@ window.QUIZ_DATA = {
               "text": "De motarbeidet opplysningstidens idéer"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-24"
+          "explanation": "",
+          "globalId": "7-9"
         },
         {
-          "id": "p8-wollstonecraft-10",
           "number": 10,
-          "question": "Hvem var datteren til Mary Wollstonecraft?",
+          "question": "Hvem var Mary Wollstonecrafts mest kjente datter?",
           "options": [
             {
               "key": "A",
-              "text": "Virginia Woolf"
+              "text": "Fanny Wollstonecraft"
             },
             {
               "key": "B",
@@ -4194,19 +3423,19 @@ window.QUIZ_DATA = {
             },
             {
               "key": "C",
-              "text": "George Eliot"
+              "text": "Camilla Collett"
             },
             {
               "key": "D",
               "text": "Jane Austen"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-25"
+          "explanation": "",
+          "globalId": "7-10"
         },
         {
-          "id": "p8-wollstonecraft-11",
           "number": 11,
           "question": "Hvor gammel var Mary Shelley da moren hennes døde?",
           "options": [
@@ -4227,12 +3456,12 @@ window.QUIZ_DATA = {
               "text": "Hun var 11 måneder gammel"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-26"
+          "explanation": "",
+          "globalId": "7-11"
         },
         {
-          "id": "p8-wollstonecraft-12",
           "number": 12,
           "question": "Hvorfor reiste Wollstonecraft til Norge?",
           "options": [
@@ -4246,19 +3475,19 @@ window.QUIZ_DATA = {
             },
             {
               "key": "C",
-              "text": "For å finne en løsning på sin elskers økonomiske bekymringer"
+              "text": "For å finne en løsning på sin elskers Gilbert Imlays økonomiske bekymringer"
             },
             {
               "key": "D",
               "text": "For å grunnlegge et universitet"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-27"
+          "explanation": "",
+          "globalId": "7-12"
         },
         {
-          "id": "p8-wollstonecraft-13",
           "number": 13,
           "question": "Hvilket verk sprang delvis ut av Wollstonecrafts norgesreise?",
           "options": [
@@ -4279,12 +3508,12 @@ window.QUIZ_DATA = {
               "text": "Bedehuskultur i bibelbeltet"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-28"
+          "explanation": "",
+          "globalId": "7-13"
         },
         {
-          "id": "p8-wollstonecraft-14",
           "number": 14,
           "question": "Hvordan beskrives gjerne Wollstonecrafts reiseskildringer?",
           "options": [
@@ -4305,12 +3534,12 @@ window.QUIZ_DATA = {
               "text": "Som religiøse prekener"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-29"
+          "explanation": "",
+          "globalId": "7-14"
         },
         {
-          "id": "p8-wollstonecraft-15",
           "number": 15,
           "question": "Hvordan så Wollstonecrafts på kvinnelig fornuft?",
           "options": [
@@ -4331,12 +3560,12 @@ window.QUIZ_DATA = {
               "text": "Bare aristokratiske kvinner er rasjonelle"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-30"
+          "explanation": "",
+          "globalId": "7-15"
         },
         {
-          "id": "p8-wollstonecraft-16",
           "number": 16,
           "question": "Hvordan døde Mary Wollstonecraft?",
           "options": [
@@ -4357,12 +3586,12 @@ window.QUIZ_DATA = {
               "text": "I forbindelse med at hun fødte datteren, Mary Shelley"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-31"
+          "explanation": "",
+          "globalId": "7-16"
         },
         {
-          "id": "p8-wollstonecraft-17",
           "number": 17,
           "question": "Hvorfor blir Wollstonecraft ofte omtalt som en tidlig feminist?",
           "options": [
@@ -4383,14 +3612,14 @@ window.QUIZ_DATA = {
               "text": "Hun mente kvinner burde nektes eiendom"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-32"
+          "explanation": "",
+          "globalId": "7-17"
         },
         {
-          "id": "p8-wollstonecraft-18",
           "number": 18,
-          "question": "Hva er forbindelsen mellom Wollstonecraft og opplysningstidens idealer?",
+          "question": "Hva er forbindelsen mellom Wollstonecraft og opplysningsprosjektet?",
           "options": [
             {
               "key": "A",
@@ -4409,12 +3638,12 @@ window.QUIZ_DATA = {
               "text": "Hun var motstander av demokrati"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-33"
+          "explanation": "",
+          "globalId": "7-18"
         },
         {
-          "id": "p8-wollstonecraft-19",
           "number": 19,
           "question": "Hvilken påstand ville Wollstonecraft sannsynligvis vært mest enig i?",
           "options": [
@@ -4435,14 +3664,14 @@ window.QUIZ_DATA = {
               "text": "Følelser er viktigere enn utdanning"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-34"
+          "explanation": "",
+          "globalId": "7-19"
         },
         {
-          "id": "p8-wollstonecraft-20",
           "number": 20,
-          "question": "Hvorfor er Wollstonecraft viktig i idéhistorien?",
+          "question": "Hva er Wollstonecraft idéhistoriske betydning?",
           "options": [
             {
               "key": "A",
@@ -4450,7 +3679,7 @@ window.QUIZ_DATA = {
             },
             {
               "key": "B",
-              "text": "Hun grunnla marxismen"
+              "text": "Hun grunnla kvinnelig form for marxismen"
             },
             {
               "key": "C",
@@ -4458,529 +3687,1495 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "Hun forsvarte føydalsamfunnet"
+              "text": "Hun forsvarte føydalsamfunnet og nihilismen"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "subtopic": "Mary Wollstonecraft",
-          "globalId": "p8-35"
+          "explanation": "",
+          "globalId": "7-20"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Opplysningstiden",
+      "number": 8,
+      "sourceTitle": "Pensumspørsmål 8. velg to opplysningsfilosofer (utenom Wollstonecraft) og vis i hvilken grad de representerer opplysningstidens tenkning.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Hvilken idéhistorisk plassering passer best på David Hume?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Idealisme og romantikk"
+            },
+            {
+              "key": "B",
+              "text": "Renessansens humanisme"
+            },
+            {
+              "key": "C",
+              "text": "Opplysningstid og empirisme"
+            },
+            {
+              "key": "D",
+              "text": "Eksistensfilosofi"
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "C",
+          "explanation": "Opplysningstid og empirisme.",
+          "globalId": "8-1"
+        },
+        {
+          "number": 2,
+          "question": "Hvilke to filosofer nevnes gjerne sammen med Hume som sentrale britiske empirister?",
+          "options": [
+            {
+              "key": "A",
+              "text": "John Locke og George Berkeley"
+            },
+            {
+              "key": "B",
+              "text": "René Descartes og Gottfried Wilhelm Leibniz"
+            },
+            {
+              "key": "C",
+              "text": "Immanuel Kant og Georg Wilhelm Friedrich Hegel"
+            },
+            {
+              "key": "D",
+              "text": "Thomas Aquinas og Anselm av Canterbury"
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "A",
+          "explanation": "John Locke og George Berkeley.",
+          "globalId": "8-2"
+        },
+        {
+          "number": 3,
+          "question": "Hva gjør Humes prosjekt typisk for opplysningstiden?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han lot kirkelig autoritet avgjøre filosofiske spørsmål."
+            },
+            {
+              "key": "B",
+              "text": "Han ønsket å gjeninnføre antikkens forklaringer uendret."
+            },
+            {
+              "key": "C",
+              "text": "Han avviste at mennesket kan undersøkes systematisk."
+            },
+            {
+              "key": "D",
+              "text": "Han ville undersøke menneskenaturen kritisk og erfaringsbasert."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "D",
+          "explanation": "Han vil undersøke menneskenaturen kritisk og erfaringsbasert.",
+          "globalId": "8-3"
+        },
+        {
+          "number": 4,
+          "question": "Hvorfor er det misvisende å plassere Hume i romantikken når han fremhevet følelser?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han mente at følelser bare forekommer i kunsten."
+            },
+            {
+              "key": "B",
+              "text": "Følelsene inngikk hos ham i en opplysningsfilosofisk undersøkelse av menneskenaturen."
+            },
+            {
+              "key": "C",
+              "text": "Han mente at følelsene alltid hindrer moralsk handling."
+            },
+            {
+              "key": "D",
+              "text": "Han utviklet sin filosofi som en reaksjon på romantikken."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "B",
+          "explanation": "Følelsene inngår hos ham i en opplysningsfilosofisk undersøkelse av menneskenaturen.",
+          "globalId": "8-4"
+        },
+        {
+          "number": 5,
+          "question": "Hva er kjernen i Humes induksjonsproblem?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At vi ikke har noen garanti for at framtiden vil ligne fortiden"
+            },
+            {
+              "key": "B",
+              "text": "At vi aldri kan huske tidligere erfaringer"
+            },
+            {
+              "key": "C",
+              "text": "At alle generaliseringer nødvendigvis er falske"
+            },
+            {
+              "key": "D",
+              "text": "At matematisk kunnskap bare bygger på gjentatte observasjoner"
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "A",
+          "explanation": "At vi ikke har noen garanti for at framtiden vil ligne fortiden.",
+          "globalId": "8-5"
+        },
+        {
+          "number": 6,
+          "question": "Hva er sentralt i Humes analyse av årsakssammenhenger?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Vi ser direkte den nødvendige kraften som forbinder årsak og virkning."
+            },
+            {
+              "key": "B",
+              "text": "Vi kjenner alle årsakslover uavhengig av erfaring."
+            },
+            {
+              "key": "C",
+              "text": "Hendelser vi ikke forstår, kan derfor ikke ha årsaker."
+            },
+            {
+              "key": "D",
+              "text": "Vi erfarer regelmessige forbindelser og venner oss til å forvente bestemte virkninger."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "D",
+          "explanation": "Vi erfarer regelmessige forbindelser og venner oss til å forvente bestemte virkninger.",
+          "globalId": "8-6"
+        },
+        {
+          "number": 7,
+          "question": "Hvordan kan Hume være både skeptiker og naturalist?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han avviser alle overbevisninger og mener at praktisk liv er umulig."
+            },
+            {
+              "key": "B",
+              "text": "Han undersøker begrunnelsenes grenser, men forklarer hvorfor vi naturlig fortsetter å tro og handle."
+            },
+            {
+              "key": "C",
+              "text": "Han mener at naturvitenskapen allerede har løst alle filosofiske problemer."
+            },
+            {
+              "key": "D",
+              "text": "Han skiller fullstendig mellom menneskenaturen og våre oppfatninger."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "B",
+          "explanation": "Han undersøker begrunnelsenes grenser, men forklarer hvorfor vi naturlig fortsetter å tro og handle.",
+          "globalId": "8-7"
+        },
+        {
+          "number": 8,
+          "question": "Hvordan svarte Kant på Humes utfordring om årsakssammenheng?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Årsakskategorien er en forutsetning for objektiv erfaring av hendelser."
+            },
+            {
+              "key": "B",
+              "text": "Årsakssammenheng er bare en tilfeldig språklig konvensjon."
+            },
+            {
+              "key": "C",
+              "text": "All kunnskap om årsaker må erstattes av religiøs tro."
+            },
+            {
+              "key": "D",
+              "text": "Vi kan observere nødvendigheten direkte dersom vi bruker bedre instrumenter."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "A",
+          "explanation": "Årsakskategorien er en forutsetning for objektiv erfaring av hendelser.",
+          "globalId": "8-8"
+        },
+        {
+          "number": 9,
+          "question": "Hva er en sentral forskjell mellom Humes og Kants begrunnelse av moralen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hume bygger på guddommelige bud; Kant bygger på samfunnets tradisjoner."
+            },
+            {
+              "key": "B",
+              "text": "Hume fremhever moralske følelser; Kant søker moralens grunnlag i praktisk fornuft."
+            },
+            {
+              "key": "C",
+              "text": "Hume bygger på medfødte plikter; Kant bygger på personlig smak."
+            },
+            {
+              "key": "D",
+              "text": "Hume og Kant mener begge at moral bare er frykt for straff."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "B",
+          "explanation": "Hume fremhever moralske følelser; Kant søker moralens grunnlag i praktisk fornuft.",
+          "globalId": "8-9"
+        },
+        {
+          "number": 10,
+          "question": "Hva mener Hume med at fornuften ikke motiverer oss til handling?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At mennesker aldri kan handle gjennomtenkt"
+            },
+            {
+              "key": "B",
+              "text": "At alle handlinger skyldes plutselige følelsesutbrudd"
+            },
+            {
+              "key": "C",
+              "text": "At kunnskap om fakta ikke alene gir oss ønsker eller mål"
+            },
+            {
+              "key": "D",
+              "text": "At fornuften ikke kan hjelpe oss med å velge midler"
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "C",
+          "explanation": "At kunnskap om fakta ikke gir oss ønsker eller mål.",
+          "globalId": "8-10"
+        },
+        {
+          "number": 11,
+          "question": "Hvilken funksjon har sympati i Humes moralfilosofi?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Den gjør oss mottakelige for andres følelser og interesser."
+            },
+            {
+              "key": "B",
+              "text": "Den sikrer at vi alltid liker alle mennesker like godt."
+            },
+            {
+              "key": "C",
+              "text": "Den gjør kunnskap om handlingers følger overflødig."
+            },
+            {
+              "key": "D",
+              "text": "Den betyr at vi bare vurderer handlinger ut fra egen fordel."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "A",
+          "explanation": "Den gjør oss mottakelige for andres følelser og interesser.",
+          "globalId": "8-11"
+        },
+        {
+          "number": 12,
+          "question": "Hvordan kan Hume forklare at moralske vurderinger er mer enn private innfall?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ved at enhver følelse automatisk er moralsk riktig"
+            },
+            {
+              "key": "B",
+              "text": "Ved at samfunnets flertall aldri kan ta feil"
+            },
+            {
+              "key": "C",
+              "text": "Ved at moralske vurderinger ikke har noen forbindelse med følelser"
+            },
+            {
+              "key": "D",
+              "text": "Ved at vi korrigerer personlig partiskhet gjennom et mer allment vurderingsperspektiv"
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "D",
+          "explanation": "Ved at vi korrigerer personlig partiskhet gjennom et mer allment vurderingsperspektiv.",
+          "globalId": "8-12"
+        },
+        {
+          "number": 13,
+          "question": "Hvorfor forbindes Hume ofte med konsekvensetikken og utilitarismens forhistorie?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han mener at enhver handling må vurderes gjennom en tallfestet lykkekalkyle."
+            },
+            {
+              "key": "B",
+              "text": "Han legger stor vekt på egenskapers og ordningers nytte for mennesker."
+            },
+            {
+              "key": "C",
+              "text": "Han hevder at bare handlingens faktiske resultat har moralsk betydning."
+            },
+            {
+              "key": "D",
+              "text": "Han avviser karakter, motiver og følelser som irrelevante."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "B",
+          "explanation": "Han legger stor vekt på egenskapers og ordningers nytte for mennesker.",
+          "globalId": "8-13"
+        },
+        {
+          "number": 14,
+          "question": "Hvorfor kan det sies å være misvisende å kalle Hume konsekvensetiker?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han mener at handlingers følger aldri har betydning."
+            },
+            {
+              "key": "B",
+              "text": "Han begrunner alle moralske krav i ubetingede fornuftslover."
+            },
+            {
+              "key": "C",
+              "text": "Han definerer ikke en etisk riktig handling som den handling som gir best mulig konsekvenser for et størst mulig antall."
+            },
+            {
+              "key": "D",
+              "text": "Hans etikk handler utelukkende om religiøse plikter."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "C",
+          "explanation": "Han definerer ikke en etisk riktig handling som den handling som gir best mulig konsekvenser for et størst mulig antall.",
+          "globalId": "8-14"
+        },
+        {
+          "number": 15,
+          "question": "Hvilket eksempel viser tydeligst at Hume legger vekt på mer enn handlingens følger?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Vi bedømmer en skade annerledes når den skyldes et uhell enn når den uttrykker ond vilje."
+            },
+            {
+              "key": "B",
+              "text": "Vi vurderer alltid en handling likt så lenge skaden er like stor."
+            },
+            {
+              "key": "C",
+              "text": "Vi ignorerer motivet når vi bedømmer personens karakter."
+            },
+            {
+              "key": "D",
+              "text": "Vi regner enhver handling som god dersom den gagner den handlende."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "A",
+          "explanation": "Vi bedømmer en skade annerledes når den skyldes et uhell enn når den uttrykker ond vilje.",
+          "globalId": "8-15"
+        },
+        {
+          "number": 16,
+          "question": "Hvilken sammenfatning av Humes og Kants forhold til opplysningstiden er best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hume tilhører opplysningstiden, mens Kant avviser dens ideal om selvstendig tenkning."
+            },
+            {
+              "key": "B",
+              "text": "Begge er opplysningstenkere, men vurderer fornuftens rolle og rekkevidde forskjellig."
+            },
+            {
+              "key": "C",
+              "text": "Begge mener at fornuften alene bestemmer både våre overbevisninger og våre mål."
+            },
+            {
+              "key": "D",
+              "text": "Kant viderefører Hume ved å gjøre moral til et spørsmål om behag og ubehag."
+            }
+          ],
+          "subtopic": "Hume",
+          "answer": "B",
+          "explanation": "Begge er opplysningstenkere, men vurderer fornuftens rolle og rekkevidde forskjellig.",
+          "globalId": "8-16"
+        },
+        {
+          "number": 1,
+          "question": "Hvem var Immanuel Kant?",
+          "options": [
+            {
+              "key": "A",
+              "text": "En stor fransk revolusjonær"
+            },
+            {
+              "key": "B",
+              "text": "En liten tysk filosof"
+            },
+            {
+              "key": "C",
+              "text": "En tykkfallen engelsk naturviter"
+            },
+            {
+              "key": "D",
+              "text": "En forførende italiensk poet"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "8-17"
+        },
+        {
+          "number": 2,
+          "question": "Hvordan kan Kant plasseres idéhistorisk?",
+          "options": [
+            {
+              "key": "A",
+              "text": "I antikken"
+            },
+            {
+              "key": "B",
+              "text": "I middelalderen"
+            },
+            {
+              "key": "C",
+              "text": "I renessansen"
+            },
+            {
+              "key": "D",
+              "text": "I opplysningstiden"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "8-18"
+        },
+        {
+          "number": 3,
+          "question": "Hva heter teksten «Hva er opplysning?» på originalspråket?",
+          "options": [
+            {
+              "key": "A",
+              "text": "De lumine rationis"
+            },
+            {
+              "key": "B",
+              "text": "Quid est veritas"
+            },
+            {
+              "key": "C",
+              "text": "Was ist Aufklärung"
+            },
+            {
+              "key": "D",
+              "text": "Discours sur les lumières"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "8-19"
+        },
+        {
+          "number": 4,
+          "question": "Hva er hovedtemaet i «Hva er opplysning?»",
+          "options": [
+            {
+              "key": "A",
+              "text": "At vi bør adlyde autoriteter"
+            },
+            {
+              "key": "B",
+              "text": "At vi bør forbedre belysningen i bygatene"
+            },
+            {
+              "key": "C",
+              "text": "At vi bør søke trøst i Gud"
+            },
+            {
+              "key": "D",
+              "text": "At vi bør bli myndige"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "8-20"
+        },
+        {
+          "number": 5,
+          "question": "Hvordan definerer Kant «opplysning»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Som økt kunnskap"
+            },
+            {
+              "key": "B",
+              "text": "Som økonomisk vekst"
+            },
+            {
+              "key": "C",
+              "text": "Som frigjøring fra selvpålagt umyndighet"
+            },
+            {
+              "key": "D",
+              "text": "Som religiøs oppvåkning"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "8-21"
+        },
+        {
+          "number": 6,
+          "question": "Hva betyr «umyndighet» hos Kant?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Manglende kunnskap"
+            },
+            {
+              "key": "B",
+              "text": "Manglende mot til å bruke egen fornuft"
+            },
+            {
+              "key": "C",
+              "text": "Manglende politisk makt"
+            },
+            {
+              "key": "D",
+              "text": "Manglende gudstro"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "8-22"
+        },
+        {
+          "number": 7,
+          "question": "Hva er Kants berømte motto for opplysningen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Cogito ergo sum"
+            },
+            {
+              "key": "B",
+              "text": "Deus vult"
+            },
+            {
+              "key": "C",
+              "text": "Sapere aude"
+            },
+            {
+              "key": "D",
+              "text": "Carpe diem"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "8-23"
+        },
+        {
+          "number": 8,
+          "question": "Hva betyr «Sapere aude»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ha mot til å leve i nuet"
+            },
+            {
+              "key": "B",
+              "text": "Ha mot til å tenke raskt"
+            },
+            {
+              "key": "C",
+              "text": "Ha mot til å stole på Gud"
+            },
+            {
+              "key": "D",
+              "text": "Ha mot til å bruke din egen fornuft"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "8-24"
+        },
+        {
+          "number": 9,
+          "question": "Hvordan stilte Kant seg til fornuften?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han avviser den"
+            },
+            {
+              "key": "B",
+              "text": "Han mener følelser er bedre"
+            },
+            {
+              "key": "C",
+              "text": "Han gir den en nøkkelrolle"
+            },
+            {
+              "key": "D",
+              "text": "Han mener den er ubrukelig"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "8-25"
+        },
+        {
+          "number": 10,
+          "question": "Hva er opplysningstidens viktigste kjennetegn?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fokus på tradisjon og fortid"
+            },
+            {
+              "key": "B",
+              "text": "Fokus på autoriteter og folk som vet bedre enn deg"
+            },
+            {
+              "key": "C",
+              "text": "Fokus på følelser og de irrasjonelle kreftene i oss"
+            },
+            {
+              "key": "D",
+              "text": "Tro på fornuft, frihet og fremskritt"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "8-26"
+        },
+        {
+          "number": 11,
+          "question": "Hva sier Kant om frihet i vår pensumtekst?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Den er uviktig"
+            },
+            {
+              "key": "B",
+              "text": "Den gjelder bare staten"
+            },
+            {
+              "key": "C",
+              "text": "Den er farlig"
+            },
+            {
+              "key": "D",
+              "text": "Den er nødvendig for å bruke fornuften"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "8-27"
+        },
+        {
+          "number": 12,
+          "question": "Hva er «offentlig bruk av fornuften», ifølge Kant?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Å tenke privat og uforståelig"
+            },
+            {
+              "key": "B",
+              "text": "Å si det alle andre sier"
+            },
+            {
+              "key": "C",
+              "text": "Å uttrykke seg fritt som borger"
+            },
+            {
+              "key": "D",
+              "text": "Å avsløre dype hemmeligheter"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "8-28"
+        },
+        {
+          "number": 13,
+          "question": "Hva ville Kant (trolig) ment om forholdet mellom hard og myk opplysning?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hard opplysning fører aldri til myk"
+            },
+            {
+              "key": "B",
+              "text": "Hard opplysning har ingenting med den myke å gjøre"
+            },
+            {
+              "key": "C",
+              "text": "Hard opplysning fører til myk hvis ytringsfriheten innskrenkes"
+            },
+            {
+              "key": "D",
+              "text": "Hard opplysning kan føre til myk"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "8-29"
+        },
+        {
+          "number": 14,
+          "question": "Hva sier Kant om lydighet og frihet?",
+          "options": [
+            {
+              "key": "A",
+              "text": "De er uforenlige"
+            },
+            {
+              "key": "B",
+              "text": "Du er bare fri om du er ulydig"
+            },
+            {
+              "key": "C",
+              "text": "Du er bare fri om du er lydig overfor din fornuft"
+            },
+            {
+              "key": "D",
+              "text": "Lydighet er viktigere enn frihet"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "8-30"
+        },
+        {
+          "number": 15,
+          "question": "Hva er sentralt i Kants syn på menneskets verdighet?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At mennesket er nyttig i visse sammenhenger"
+            },
+            {
+              "key": "B",
+              "text": "At mennesket har verdi i kraft av fornuft og selvbestemmende"
+            },
+            {
+              "key": "C",
+              "text": "At mennesket er sterkt knyttet til det mystiske"
+            },
+            {
+              "key": "D",
+              "text": "At mennesket er religiøst"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "8-31"
+        },
+        {
+          "number": 16,
+          "question": "Hvordan bør vi behandle andre, ifølge Kant?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Som midler"
+            },
+            {
+              "key": "B",
+              "text": "Som konkurrenter"
+            },
+            {
+              "key": "C",
+              "text": "Som verktøy"
+            },
+            {
+              "key": "D",
+              "text": "Som mål i seg selv"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "8-32"
+        },
+        {
+          "number": 17,
+          "question": "Hva innebærer Kants opptatthet av at et menneske aldri bare bør behandles som et middel?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At mennesker kan brukes og misbrukes fritt"
+            },
+            {
+              "key": "B",
+              "text": "At mennesker har ukrenkelig verdi"
+            },
+            {
+              "key": "C",
+              "text": "At mennesker må styres"
+            },
+            {
+              "key": "D",
+              "text": "At mennesker er like dyr"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "8-33"
+        },
+        {
+          "number": 18,
+          "question": "Hvordan kan Kants syn på opplysning knyttes til moderniteten?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Det styrker tradisjoner"
+            },
+            {
+              "key": "B",
+              "text": "Det svekker individet"
+            },
+            {
+              "key": "C",
+              "text": "Det gir individet større betydning"
+            },
+            {
+              "key": "D",
+              "text": "Det avviser frihet"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "8-34"
+        },
+        {
+          "number": 19,
+          "question": "Hva eller hvem kritiserer Kant indirekte i «Hva er opplysning?»",
+          "options": [
+            {
+              "key": "A",
+              "text": "Den nye vitenskapen"
+            },
+            {
+              "key": "B",
+              "text": "Filosofer som feiret menneskets frie vilje"
+            },
+            {
+              "key": "C",
+              "text": "Kulten av individet"
+            },
+            {
+              "key": "D",
+              "text": "Autoriteter som hindrer selvstendig tenkning"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "8-35"
+        },
+        {
+          "number": 20,
+          "question": "Hvilken av disse gir den rimeligste karakteristikken av Kants prosjekt?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tro fremfor fornuft!"
+            },
+            {
+              "key": "B",
+              "text": "Tilbake til middelalderen!"
+            },
+            {
+              "key": "C",
+              "text": "Fornuft frigjør mennesket!"
+            },
+            {
+              "key": "D",
+              "text": "Tilbake til naturen!"
+            }
+          ],
+          "subtopic": "Kant",
+          "answer": "C",
+          "explanation": "",
+          "globalId": "8-36"
         }
       ]
     },
     {
       "id": "9",
-      "title": "Pensumspørsmål 9: Friedrich Schelling",
-      "shortTitle": "Friedrich Schelling",
+      "title": "Religion og vitenskap",
+      "number": 9,
+      "sourceTitle": "Pensumspørsmål 9. Reflekter over forholdet mellom religion og vitenskap i moderniteten, slik det presenteres i utdraget av Kors på halsen av Trond Berg Eriksen.",
       "questions": [
         {
-          "id": "friedrich-schelling-1",
           "number": 1,
-          "question": "Hvem var Friedrich Schelling?",
+          "question": "Hva kjennetegner forholdet mellom teologi og naturfilosofi hos Thomas Aquinas?",
           "options": [
             {
               "key": "A",
-              "text": "En tysk filosof som var Kierkegaards lærer"
+              "text": "Naturfilosofien skal erstatte teologien."
             },
             {
               "key": "B",
-              "text": "En fransk revolusjonær som inspirerte Kant"
+              "text": "Tro og fornuft kan utfylle hverandre, selv om enkelte sannheter krever åpenbaring."
             },
             {
               "key": "C",
-              "text": "En tysk naturviter som påvirket Newton"
+              "text": "Enhver undersøkelse av naturen er et inngrep i Guds myndighet."
             },
             {
               "key": "D",
-              "text": "Henrik Ibsens favorittfilosof"
+              "text": "Tro og fornuft gir nødvendigvis motstridende sannheter."
             }
           ],
-          "answer": "A",
-          "globalId": "p9-1"
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Tro og fornuft kan utfylle hverandre, selv om enkelte sannheter krever åpenbaring.",
+          "globalId": "9-1"
         },
         {
-          "id": "friedrich-schelling-2",
           "number": 2,
-          "question": "I hvilken idehistorisk epoke plasseres Schelling?",
+          "question": "Hva er en anakronisme?",
           "options": [
             {
               "key": "A",
-              "text": "Opplysningstiden"
+              "text": "En historisk kilde skrevet på et fremmed språk"
             },
             {
               "key": "B",
-              "text": "Middelalderen"
+              "text": "En forklaring som legger vekt på langsomme endringer"
             },
             {
               "key": "C",
-              "text": "Romantikken"
+              "text": "En uenighet mellom to samtidige tenkere"
             },
             {
               "key": "D",
-              "text": "Mellomkrigstiden"
+              "text": "Å plassere noe i en tid der det ikke hører hjemme"
             }
           ],
-          "answer": "C",
-          "globalId": "p9-2"
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Å plassere noe i en tid der det ikke hører hjemme.",
+          "globalId": "9-2"
         },
         {
-          "id": "friedrich-schelling-3",
           "number": 3,
-          "question": "Hva kjennetegner den unge Schellings menneskesyn?",
+          "question": "Hva innebærer Ockhams nominalisme?",
           "options": [
             {
               "key": "A",
-              "text": "Mørkt og pessimistisk"
+              "text": "Bare individuelle ting eksisterer utenfor sinnet; allmennbegreper fungerer som tegn for flere ting."
             },
             {
               "key": "B",
-              "text": "Optimistisk med tro på fornuft og fremskritt"
+              "text": "Allmennbegrepene eksisterer som selvstendige ideer utenfor verden."
             },
             {
               "key": "C",
-              "text": "Tro på skjebnen"
+              "text": "Naturen eksisterer bare dersom mennesker gir den navn."
             },
             {
               "key": "D",
-              "text": "Kritisk til fornuften"
+              "text": "Ord og begreper kan ikke gi kunnskap om virkeligheten."
             }
           ],
-          "answer": "B",
-          "globalId": "p9-3"
-        },
-        {
-          "id": "friedrich-schelling-4",
-          "number": 4,
-          "question": "Hva kjennetegnet Schellings menneskesyn da han ble eldre?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Optimistisk"
-            },
-            {
-              "key": "B",
-              "text": "Rent rasjonelt"
-            },
-            {
-              "key": "C",
-              "text": "Harmonisk"
-            },
-            {
-              "key": "D",
-              "text": "Mørkere og mer opptatt av det onde"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p9-4"
-        },
-        {
-          "id": "friedrich-schelling-5",
-          "number": 5,
-          "question": "Hva er Frihetsskriftet (1809)?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En naturvitenskapelig avhandling om treghetsloven"
-            },
-            {
-              "key": "B",
-              "text": "En politisk pamflett om revolusjon"
-            },
-            {
-              "key": "C",
-              "text": "En filosofisk tekst om frihet og det onde"
-            },
-            {
-              "key": "D",
-              "text": "En roman om en mann som selger sin sjel"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p9-5"
-        },
-        {
-          "id": "friedrich-schelling-6",
-          "number": 6,
-          "question": "Hva er hovedproblemet i Schellings Frihetsskrift?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Statens legitimitet"
-            },
-            {
-              "key": "B",
-              "text": "Menneskets frihet og det ondes opprinnelse"
-            },
-            {
-              "key": "C",
-              "text": "Språkets natur"
-            },
-            {
-              "key": "D",
-              "text": "Vitenskapens metode"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p9-6"
-        },
-        {
-          "id": "friedrich-schelling-7",
-          "number": 7,
-          "question": "Hvordan forstår Schelling frihet?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som fravær av regler"
-            },
-            {
-              "key": "B",
-              "text": "Som tilfeldig handling"
-            },
-            {
-              "key": "C",
-              "text": "Som evnen til å velge godt"
-            },
-            {
-              "key": "D",
-              "text": "Som evnen til både godt og ondt"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p9-7"
-        },
-        {
-          "id": "friedrich-schelling-8",
-          "number": 8,
-          "question": "Hva innebærer Schellings frihetsbegrep?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At ondskap er umulig"
-            },
-            {
-              "key": "B",
-              "text": "At mennesket er en maskin"
-            },
-            {
-              "key": "C",
-              "text": "At virkelig frihet inkluderer muligheten til det onde"
-            },
-            {
-              "key": "D",
-              "text": "At frihet er en illusjon"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p9-8"
-        },
-        {
-          "id": "friedrich-schelling-9",
-          "number": 9,
-          "question": "Hva er kjennetegner «det onde», ifølge Schelling?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Det finnes ikke"
-            },
-            {
-              "key": "B",
-              "text": "Det er en sosial konstruksjon"
-            },
-            {
-              "key": "C",
-              "text": "Det er bare er mangel på kunnskap"
-            },
-            {
-              "key": "D",
-              "text": "Det må forklares som noe reelt"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p9-9"
-        },
-        {
-          "id": "friedrich-schelling-10",
-          "number": 10,
-          "question": "Hva kritiserte Schelling hos tidligere filosofi?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Den var for religiøse"
-            },
-            {
-              "key": "B",
-              "text": "De var for praktisk orienterte"
-            },
-            {
-              "key": "C",
-              "text": "De tok ikke det onde på alvor"
-            },
-            {
-              "key": "D",
-              "text": "De var for empiriske"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p9-10"
-        },
-        {
-          "id": "friedrich-schelling-11",
-          "number": 11,
-          "question": "Hva er «ugrunn» hos Schelling?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En fysisk kraft"
-            },
-            {
-              "key": "B",
-              "text": "Et moralsk prinsipp"
-            },
-            {
-              "key": "C",
-              "text": "Et begrep for Gud"
-            },
-            {
-              "key": "D",
-              "text": "En urgrunn utenfor fornuften"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p9-11"
-        },
-        {
-          "id": "friedrich-schelling-12",
-          "number": 12,
-          "question": "Hva innebærer begrepet «ungrunn» hos Schelling?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At hele virkeligheten forklares rasjonelt"
-            },
-            {
-              "key": "B",
-              "text": "At virkeligheten har en dyp grunn som ikke kan forstås med fornuften"
-            },
-            {
-              "key": "C",
-              "text": "At Gud er en ond jævel"
-            },
-            {
-              "key": "D",
-              "text": "At verden er sadistiske demoners lekegrind"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p9-12"
-        },
-        {
-          "id": "friedrich-schelling-13",
-          "number": 13,
-          "question": "Hvordan forholdt Schelling seg til fornuften?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Han avviste den helt"
-            },
-            {
-              "key": "B",
-              "text": "Han mente den kan forklare alt"
-            },
-            {
-              "key": "C",
-              "text": "Han påpekte dens klare begrensninger"
-            },
-            {
-              "key": "D",
-              "text": "Han så den som irrelevant"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p9-13"
-        },
-        {
-          "id": "friedrich-schelling-14",
-          "number": 14,
-          "question": "Hva er kjernen i Schellings fornuftskritikk?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At fornuften bør styre alt"
-            },
-            {
-              "key": "B",
-              "text": "At alt er som er viktig er irrasjonelt"
-            },
-            {
-              "key": "C",
-              "text": "At vitenskap er feil"
-            },
-            {
-              "key": "D",
-              "text": "At ikke alt kan forstås gjennom fornuften alene"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p9-14"
-        },
-        {
-          "id": "friedrich-schelling-15",
-          "number": 15,
-          "question": "Hvordan utviklet Schellings filosofi seg over tid?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Den ble mer naturvitenskapelig"
-            },
-            {
-              "key": "B",
-              "text": "Den ble mer politisk"
-            },
-            {
-              "key": "C",
-              "text": "Den ble mer pessimistisk og religiøst orientert"
-            },
-            {
-              "key": "D",
-              "text": "Den forble uendret"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p9-15"
-        },
-        {
-          "id": "friedrich-schelling-16",
-          "number": 16,
-          "question": "Hva kjennetegner mennesket, ifølge den senere Schelling?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Et rent rasjonelt vesen"
-            },
-            {
-              "key": "B",
-              "text": "Et harmonisk naturvesen"
-            },
-            {
-              "key": "C",
-              "text": "Et ubetydelig vesen"
-            },
-            {
-              "key": "D",
-              "text": "Et vesen med en indre splittelse"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p9-16"
-        },
-        {
-          "id": "friedrich-schelling-17",
-          "number": 17,
-          "question": "Ifølge Schelling er mennesket splittet. Hva innebærer denne splittelsen?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At mennesket er perfekt"
-            },
-            {
-              "key": "B",
-              "text": "At mennesket er uten ansvar"
-            },
-            {
-              "key": "C",
-              "text": "At mennesket rommer både godt og ondt"
-            },
-            {
-              "key": "D",
-              "text": "At mennesket er determinert"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p9-17"
-        },
-        {
-          "id": "friedrich-schelling-18",
-          "number": 18,
-          "question": "Hvordan kan Schellings løsning på det ondes problem antydes?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Ondskap finnes ikke"
-            },
-            {
-              "key": "B",
-              "text": "Ondskap er bare uvitenhet"
-            },
-            {
-              "key": "C",
-              "text": "Ondskap er en forutsetning for frihet"
-            },
-            {
-              "key": "D",
-              "text": "Ondskap er tilfeldig"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p9-18"
-        },
-        {
-          "id": "friedrich-schelling-19",
-          "number": 19,
-          "question": "Hva er forholdet mellom Gud og det onde hos Schelling?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Gud skaper direkte ondskap"
-            },
-            {
-              "key": "B",
-              "text": "Gud er utenfor problemet"
-            },
-            {
-              "key": "C",
-              "text": "Det onde er uavhengig av Gud"
-            },
-            {
-              "key": "D",
-              "text": "Det onde inngår i en dypere struktur i Gud"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p9-19"
-        },
-        {
-          "id": "friedrich-schelling-20",
-          "number": 20,
-          "question": "Hvordan kan Schelling karakteriseres idéhistorisk?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som en romantiker"
-            },
-            {
-              "key": "B",
-              "text": "Som positivist"
-            },
-            {
-              "key": "C",
-              "text": "Som epistemologisk rasjonalist"
-            },
-            {
-              "key": "D",
-              "text": "Som en opplysningstenker"
-            }
-          ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p9-20"
+          "explanation": "Bare individuelle ting eksisterer utenfor sinnet; allmennbegreper fungerer som tegn for flere ting.",
+          "globalId": "9-3"
+        },
+        {
+          "number": 4,
+          "question": "Hva betegner via moderna i senmiddelalderens universitetsfilosofi?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Den eksperimentelle naturvitenskapens endelige løsrivelse fra religion"
+            },
+            {
+              "key": "B",
+              "text": "Renessansehumanistenes studium av antikkens språk"
+            },
+            {
+              "key": "C",
+              "text": "En retning forbundet med nominalistisk eller terministisk filosofi, blant annet inspirert av Ockham"
+            },
+            {
+              "key": "D",
+              "text": "En fellesbetegnelse for alle middelalderens ateistiske bevegelser"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "En retning forbundet med nominalistisk eller terministisk filosofi, blant annet inspirert av Ockham.",
+          "globalId": "9-4"
+        },
+        {
+          "number": 5,
+          "question": "Hvilken av disse var en sentral konflikt i den vitenskapelige revolusjonen på 1600-tallet?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Om naturen overhodet kunne beskrives matematisk i antikken"
+            },
+            {
+              "key": "B",
+              "text": "Hvilken rett har naturfilosofi til å bestemme over kirkens syn på verden"
+            },
+            {
+              "key": "C",
+              "text": "Om alle naturfilosofer måtte være ateister"
+            },
+            {
+              "key": "D",
+              "text": "Om kirken skulle slutte å drive skoler og universiteter"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Hvilken rett har naturfilosofi til å bestemme over kirkens syn på verden.",
+          "globalId": "9-5"
+        },
+        {
+          "number": 6,
+          "question": "I år 1600 ble naturforskeren Giordano Bruno brent på bålet av kirken. Hva lå bak?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han ble brent på bålet fordi han hadde oppfunnet teleskopet."
+            },
+            {
+              "key": "B",
+              "text": "Han ble brent på bålet for å ha forfalsket astronomiske observasjoner."
+            },
+            {
+              "key": "C",
+              "text": "Han ble brent på bålet fordi han nektet å akseptere pavens ufeilbarlighet."
+            },
+            {
+              "key": "D",
+              "text": "Han ble brent på bålet som kjetter pga. det han sa om universets uendelighet."
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Han ble brent på bålet som kjetter blant annet pga. det han sa om universets uendelighet",
+          "globalId": "9-6"
+        },
+        {
+          "number": 7,
+          "question": "Hvordan kunne Salme 104,5 inngå i motstanden mot påpekningen av jordens bevegelse?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Bildet av jorden som grunnfestet og urokkelig kunne leses som en fysisk beskrivelse."
+            },
+            {
+              "key": "B",
+              "text": "Salmen sier uttrykkelig at vi aldri må tvile på Guds ord."
+            },
+            {
+              "key": "C",
+              "text": "Salmen forbyr bruk av matematiske beregninger."
+            },
+            {
+              "key": "D",
+              "text": "Salmen sier at planetenes bevegelser bare er optisk bedrag."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Bildet av jorden som grunnfestet og urokkelig kunne leses som en fysisk beskrivelse.",
+          "globalId": "9-7"
+        },
+        {
+          "number": 8,
+          "question": "Hvilken hendelse i 1633 preget Galileo Galilei i særlig grad?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Galilei ble henrettet dette året."
+            },
+            {
+              "key": "B",
+              "text": "Galileis utga en bestselgende science fiction-roman på latin med tittelen Eppur si muove."
+            },
+            {
+              "key": "C",
+              "text": "Galilei ble tvunget til å si at jorda ikke beveger seg rundt sola."
+            },
+            {
+              "key": "D",
+              "text": "Galilei giftet seg med en niese av paven."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Galilei ble tvunget til å si at jorden ikke beveger seg rundt sola.",
+          "globalId": "9-8"
+        },
+        {
+          "number": 9,
+          "question": "Hva er den typiske opplysningstenkers forhold til etablerte sannheter?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At tradisjonens alder alene avgjør om en påstand er sann"
+            },
+            {
+              "key": "B",
+              "text": "At overleverte oppfatninger skal kunne kritiseres gjennom selvstendige undersøkelser"
+            },
+            {
+              "key": "C",
+              "text": "At alle religiøse mennesker skal utelukkes fra offentlig debatt"
+            },
+            {
+              "key": "D",
+              "text": "At staten skal bestemme hvilke naturforklaringer som er riktige"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "At overleverte oppfatninger skal kunne kritiseres gjennom selvstendige undersøkelser.",
+          "globalId": "9-9"
+        },
+        {
+          "number": 10,
+          "question": "Hva mener Kant med mottoet «Våg å bruke din egen forstand»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At enhver personlig mening er like godt begrunnet"
+            },
+            {
+              "key": "B",
+              "text": "At mennesker bør overlate vanskelige spørsmål til sine foresatte"
+            },
+            {
+              "key": "C",
+              "text": "At fornuften kan besvare alle spørsmål uten begrensninger"
+            },
+            {
+              "key": "D",
+              "text": "At mennesket bør frigjøre seg fra umyndighet og tenke selv"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "At mennesket bør frigjøre seg fra umyndighet og tenke selv.",
+          "globalId": "9-10"
+        },
+        {
+          "number": 11,
+          "question": "Hvordan utfordrer Humes drøftelse av mirakler religiøs autoritet?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han vurderer mirakelvitnesbyrd kritisk opp mot erfaringen av naturens regelmessighet."
+            },
+            {
+              "key": "B",
+              "text": "Han mener at en prests vitnesbyrd alltid veier tyngre enn annen erfaring."
+            },
+            {
+              "key": "C",
+              "text": "Han hevder at enhver uvanlig hendelse beviser et guddommelig inngrep."
+            },
+            {
+              "key": "D",
+              "text": "Han mener at historiske vitnesbyrd aldri kan gi kunnskap om noe som helst."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Han vurderer mirakelvitnesbyrd kritisk opp mot erfaringen av naturens regelmessighet.",
+          "globalId": "9-11"
+        },
+        {
+          "number": 12,
+          "question": "Hva viser utviklingen under den franske revolusjonen om opplysningstidens forhold til kirken?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At alle opplysningstenkere ønsket samme religionspolitikk"
+            },
+            {
+              "key": "B",
+              "text": "At kirken mistet all innflytelse i Europa allerede i 1789"
+            },
+            {
+              "key": "C",
+              "text": "At kritikk av kirkelige privilegier kunne utvikle seg til radikal avkristning, særlig fra 1793"
+            },
+            {
+              "key": "D",
+              "text": "At revolusjonen først og fremst forsvarte kirkens tradisjonelle makt"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "At kritikk av kirkelige privilegier kunne utvikle seg til radikal avkristning, særlig fra 1793.",
+          "globalId": "9-12"
+        },
+        {
+          "number": 13,
+          "question": "Når kom Charles Darwins Artenes opprinnelse, og hva stod sentralt i forklaringen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "1789; arters utvikling gjennom bevisst streben mot fullkommenhet"
+            },
+            {
+              "key": "B",
+              "text": "1859; arters forandring gjennom blant annet naturlig utvalg"
+            },
+            {
+              "key": "C",
+              "text": "1871; alle arters opphav gjennom uforanderlige skapelsesakter"
+            },
+            {
+              "key": "D",
+              "text": "1900; arters forandring gjennom planlagte genetiske inngrep"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "1859; arters forandring gjennom blant annet naturlig utvalg.",
+          "globalId": "9-13"
+        },
+        {
+          "number": 14,
+          "question": "Hvilken følge fikk Darwins evolusjonslære for forståelsen av menneskets plass i naturen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Den viste at mennesket mangler kultur og moralske vurderinger."
+            },
+            {
+              "key": "B",
+              "text": "Den viste at mennesket stammer fra de nålevende sjimpansene."
+            },
+            {
+              "key": "C",
+              "text": "Den fastslo at mennesket er evolusjonens nødvendige sluttmål."
+            },
+            {
+              "key": "D",
+              "text": "Den viste at mennesket er i slekt med andre dyr gjennom felles avstamning."
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Den plasserte mennesket i slektskap med andre dyr gjennom felles avstamning.",
+          "globalId": "9-14"
+        },
+        {
+          "number": 15,
+          "question": "Hva menes med vitenskapens tiltagende autonomi fra kirke og religion, en gradvis prosess som særlig befestes på 1800-tallet etter Darwin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At vitenskapelige forklaringer i økende grad vurderes på faglig grunnlag, uten å måtte godkjennes av religiøse autoriteter"
+            },
+            {
+              "key": "B",
+              "text": "At forskere i økende grad må avstå fra personlig religiøs tro for å kunne forske"
+            },
+            {
+              "key": "C",
+              "text": "At vitenskapen i økende grad overtar kirkens myndighet til å bestemme rett og galt"
+            },
+            {
+              "key": "D",
+              "text": "At kirken i økende grad får ansvaret for å fastsette grensene for vitenskapelig forskning"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "At vitenskapelige forklaringer i økende grad vurderes på faglig grunnlag, uten å måtte godkjennes av religiøse autoriteter.",
+          "globalId": "9-15"
+        },
+        {
+          "number": 16,
+          "question": "Hvorfor er det misvisende av Berg Eriksen å beskrive darwinistisk evolusjon som et «lotteri» (altså en serie tilfeldigheter)?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fordi alle evolusjonære endringer følger Guds plan for mennesket"
+            },
+            {
+              "key": "B",
+              "text": "Fordi tilfeldigheter ikke spiller noen rolle i evolusjonen"
+            },
+            {
+              "key": "C",
+              "text": "Fordi arvematerialet varierer tilfeldig, men evolusjonen drives av et naturlig utvalg (survival of the fittest) som er alt annet enn tilfeldig"
+            },
+            {
+              "key": "D",
+              "text": "Fordi naturlig seleksjon alltid gjør organismer mer avanserte"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Fordi arvematerialet varierer tilfeldig, men evolusjonen drives av et naturlig utvalg (survival of the fittest) som er alt annet enn tilfeldig.",
+          "globalId": "9-16"
+        },
+        {
+          "number": 17,
+          "question": "Hva mente Stephen Jay Goulds med nyordet NOMA?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At religionen skal avgjøre hvilke naturvitenskapelige teorier som kan godtas"
+            },
+            {
+              "key": "B",
+              "text": "At vitenskap og religion har forskjellige legitime myndighetsområder: empiriske spørsmål og spørsmål om mening og verdi"
+            },
+            {
+              "key": "C",
+              "text": "At vitenskapen alene kan fastsette alle menneskelige verdier"
+            },
+            {
+              "key": "D",
+              "text": "At religiøse og vitenskapelige forklaringer alltid skal blandes sammen"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "At vitenskap og religion har forskjellige legitime myndighetsområder: empiriske spørsmål og spørsmål om mening og verdi.",
+          "globalId": "9-17"
+        },
+        {
+          "number": 18,
+          "question": "Hvorfor er Goulds konflikt med kreasjonismen viktig for å forstå NOMA?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han ønsket å erstatte evolusjonsbiologien med en religiøs skapelseslære."
+            },
+            {
+              "key": "B",
+              "text": "Han mente at alle religiøse mennesker var bokstavtro kreasjonister."
+            },
+            {
+              "key": "C",
+              "text": "Han ønsket at religiøse myndigheter skulle godkjenne skolens biologibøker."
+            },
+            {
+              "key": "D",
+              "text": "Han ville avvise religiøs overstyring av empiriske spørsmål uten å gjøre evolusjon og religiøs tro generelt uforenlige."
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Han ville avvise religiøs overstyring av empiriske spørsmål uten å gjøre evolusjon og religiøs tro generelt uforenlige.",
+          "globalId": "9-18"
+        },
+        {
+          "number": 19,
+          "question": "Hvilket spørsmål står sentralt når NOMA diskuteres i forbindelse med Trond Berg Eriksens Kors på halsen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Om religion lar seg begrense til verdispørsmål når religioner også fremsetter en «alternativ sannhet»"
+            },
+            {
+              "key": "B",
+              "text": "Om Gould var den første som oppdaget naturlig seleksjon"
+            },
+            {
+              "key": "C",
+              "text": "Om naturvitenskapelige teorier kan avgjøres gjennom flertallsavstemninger"
+            },
+            {
+              "key": "D",
+              "text": "Om alle religiøse tradisjoner har identiske skapelsesfortellinger"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Om religion lar seg begrense verdispørsmål når religioner også fremsetter en «alternativ sannhet».",
+          "globalId": "9-19"
+        },
+        {
+          "number": 20,
+          "question": "Sett fra et idéhistorisk perspektiv: Hvilken betydelig svakhet preger Trond Berg Eriksens kritikk av S. J. Gould?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han skjønner ikke hva modernitet er"
+            },
+            {
+              "key": "B",
+              "text": "Han tror vitenskapen alltid er sikker, og at religionen aldri forandrer seg"
+            },
+            {
+              "key": "C",
+              "text": "Han glemmer å kontekstualisere Goulds bok (hans krangel med kreasjonister som kaller Bibelens skapelsesberetning vitenskap)"
+            },
+            {
+              "key": "D",
+              "text": "Han tror at gamle idéer alltid er riktige mens nye alltid er gale"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Han glemmer å kontekstualisere Goulds bok (krangelen med kreasjonister som kaller Bibelens skapelsesberetning vitenskap)",
+          "globalId": "9-20"
         }
       ]
     },
     {
       "id": "10",
-      "title": "Pensumspørsmål 10: Søren Kierkegaard",
-      "shortTitle": "Søren Kierkegaard",
+      "title": "Søren Kierkegaard",
+      "number": 10,
+      "sourceTitle": "Pensumspørsmål 10: Hvordan vil du plassere Søren Kierkegaard idéhistorisk? Gjør rede for begrepene valg, angst og sannhet hos Kierkegaard.",
       "questions": [
         {
-          "id": "søren-kierkegaard-1",
           "number": 1,
           "question": "Hvem var Søren Kierkegaard?",
           "options": [
@@ -5001,11 +5196,12 @@ window.QUIZ_DATA = {
               "text": "En norsk kraftpoet"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p10-1"
+          "explanation": "",
+          "globalId": "10-1"
         },
         {
-          "id": "søren-kierkegaard-2",
           "number": 2,
           "question": "Hvordan kan Kierkegaard plasseres idéhistorisk?",
           "options": [
@@ -5026,17 +5222,18 @@ window.QUIZ_DATA = {
               "text": "I middelalderen"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p10-2"
+          "explanation": "",
+          "globalId": "10-2"
         },
         {
-          "id": "søren-kierkegaard-3",
           "number": 3,
           "question": "Hvilket av følgende verk er skrevet av Kierkegaard?",
           "options": [
             {
               "key": "A",
-              "text": "Gymnadenia"
+              "text": "Døden i Venezia"
             },
             {
               "key": "B",
@@ -5051,11 +5248,12 @@ window.QUIZ_DATA = {
               "text": "Slik talte Zarathustra"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p10-3"
+          "explanation": "",
+          "globalId": "10-3"
         },
         {
-          "id": "søren-kierkegaard-4",
           "number": 4,
           "question": "Hvilket annet verk av Kierkegaard er sentralt?",
           "options": [
@@ -5076,13 +5274,14 @@ window.QUIZ_DATA = {
               "text": "Frihetsskriftet"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p10-4"
+          "explanation": "",
+          "globalId": "10-4"
         },
         {
-          "id": "søren-kierkegaard-5",
           "number": 5,
-          "question": "Hvilken bok av Kierkegaard kritiserer han Platons kjærlighetsbegrep?",
+          "question": "I hvilken bok av Kierkegaard kritiseres Platons kjærlighetsbegrep?",
           "options": [
             {
               "key": "A",
@@ -5101,11 +5300,12 @@ window.QUIZ_DATA = {
               "text": "Begrepet angst"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p10-5"
+          "explanation": "",
+          "globalId": "10-5"
         },
         {
-          "id": "søren-kierkegaard-6",
           "number": 6,
           "question": "Hvem var Regine Olsen?",
           "options": [
@@ -5126,36 +5326,38 @@ window.QUIZ_DATA = {
               "text": "Hans livs kjærlighet"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p10-6"
+          "explanation": "",
+          "globalId": "10-6"
         },
         {
-          "id": "søren-kierkegaard-7",
           "number": 7,
           "question": "Hva skjedde med forholdet mellom Kierkegaard og Regine Olsen?",
           "options": [
             {
               "key": "A",
-              "text": "De giftet seg"
+              "text": "De giftet seg og levde resten av livet som etikere"
             },
             {
               "key": "B",
-              "text": "De fikk barn"
+              "text": "De fikk barn utenfor ekteskap"
             },
             {
               "key": "C",
-              "text": "Han brøt forlovelsen"
+              "text": "Han brøt forlovelsen mellom dem"
             },
             {
               "key": "D",
-              "text": "Hun døde tidlig"
+              "text": "Hun døde ung"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p10-7"
+          "explanation": "",
+          "globalId": "10-7"
         },
         {
-          "id": "søren-kierkegaard-8",
           "number": 8,
           "question": "Hvordan påvirket forholdet til Regine Olsen Kierkegaards forfatterskap?",
           "options": [
@@ -5176,11 +5378,12 @@ window.QUIZ_DATA = {
               "text": "Dypt og vedvarende"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p10-8"
+          "explanation": "",
+          "globalId": "10-8"
         },
         {
-          "id": "søren-kierkegaard-9",
           "number": 9,
           "question": "Hva kjennetegner Kierkegaards menneskesyn?",
           "options": [
@@ -5190,7 +5393,7 @@ window.QUIZ_DATA = {
             },
             {
               "key": "B",
-              "text": "Mennesket er et velgende vesen"
+              "text": "Mennesket er et fritt og velgende vesen"
             },
             {
               "key": "C",
@@ -5201,11 +5404,12 @@ window.QUIZ_DATA = {
               "text": "Menneskets essens er viktigst"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p10-9"
+          "explanation": "",
+          "globalId": "10-9"
         },
         {
-          "id": "søren-kierkegaard-10",
           "number": 10,
           "question": "Hvilke av disse begrepene er mest sentralt hos Kierkegaard?",
           "options": [
@@ -5226,11 +5430,12 @@ window.QUIZ_DATA = {
               "text": "Angst"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p10-10"
+          "explanation": "",
+          "globalId": "10-10"
         },
         {
-          "id": "søren-kierkegaard-11",
           "number": 11,
           "question": "Hva er «angst» hos Kierkegaard?",
           "options": [
@@ -5251,11 +5456,12 @@ window.QUIZ_DATA = {
               "text": "En sosial engstelse"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p10-11"
+          "explanation": "",
+          "globalId": "10-11"
         },
         {
-          "id": "søren-kierkegaard-12",
           "number": 12,
           "question": "Hva betyr det at mennesket er fritt hos Kierkegaard?",
           "options": [
@@ -5276,17 +5482,18 @@ window.QUIZ_DATA = {
               "text": "At det må velge og bære ansvar"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p10-12"
+          "explanation": "",
+          "globalId": "10-12"
         },
         {
-          "id": "søren-kierkegaard-13",
           "number": 13,
-          "question": "Hva er sannhet, ifølge Kierkegaard?",
+          "question": "Hva er subjektiv sannhet, ifølge Kierkegaard?",
           "options": [
             {
               "key": "A",
-              "text": "Objektiv kunnskap"
+              "text": "Kunnskap om byer i Belgia"
             },
             {
               "key": "B",
@@ -5294,24 +5501,25 @@ window.QUIZ_DATA = {
             },
             {
               "key": "C",
-              "text": "Subjektivitet"
+              "text": "Noe å leve og dø før"
             },
             {
               "key": "D",
-              "text": "Tradisjon"
+              "text": "Tradisjonelle svar på livets små og store utfordringer"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p10-13"
+          "explanation": "",
+          "globalId": "10-13"
         },
         {
-          "id": "søren-kierkegaard-14",
           "number": 14,
-          "question": "Hva mener Kierkegaard med «subjektiv sannhet»?",
+          "question": "Hva mener Kierkegaard med «objektiv sannhet»?",
           "options": [
             {
               "key": "A",
-              "text": "At alt er relativt"
+              "text": "At sannheten avhenger av øyet som ser"
             },
             {
               "key": "B",
@@ -5319,18 +5527,19 @@ window.QUIZ_DATA = {
             },
             {
               "key": "C",
-              "text": "At sannhet er følelser"
+              "text": "At sannhet alltid bunner i fortolkninger"
             },
             {
               "key": "D",
-              "text": "At sannhet handler om hvordan man forholder seg til den"
+              "text": "Noe som er sant fordi det overenstemmer med virkeligheten, men som ofte ikke vedkommer individet"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p10-14"
+          "explanation": "",
+          "globalId": "10-14"
         },
         {
-          "id": "søren-kierkegaard-15",
           "number": 15,
           "question": "Hva kritiserer Kierkegaard i moderniteten?",
           "options": [
@@ -5351,36 +5560,38 @@ window.QUIZ_DATA = {
               "text": "Massementalitet og overfladiskhet"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p10-15"
+          "explanation": "",
+          "globalId": "10-15"
         },
         {
-          "id": "søren-kierkegaard-16",
           "number": 16,
-          "question": "Hvordan forholder Kierkegaard seg til «systemer» (som Hegel)?",
+          "question": "Hvordan forholder Kierkegaard seg til objektive «systemer»?",
           "options": [
             {
               "key": "A",
-              "text": "Han bygger videre på den"
+              "text": "Han bygger videre på dem"
             },
             {
               "key": "B",
-              "text": "Han ignorerer den"
+              "text": "Han ignorerer dem"
             },
             {
               "key": "C",
-              "text": "Han forsvarer den"
+              "text": "Han forsvarer dem"
             },
             {
               "key": "D",
-              "text": "Han kritiserer den"
+              "text": "Han kritiserer dem"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p10-16"
+          "explanation": "",
+          "globalId": "10-16"
         },
         {
-          "id": "søren-kierkegaard-17",
           "number": 17,
           "question": "Hva er «eksistens» hos Kierkegaard?",
           "options": [
@@ -5401,11 +5612,12 @@ window.QUIZ_DATA = {
               "text": "En sosial struktur"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p10-17"
+          "explanation": "",
+          "globalId": "10-17"
         },
         {
-          "id": "søren-kierkegaard-18",
           "number": 18,
           "question": "Hva betyr «Enten–Eller»?",
           "options": [
@@ -5415,7 +5627,7 @@ window.QUIZ_DATA = {
             },
             {
               "key": "B",
-              "text": "At livet krever valg mellom alternativer"
+              "text": "At livet krever aktive valg mellom alternativer"
             },
             {
               "key": "C",
@@ -5426,11 +5638,12 @@ window.QUIZ_DATA = {
               "text": "At sannhet er objektiv"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p10-18"
+          "explanation": "",
+          "globalId": "10-18"
         },
         {
-          "id": "søren-kierkegaard-19",
           "number": 19,
           "question": "Hva er et hovedpoeng i Kierkegaards Avsluttende uvitenskapelig etterskrift?",
           "options": [
@@ -5451,11 +5664,12 @@ window.QUIZ_DATA = {
               "text": "At subjektivitet er sannhet"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p10-19"
+          "explanation": "",
+          "globalId": "10-19"
         },
         {
-          "id": "søren-kierkegaard-20",
           "number": 20,
           "question": "Hvordan kan Kierkegaard beskrives idéhistorisk?",
           "options": [
@@ -5476,606 +5690,554 @@ window.QUIZ_DATA = {
               "text": "Som positivist"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p10-20"
+          "explanation": "",
+          "globalId": "10-20"
         }
       ]
     },
     {
       "id": "11",
-      "title": "Pensumspørsmål 11: Mary Shelley",
-      "shortTitle": "Mary Shelley",
+      "title": "Mary Shelley og Frankenstein",
+      "number": 11,
+      "sourceTitle": "Pensumspørsmål 11. Presenter idéhistoriske hovedtanker i Mary Shelleys Frankenstein.",
       "questions": [
         {
-          "id": "mary-shelley-1",
           "number": 1,
-          "question": "Hvem var Mary Shelley?",
+          "question": "Når ble Mary Shelleys Frankenstein utgitt første gang?",
           "options": [
             {
               "key": "A",
-              "text": "En engelsk forfatter, datter av Mary Wollstonecraft"
+              "text": "1792"
             },
             {
               "key": "B",
-              "text": "En skotsk filosof, datter av David Hume"
+              "text": "1818"
             },
             {
               "key": "C",
-              "text": "En walisisk vitenskapskvinne, datter av Hannah Arendt"
+              "text": "1831"
             },
             {
               "key": "D",
-              "text": "En britisk kvinnesaksforkjemper, datter av Stephen Toulmin"
+              "text": "1848"
             }
           ],
-          "answer": "A",
-          "globalId": "p11-1"
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "1818.",
+          "globalId": "11-1"
         },
         {
-          "id": "mary-shelley-2",
           "number": 2,
-          "question": "I hvilken idéhistorisk epoke hører hun hjemme?",
+          "question": "Hvilken beskrivelse plasserer romanen best idéhistorisk?",
           "options": [
             {
               "key": "A",
-              "text": "Opplysningstiden"
+              "text": "Den viderefører opplysningstidens fremskrittsoptimisme."
             },
             {
               "key": "B",
-              "text": "Romantikken"
+              "text": "Den forsvarer middelalderens verdensbilde."
             },
             {
               "key": "C",
-              "text": "Senntikken"
+              "text": "Den avviser vitenskap til fordel for åpenbart religion."
             },
             {
               "key": "D",
-              "text": "Høymiddelalderen"
+              "text": "Den tilhører romantikken og problematiserer ambisjonen om å beherske naturen."
             }
           ],
-          "answer": "B",
-          "globalId": "p11-2"
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Den tilhører romantikken og problematiserer ambisjonen om å beherske naturen.",
+          "globalId": "11-2"
         },
         {
-          "id": "mary-shelley-3",
           "number": 3,
-          "question": "Hva er Mary Shelleys mest kjente verk?",
+          "question": "Hvilket trekk ved romanen er særlig typisk for romantikken?",
           "options": [
             {
               "key": "A",
-              "text": "Dracula"
+              "text": "Mektige naturopplevelser som vekker både ærefrykt og skrekk"
             },
             {
               "key": "B",
-              "text": "Gymnadenia"
+              "text": "En konsekvent avvisning av følelser som kilde til erfaring"
             },
             {
               "key": "C",
-              "text": "Frankenstein"
+              "text": "En fremstilling av naturen som uten betydning for mennesket"
             },
             {
               "key": "D",
-              "text": "Det annet kjønn"
+              "text": "Et ideal om at litteraturen bare skal gjengi målbare fakta"
             }
           ],
-          "answer": "C",
-          "globalId": "p11-3"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Mektige naturopplevelser som vekker både ærefrykt og skrekk.",
+          "globalId": "11-3"
         },
         {
-          "id": "mary-shelley-4",
           "number": 4,
-          "question": "Hvem er Victor Frankenstein?",
+          "question": "Hvilken ambisjon hos Victor Frankenstein kan knyttes til opplysningstidens fremskrittstro?",
           "options": [
             {
               "key": "A",
-              "text": "Et fælt monster"
+              "text": "Å la gamle autoriteter kontrollere forskningen"
             },
             {
               "key": "B",
-              "text": "En filosof som ikke tror på fornuften"
+              "text": "Å bevise at menneskets livsvilkår aldri kan forbedres"
             },
             {
               "key": "C",
-              "text": "En opplysningsmann"
+              "text": "Å bruke kunnskap til å overvinne sykdom og død"
             },
             {
               "key": "D",
-              "text": "En hyklersk prest"
+              "text": "Å erstatte undersøkelser med overleverte forklaringer"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p11-4"
+          "explanation": "Å bruke kunnskap til å overvinne sykdom og død.",
+          "globalId": "11-4"
         },
         {
-          "id": "mary-shelley-5",
           "number": 5,
-          "question": "Hva ville Victor Frankenstein oppnå?",
+          "question": "Hvem var Mary Shelleys foreldre?",
           "options": [
             {
               "key": "A",
-              "text": "Politisk makt og popularitet"
+              "text": "Mary Wollstonecraft og William Blake"
             },
             {
               "key": "B",
-              "text": "Å forstå Guds irrganger"
+              "text": "Mary Wollstonecraft og William Godwin"
             },
             {
               "key": "C",
-              "text": "Mange følgere på Tiktok"
+              "text": "Simone de Beauvoir og William Godwin"
             },
             {
               "key": "D",
-              "text": "Bekjempelse av sykdom og død"
+              "text": "Mary Wollstonecraft og Jean-Jacques Rousseau"
             }
           ],
-          "answer": "D",
-          "globalId": "p11-5"
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Mary Wollstonecraft og William Godwin.",
+          "globalId": "11-5"
         },
         {
-          "id": "mary-shelley-6",
           "number": 6,
-          "question": "Hva lyktes Frankenstein med?",
+          "question": "Hva er Mary Wollstonecraft særlig kjent for?",
           "options": [
             {
               "key": "A",
-              "text": "Å skape et levende vesen"
+              "text": "Et forsvar for kvinners rettigheter"
             },
             {
               "key": "B",
-              "text": "Å kurere sykdom"
+              "text": "Et forsvar for kongens uinnskrenkede myndighet"
             },
             {
               "key": "C",
-              "text": "Å skape et perfekt menneske"
+              "text": "En teori om at kvinner mangler evne til fornuft"
             },
             {
               "key": "D",
-              "text": "Å kontrollere naturen"
+              "text": "En lære om at oppdragelse ikke påvirker mennesket"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p11-6"
+          "explanation": "Et forsvar for kvinners rettigheter.",
+          "globalId": "11-6"
         },
         {
-          "id": "mary-shelley-7",
           "number": 7,
-          "question": "Hvordan reagerte Frankenstein på sitt eget verk?",
+          "question": "Hvilken hendelse preget Mary Shelleys liv helt fra fødselen?",
           "options": [
             {
               "key": "A",
-              "text": "Med stolthet"
+              "text": "Faren døde før hun ble født."
             },
             {
               "key": "B",
-              "text": "Med skrekk og avsky"
+              "text": "Begge foreldrene flyttet fra England."
             },
             {
               "key": "C",
-              "text": "Med likegyldighet"
+              "text": "Moren ble fengslet for sine politiske skrifter."
             },
             {
               "key": "D",
-              "text": "Med glede"
+              "text": "Moren døde kort tid etter fødselen."
             }
           ],
-          "answer": "B",
-          "globalId": "p11-7"
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Moren døde kort tid etter fødselen.",
+          "globalId": "11-7"
         },
         {
-          "id": "mary-shelley-8",
           "number": 8,
-          "question": "Hva kjennetegnet Frankensteins «monster» i begynnelsen?",
+          "question": "Hva står sentralt i William Godwins An Enquiry Concerning Political Justice fra 1793?",
           "options": [
             {
               "key": "A",
-              "text": "Ondskap"
+              "text": "At moralske normer utelukkende må bygge på kirkelig autoritet"
             },
             {
               "key": "B",
-              "text": "Dumhet"
+              "text": "At arvelige rangforskjeller er nødvendige for menneskelig lykke"
             },
             {
               "key": "C",
-              "text": "Uskyld og lærevillighet"
+              "text": "At fornuft og bedre samfunnsforhold kan fremme menneskelig forbedring"
             },
             {
               "key": "D",
-              "text": "Likegyldighet"
+              "text": "At mennesket er uforanderlig og ikke kan utvikles gjennom opplysning"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p11-8"
+          "explanation": "At fornuft og bedre samfunnsforhold kan fremme menneskelig forbedring.",
+          "globalId": "11-8"
         },
         {
-          "id": "mary-shelley-9",
           "number": 9,
-          "question": "Hvordan utviklet Frankensteins monster seg?",
+          "question": "Hvilken dristig fremtidsmulighet drøfter Godwin i førsteutgaven av Political Justice?",
           "options": [
             {
               "key": "A",
-              "text": "Det forblir uskyldig"
+              "text": "At fremskrittet kan føre til at sykdom og kanskje også døden overvinnes"
             },
             {
               "key": "B",
-              "text": "Det blir gradvis mer menneskelig"
+              "text": "At sykdom bare kan bekjempes ved å vende tilbake til middelalderens samfunn"
             },
             {
               "key": "C",
-              "text": "Det blir mer og mer ondt"
+              "text": "At udødelighet kan oppnås ved å adlyde en eneveldig hersker"
             },
             {
               "key": "D",
-              "text": "Det forsvinner"
+              "text": "At menneskets levealder nødvendigvis vil avta etter hvert som kunnskapen øker"
             }
           ],
-          "answer": "C",
-          "globalId": "p11-9"
-        },
-        {
-          "id": "mary-shelley-10",
-          "number": 10,
-          "question": "Hva var en viktig årsak til Frankensteins monsters utvikling?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Medfødt ondskap og mangel på kjærlighet"
-            },
-            {
-              "key": "B",
-              "text": "Samfunnets avvisning og mangel på kjærlighet"
-            },
-            {
-              "key": "C",
-              "text": "Naturens påvirkning"
-            },
-            {
-              "key": "D",
-              "text": "Tilfeldigheter"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p11-10"
-        },
-        {
-          "id": "mary-shelley-11",
-          "number": 11,
-          "question": "Hva ønsket Frankensteins monster seg mest av alt?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Rikdom og mange fine ting"
-            },
-            {
-              "key": "B",
-              "text": "Makt og evnen til å øve innflytelse"
-            },
-            {
-              "key": "C",
-              "text": "Kunnskap om godt og ondt"
-            },
-            {
-              "key": "D",
-              "text": "Kjærlighet og fellesskap"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p11-11"
-        },
-        {
-          "id": "mary-shelley-12",
-          "number": 12,
-          "question": "Hva skjedde da Frankensteins monster ble avvist?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Det trakk seg tilbake"
-            },
-            {
-              "key": "B",
-              "text": "Det ble passivt"
-            },
-            {
-              "key": "C",
-              "text": "Det ble hevngjerrig"
-            },
-            {
-              "key": "D",
-              "text": "Det mistet evnen til å tenke"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p11-12"
-        },
-        {
-          "id": "mary-shelley-13",
-          "number": 13,
-          "question": "Hva kan sies å være romanen Frankensteins sentrale tema?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Betydningen av økonomisk ansvarlighet"
-            },
-            {
-              "key": "B",
-              "text": "At religiøs tro er bedre enn ateisme"
-            },
-            {
-              "key": "C",
-              "text": "Betydningen av å vise kjærlighet og omsorg"
-            },
-            {
-              "key": "D",
-              "text": "At fred er ei det beste, men at man noe vil"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p11-13"
-        },
-        {
-          "id": "mary-shelley-14",
-          "number": 14,
-          "question": "Hva blir det hevdet at romanen Frankenstein kritiserer indirekte?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Kunst uten etisk ansvar"
-            },
-            {
-              "key": "B",
-              "text": "Vitenskap uten etisk ansvar"
-            },
-            {
-              "key": "C",
-              "text": "Politikk uten etisk ansvar"
-            },
-            {
-              "key": "D",
-              "text": "Trening uten etisk ansvar"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p11-14"
-        },
-        {
-          "id": "mary-shelley-15",
-          "number": 15,
-          "question": "Hvordan kan skikkelsen Victor Frankenstein tolkes?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som en helt og et forbilde for oss alle"
-            },
-            {
-              "key": "B",
-              "text": "Som et offer for andre mennesker dumhet"
-            },
-            {
-              "key": "C",
-              "text": "Som en slange i paradiset"
-            },
-            {
-              "key": "D",
-              "text": "Som en tragisk figur"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p11-15"
-        },
-        {
-          "id": "mary-shelley-16",
-          "number": 16,
-          "question": "Hvordan gikk det til slutt med Victor Frankenstein?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Han overlevde og angret"
-            },
-            {
-              "key": "B",
-              "text": "Han flyktet til Bali"
-            },
-            {
-              "key": "C",
-              "text": "Han døde fortvilet og ensom"
-            },
-            {
-              "key": "D",
-              "text": "Han ble berømt og rik på sin oppfinnelse"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p11-16"
-        },
-        {
-          "id": "mary-shelley-17",
-          "number": 17,
-          "question": "Hva skjedde med Frankensteins monster til slutt?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Det ble drept"
-            },
-            {
-              "key": "B",
-              "text": "Det forsvant inn i tåka etter å ha uttrykt anger"
-            },
-            {
-              "key": "C",
-              "text": "Det ble lykkelig og gift med et vakkert hunmonser"
-            },
-            {
-              "key": "D",
-              "text": "Det vendte tilbake til samfunnet"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p11-17"
-        },
-        {
-          "id": "mary-shelley-18",
-          "number": 18,
-          "question": "Hvordan kan Victor Frankensteins forhold til monsteret tolkes?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som fjernt og uengasjert"
-            },
-            {
-              "key": "B",
-              "text": "Som ømt og kjærlig"
-            },
-            {
-              "key": "C",
-              "text": "Som kjærlighetsløst"
-            },
-            {
-              "key": "D",
-              "text": "Som vennskapelig"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p11-18"
-        },
-        {
-          "id": "mary-shelley-19",
-          "number": 19,
-          "question": "Hvilken av de følgende er en populær tolkning av Frankenstein?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Boken er en hyllest til vitenskapen"
-            },
-            {
-              "key": "B",
-              "text": "Boken er en ren skrekkhistorie"
-            },
-            {
-              "key": "C",
-              "text": "Boken er en kritikk av religion"
-            },
-            {
-              "key": "D",
-              "text": "Boken er en advarsel mot menneskelig overmot"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p11-19"
-        },
-        {
-          "id": "mary-shelley-20",
-          "number": 20,
-          "question": "Hvordan passer romanen Frankenstein inn i romantikken?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Den vektlegger følelser, naturen og individet"
-            },
-            {
-              "key": "B",
-              "text": "Den vektlegger logikk og klar tenkning"
-            },
-            {
-              "key": "C",
-              "text": "Den vektlegger tillit til tradisjonen"
-            },
-            {
-              "key": "D",
-              "text": "Den vektlegger de store systemenes verdi"
-            }
-          ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p11-20"
+          "explanation": "At fremskrittet kan føre til at sykdom og kanskje også døden overvinnes",
+          "globalId": "11-9"
+        },
+        {
+          "number": 10,
+          "question": "Hvilken forbindelse kan trekkes mellom Godwins spekulasjoner og Victors prosjekt?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Begge vil bevise at vitenskapelig forskning er verdiløs."
+            },
+            {
+              "key": "B",
+              "text": "Begge retter oppmerksomheten mot muligheten for å overvinne sykdom og død."
+            },
+            {
+              "key": "C",
+              "text": "Begge mener at menneskelig forbedring bare kan skje etter døden."
+            },
+            {
+              "key": "D",
+              "text": "Begge ønsker å gjøre tradisjonelle samfunnshierarkier permanente."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Begge retter oppmerksomheten mot muligheten for å overvinne sykdom og død.",
+          "globalId": "11-10"
+        },
+        {
+          "number": 11,
+          "question": "Hvem er førsteutgaven av Frankenstein dedisert til?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Lord Byron"
+            },
+            {
+              "key": "B",
+              "text": "Percy Bysshe Shelley"
+            },
+            {
+              "key": "C",
+              "text": "Mary Wollstonecraft"
+            },
+            {
+              "key": "D",
+              "text": "William Godwin"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "William Godwin.",
+          "globalId": "11-11"
+        },
+        {
+          "number": 12,
+          "question": "Hva viser undertittelen Den moderne Promethevs til?",
+          "options": [
+            {
+              "key": "A",
+              "text": "En kristen helgen som vekket døde til live"
+            },
+            {
+              "key": "B",
+              "text": "En historisk lege som oppdaget elektrisiteten"
+            },
+            {
+              "key": "C",
+              "text": "En mytisk skikkelse som utfordret Zevs og brakte menneskene ild"
+            },
+            {
+              "key": "D",
+              "text": "En gresk filosof som avviste all teknisk kunnskap"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "En mytisk skikkelse som utfordret Zevs og brakte menneskene ild.",
+          "globalId": "11-12"
+        },
+        {
+          "number": 13,
+          "question": "Hva skjedde med Mary Shelleys første barn i 1815?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Den for tidlig fødte jenta døde før hun fikk noe navn."
+            },
+            {
+              "key": "B",
+              "text": "Jenta døde under fødselen, samtidig med Marys mor."
+            },
+            {
+              "key": "C",
+              "text": "Gutten døde under reisen til Genève sommeren etter."
+            },
+            {
+              "key": "D",
+              "text": "Gutten vokste opp og utgav senere morens manuskripter."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Den for tidlig fødte jenta døde før hun fikk noe navn.",
+          "globalId": "11-13"
+        },
+        {
+          "number": 14,
+          "question": "Hva skrev Mary i dagboken 19. mars 1815?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At hun hadde bestemt seg for aldri å få flere barn"
+            },
+            {
+              "key": "B",
+              "text": "At hun hadde drømt om at datteren var blitt voksen"
+            },
+            {
+              "key": "C",
+              "text": "At hun hadde glemt sorgen gjennom arbeidet med romanen"
+            },
+            {
+              "key": "D",
+              "text": "At hun hadde drømt at datteren hennes ble levende igjen etter å ha blitt varmet ved ilden"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "At hun hadde drømt at datteren hennes ble levende igjen etter å ha blitt varmet ved ilden.",
+          "globalId": "11-14"
+        },
+        {
+          "number": 15,
+          "question": "Hvilken kronologi er riktig når vi knytter romanen til Marys tap av barn?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Alle hennes barn døde før hun begynte på romanen."
+            },
+            {
+              "key": "B",
+              "text": "Barnet fra 1815 døde før skrivearbeidet; Clara og William døde etter førsteutgaven."
+            },
+            {
+              "key": "C",
+              "text": "Clara og William døde før skrivearbeidet; barnet fra 1815 døde etter førsteutgaven."
+            },
+            {
+              "key": "D",
+              "text": "Ingen av barna hennes døde før den omarbeidede utgaven fra 1831."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Barnet fra 1815 døde før skrivearbeidet; Clara og William døde etter førsteutgaven.",
+          "globalId": "11-15"
+        },
+        {
+          "number": 16,
+          "question": "Hva fremhever tolkningen av romanen som en advarsel mot «å leke Gud»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At mennesker bør adlyde enhver religiøs autoritet"
+            },
+            {
+              "key": "B",
+              "text": "At skapningen straffes fordi den nekter å be"
+            },
+            {
+              "key": "C",
+              "text": "At mennesket tiltar seg skapermakt uten å overskue følgene"
+            },
+            {
+              "key": "D",
+              "text": "At Victor mislykkes fordi han bruker for lite avansert teknologi"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "At mennesket tiltar seg skapermakt uten å overskue følgene.",
+          "globalId": "11-16"
+        },
+        {
+          "number": 17,
+          "question": "Hva fremhever en personlig og biografisk tolkning av romanen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At romanen gjengir Marys liv hendelse for hendelse"
+            },
+            {
+              "key": "B",
+              "text": "At skapningen er et portrett av én bestemt person"
+            },
+            {
+              "key": "C",
+              "text": "At Marys egne erfaringer er irrelevante for romanen"
+            },
+            {
+              "key": "D",
+              "text": "At fødsel, tap og ønsket om å gjenopplive døde får litterært uttrykk"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "At fødsel, tap og ønsket om å gjenopplive døde får litterært uttrykk.",
+          "globalId": "11-17"
+        },
+        {
+          "number": 18,
+          "question": "Hvilken handling fra Victor gjør spørsmålet om foreldreansvar særlig relevant?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han forlater skapningen straks den har fått liv."
+            },
+            {
+              "key": "B",
+              "text": "Han gir skapningen en streng, men omsorgsfull oppdragelse."
+            },
+            {
+              "key": "C",
+              "text": "Han overlater skapningen til sin egen far for å beskytte den."
+            },
+            {
+              "key": "D",
+              "text": "Han lærer skapningen å lese før han sender den ut i verden."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Han forlater skapningen straks den har fått liv.",
+          "globalId": "11-18"
+        },
+        {
+          "number": 19,
+          "question": "Hvordan gir skapningens utvikling grunnlag for en samfunnskritisk lesning?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Den viser at utdanning alltid gjør mennesker mer voldelige."
+            },
+            {
+              "key": "B",
+              "text": "Den viser at utseende er et sikkert tegn på moralsk karakter."
+            },
+            {
+              "key": "C",
+              "text": "Den viser hvordan avvisning og mangel på omsorg kan bidra til hat og vold."
+            },
+            {
+              "key": "D",
+              "text": "Den viser at sosial tilhørighet ikke har betydning for menneskets utvikling."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Den viser hvordan avvisning og mangel på omsorg kan bidra til hat og vold.",
+          "globalId": "11-19"
+        },
+        {
+          "number": 20,
+          "question": "Hvordan kan tolkningen om «å leke Gud» og den personlige tolkningen forholde seg til hverandre?",
+          "options": [
+            {
+              "key": "A",
+              "text": "De utelukker hverandre fordi en roman bare kan ha ett hovedtema."
+            },
+            {
+              "key": "B",
+              "text": "De kan utfylle hverandre ved å belyse både skapermakt og ansvar, fødsel og tap."
+            },
+            {
+              "key": "C",
+              "text": "De viser at romanens historiske sammenheng er uten betydning."
+            },
+            {
+              "key": "D",
+              "text": "De beviser at Mary Shelley ønsket et forbud mot naturvitenskap."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "De kan utfylle hverandre ved å belyse både skapermakt og ansvar, fødsel og tap.",
+          "globalId": "11-20"
         }
       ]
     },
     {
       "id": "12",
-      "title": "Pensumspørsmål 12: Fjodor Dostojevskij",
-      "shortTitle": "Fjodor Dostojevskij",
+      "title": "Dostojevskij og Brødrene Karamasov",
+      "number": 12,
+      "sourceTitle": "Pensumspørsmål 12. Presenter boken Brødrene Karamasov …",
       "questions": [
         {
-          "id": "fjodor-dostojevskij-1",
           "number": 1,
-          "question": "Hvem var Dostojevskij?",
+          "question": "I hvilken roman står «Legenden om storinkvisitoren»?",
           "options": [
             {
               "key": "A",
-              "text": "En russisk romanforfatter"
-            },
-            {
-              "key": "B",
-              "text": "En russisk filosof"
-            },
-            {
-              "key": "C",
-              "text": "En ukrainsk dikter"
-            },
-            {
-              "key": "D",
-              "text": "En russisk forsker"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p12-1"
-        },
-        {
-          "id": "fjodor-dostojevskij-2",
-          "number": 2,
-          "question": "Hvordan vil du plassere Dostojevskij idéhistorisk?",
-          "options": [
-            {
-              "key": "A",
-              "text": "I opplysningstiden"
-            },
-            {
-              "key": "B",
-              "text": "I romantikken"
-            },
-            {
-              "key": "C",
-              "text": "I annen halvdel av 1800-tallet"
-            },
-            {
-              "key": "D",
-              "text": "I1900-tallet"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p12-2"
-        },
-        {
-          "id": "fjodor-dostojevskij-3",
-          "number": 3,
-          "question": "Hvilken av disse bøkene er skrevet av Dostojevskij?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Brødrene Karamasov"
-            },
-            {
-              "key": "B",
-              "text": "En folkefiende"
-            },
-            {
-              "key": "C",
-              "text": "Det annet kjønn"
-            },
-            {
-              "key": "D",
-              "text": "Døden i Venezia"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p12-3"
-        },
-        {
-          "id": "fjodor-dostojevskij-4",
-          "number": 4,
-          "question": "Hvilket av de følgende bøkene er skrevet av Dostojevskij?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Tale om menneskets verdighet"
+              "text": "Forbrytelse og straff"
             },
             {
               "key": "B",
@@ -6083,425 +6245,521 @@ window.QUIZ_DATA = {
             },
             {
               "key": "C",
-              "text": "Gymnadenia"
+              "text": "Brødrene Karamasov"
             },
             {
               "key": "D",
-              "text": "Frankenstein"
+              "text": "De besatte"
             }
           ],
-          "answer": "B",
-          "globalId": "p12-4"
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Brødrene Karamasov.",
+          "globalId": "12-1"
         },
         {
-          "id": "fjodor-dostojevskij-5",
+          "number": 2,
+          "question": "Hvem forteller legenden til hvem?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ivan forteller den til Aljosja."
+            },
+            {
+              "key": "B",
+              "text": "Aljosja forteller den til Ivan."
+            },
+            {
+              "key": "C",
+              "text": "Dmitrij forteller den til faren."
+            },
+            {
+              "key": "D",
+              "text": "Smerdjakov forteller den til Dmitrij."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Ivan forteller den til Aljosja.",
+          "globalId": "12-2"
+        },
+        {
+          "number": 3,
+          "question": "Hvor foregår handlingen i selve legenden?",
+          "options": [
+            {
+              "key": "A",
+              "text": "I Roma"
+            },
+            {
+              "key": "B",
+              "text": "I Sevilla"
+            },
+            {
+              "key": "C",
+              "text": "I Jerusalem"
+            },
+            {
+              "key": "D",
+              "text": "I Moskva"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "I Sevilla.",
+          "globalId": "12-3"
+        },
+        {
+          "number": 4,
+          "question": "Når foregår handlingen i legenden?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Under kristendomsforfølgelsene i Romerriket"
+            },
+            {
+              "key": "B",
+              "text": "Under korstogene på 1100-tallet"
+            },
+            {
+              "key": "C",
+              "text": "Under den franske revolusjonen"
+            },
+            {
+              "key": "D",
+              "text": "Under den spanske inkvisisjonen på 1500-tallet"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Under den spanske inkvisisjonen på 1500-tallet.",
+          "globalId": "12-4"
+        },
+        {
           "number": 5,
-          "question": "Hvilken av disse påstandene kjennetegner Dostojevskijs romaner?",
+          "question": "Hvordan reagerer folket når Kristus viser seg?",
           "options": [
             {
               "key": "A",
-              "text": "Enkel handling"
+              "text": "De kjenner ham igjen og strømmer til ham."
             },
             {
               "key": "B",
-              "text": "Fokus på naturens skjønnhet"
+              "text": "De oppfatter ham som en fremmed og unngår ham."
             },
             {
               "key": "C",
-              "text": "Psykologisk dybde"
+              "text": "De krever at han straks skal arresteres."
             },
             {
               "key": "D",
-              "text": "Heftig erotikk"
+              "text": "De ber inkvisitoren avgjøre hvem han er."
             }
           ],
-          "answer": "C",
-          "globalId": "p12-5"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "De kjenner ham igjen og strømmer til ham.",
+          "globalId": "12-5"
         },
         {
-          "id": "fjodor-dostojevskij-6",
           "number": 6,
-          "question": "Hva er nihilisme?",
+          "question": "Hvilket under utfører Kristus like før inkvisitoren får ham arrestert?",
           "options": [
             {
               "key": "A",
-              "text": "Klokkertro på at Gud finnes"
+              "text": "Han gjør vann til vin."
             },
             {
               "key": "B",
-              "text": "Tapper tro på faste verdier"
+              "text": "Han stiller en storm."
             },
             {
               "key": "C",
-              "text": "Tillit at tradisjonelel løsninger er de beste"
+              "text": "Han vekker en død jente til live."
             },
             {
               "key": "D",
-              "text": "Avvisning av mening og verdier"
+              "text": "Han metter folkemengden med noen få brød."
             }
           ],
-          "answer": "D",
-          "globalId": "p12-6"
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Han vekker en død jente til live.",
+          "globalId": "12-6"
         },
         {
-          "id": "fjodor-dostojevskij-7",
           "number": 7,
-          "question": "Hva kritiserer Dostojevskij blant annet moderniteten for?",
+          "question": "Hva gjør folkemengden når inkvisitoren beordrer arrestasjonen?",
           "options": [
             {
               "key": "A",
-              "text": "At religion spiller en for stor rolle i den"
+              "text": "Den angriper vaktene og befrir Kristus."
             },
             {
               "key": "B",
-              "text": "At kunsten vurderes for høyt"
+              "text": "Den underkaster seg og lar arrestasjonen skje."
             },
             {
               "key": "C",
-              "text": "At tro på Gud og den udødelige sjel undergraves"
+              "text": "Den forlater byen i protest."
             },
             {
               "key": "D",
-              "text": "At den ødelegger fornuften"
+              "text": "Den krever at Kristus og inkvisitoren skal diskutere offentlig."
             }
           ],
-          "answer": "C",
-          "globalId": "p12-7"
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Den underkaster seg og lar arrestasjonen skje.",
+          "globalId": "12-7"
         },
         {
-          "id": "fjodor-dostojevskij-8",
           "number": 8,
-          "question": "Hvem er fyrst Mysjkin?",
+          "question": "Hva anklager inkvisitoren først og fremst Kristus for?",
           "options": [
             {
               "key": "A",
-              "text": "Hovedpersonen i En folkefiende, en dyktig, men kynisk lege"
+              "text": "Å ha gjort for få undere til å bevise hvem han er"
             },
             {
               "key": "B",
-              "text": "Hovedpersonen i Idioten, et absolutt godt menneske"
+              "text": "Å ha overlatt for stor politisk makt til romerne"
             },
             {
               "key": "C",
-              "text": "Hovedpersonen i Frankenstein, en vitenskapsmann som leker Gud"
+              "text": "Å ha krevd at menneskene skulle slutte å arbeide"
             },
             {
               "key": "D",
-              "text": "Hovedpersonen i Brødrene Karamasov, en soldat ofret sitt liv for den russiske tsaren"
+              "text": "Å ha gitt menneskene en frihet de ikke makter å bære"
             }
           ],
-          "answer": "B",
-          "globalId": "p12-8"
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Å ha gitt menneskene en frihet de ikke makter å bære.",
+          "globalId": "12-8"
         },
         {
-          "id": "fjodor-dostojevskij-9",
           "number": 9,
-          "question": "Hvordan oppfattes fyrst Mysjkin av andre?",
+          "question": "Hvilken bibelsk fortelling står sentralt i inkvisitorens argumentasjon?",
           "options": [
             {
               "key": "A",
-              "text": "Som en helt"
+              "text": "Fortellingen om den barmhjertige samaritan"
             },
             {
               "key": "B",
-              "text": "Som en leder"
+              "text": "Fortellingen om Jesu fristelser i ørkenen"
             },
             {
               "key": "C",
-              "text": "Som en «idiot»"
+              "text": "Fortellingen om den fortapte sønn"
             },
             {
               "key": "D",
-              "text": "Som en skurk"
+              "text": "Fortellingen om bryllupet i Kana"
             }
           ],
-          "answer": "C",
-          "globalId": "p12-9"
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Fortellingen om Jesu fristelser i ørkenen.",
+          "globalId": "12-9"
         },
         {
-          "id": "fjodor-dostojevskij-10",
           "number": 10,
-          "question": "Hva representerer Mysjkin idéhistorisk?",
+          "question": "Hva gikk fristelsen knyttet til brød ut på?",
           "options": [
             {
               "key": "A",
-              "text": "Den rene ondskap"
+              "text": "At Jesus skulle gjøre steiner til brød"
             },
             {
               "key": "B",
-              "text": "Kristuslignende godhet"
+              "text": "At Jesus skulle fordele tempelprestenes brød"
             },
             {
               "key": "C",
-              "text": "Den rene idioti"
+              "text": "At Jesus skulle nekte disiplene å spise"
             },
             {
               "key": "D",
-              "text": "Hat mot alle tyranner"
+              "text": "At Jesus skulle gjøre brød til gull"
             }
           ],
-          "answer": "B",
-          "globalId": "p12-10"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "At Jesus skulle gjøre steiner til brød.",
+          "globalId": "12-10"
         },
         {
-          "id": "fjodor-dostojevskij-11",
           "number": 11,
-          "question": "Hvem er Ivan i Brødrene Karamazov?",
+          "question": "Hva mener inkvisitoren at den som sikrer menneskene brød, kan oppnå?",
           "options": [
             {
               "key": "A",
-              "text": "Den troende broren"
+              "text": "Å gjøre lover og straff overflødige"
             },
             {
               "key": "B",
-              "text": "Den naive broren"
+              "text": "Å fjerne alle forskjeller mellom mennesker"
             },
             {
               "key": "C",
-              "text": "Den lidenskapelige broren"
+              "text": "Å få menneskene til å gi avkall på enhver tro"
             },
             {
               "key": "D",
-              "text": "Den intellektuelle nihilisten"
+              "text": "Å få menneskene til å underkaste seg hans myndighet"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p12-11"
+          "explanation": "Å få menneskene til å underkaste seg hans myndighet.",
+          "globalId": "12-11"
         },
         {
-          "id": "fjodor-dostojevskij-12",
           "number": 12,
-          "question": "Hvem er Aljosja Karamasov?",
+          "question": "Hvorfor avviste Kristus ifølge inkvisitoren å kaste seg ned fra tempelet og bli reddet av engler?",
           "options": [
             {
               "key": "A",
-              "text": "En kyniker"
+              "text": "Han tvilte på at englene kunne redde ham."
             },
             {
               "key": "B",
-              "text": "En sterkt troende og mild munk"
+              "text": "Han ønsket å skjule sin identitet for djevelen."
             },
             {
               "key": "C",
-              "text": "En opprørsk ånd"
+              "text": "Han ønsket en fri tro fremfor en tro fremtvunget av et mirakel."
             },
             {
               "key": "D",
-              "text": "En vitenskapsmann"
+              "text": "Han mente at bare prestene hadde lov til å utføre undere der."
             }
           ],
-          "answer": "B",
-          "globalId": "p12-12"
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Han ønsket en fri tro fremfor en tro fremtvunget av et mirakel.",
+          "globalId": "12-12"
         },
         {
-          "id": "fjodor-dostojevskij-13",
           "number": 13,
-          "question": "Hva er «Legenden om storinkvisitoren»?",
+          "question": "Hva ble Kristus tilbudt i fristelsen som gjaldt jordisk herredømme?",
           "options": [
             {
               "key": "A",
-              "text": "En historisk avhandling"
+              "text": "Alle verdens riker dersom han tilbad fristeren"
             },
             {
               "key": "B",
-              "text": "Et religiøs skriftstykke"
+              "text": "Keisermakten dersom han oppgav disiplene"
             },
             {
               "key": "C",
-              "text": "Et «poem» om menneskelig frihet og autoritet"
+              "text": "Herredømmet over Israel dersom han sluttet å helbrede"
             },
             {
               "key": "D",
-              "text": "Et eventyr av brødrene Grimm"
+              "text": "Makten over tempelet dersom han samarbeidet med prestene"
             }
           ],
-          "answer": "C",
-          "globalId": "p12-13"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Alle verdens riker dersom han tilbad fristeren.",
+          "globalId": "12-13"
         },
         {
-          "id": "fjodor-dostojevskij-14",
           "number": 14,
-          "question": "Hva kritiseres i «Legenden om storinkvisitoren»?",
+          "question": "Hva er inkvisitorens kritikk av Jesus?",
           "options": [
             {
               "key": "A",
-              "text": "Samtidens naive tro på Jesus"
+              "text": "Han avviste arbeid, eiendom og konkurranse"
             },
             {
               "key": "B",
-              "text": "Tsarens tyranniske makt"
+              "text": "Han vektla vitenskap, opplysning og fremskritt"
             },
             {
               "key": "C",
-              "text": "Moderne idealer om fri kjærlighet"
+              "text": "Han vektla bønn, faste og nestekjærlighet"
             },
             {
               "key": "D",
-              "text": "De som vil gi menneskene lykke, men ikke frihet"
+              "text": "Han avviste underet, mysteriet og autoriteten"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p12-14"
+          "explanation": "Underet, mysterium og autoritet.",
+          "globalId": "12-14"
         },
         {
-          "id": "fjodor-dostojevskij-15",
           "number": 15,
-          "question": "Hvilket av de følgende er et sentralt tema for Dostojevskij?",
+          "question": "Hva hevder inkvisitoren at han har gjort med verden?",
           "options": [
             {
               "key": "A",
-              "text": "Økonomisk vekst"
+              "text": "Gjenopprettet det slik det opprinnelig var"
             },
             {
               "key": "B",
-              "text": "Politisk endring"
+              "text": "«Forbedret» det ved å rette opp Kristi feil"
             },
             {
               "key": "C",
-              "text": "Tro på teknologisk utvikling"
+              "text": "Oppgitt det for å gjøre alle mennesker til selvstendige tenkere"
             },
             {
               "key": "D",
-              "text": "Det ondes problem"
+              "text": "Erstattet det med et samfunn uten religion og øvrighet"
             }
           ],
-          "answer": "D",
-          "globalId": "p12-15"
-        },
-        {
-          "id": "fjodor-dostojevskij-16",
-          "number": 16,
-          "question": "Hvordan tilnærmet Dostojevskij seg det ondes problem?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Gjennom en rent vitenskapelig bevisføring"
-            },
-            {
-              "key": "B",
-              "text": "Ved å vise at frihet og lidelse er nødvendige"
-            },
-            {
-              "key": "C",
-              "text": "Gjennom matematiske beregninger"
-            },
-            {
-              "key": "D",
-              "text": "Gjennom bedre og mer opplyste lover"
-            }
-          ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p12-16"
+          "explanation": "«Forbedret» det ved å rette opp Kristi feil.",
+          "globalId": "12-15"
         },
         {
-          "id": "fjodor-dostojevskij-17",
+          "number": 16,
+          "question": "Hvem hevder inkvisitoren at han og hans likesinnede egentlig følger?",
+          "options": [
+            {
+              "key": "A",
+              "text": "De gammeltestamentlige profetene"
+            },
+            {
+              "key": "B",
+              "text": "Kristi første disipler"
+            },
+            {
+              "key": "C",
+              "text": "Djevelen som fristet Kristus i ørkenen"
+            },
+            {
+              "key": "D",
+              "text": "De kristne martyrene"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Djevelen som fristet Kristus i ørkenen.",
+          "globalId": "12-16"
+        },
+        {
           "number": 17,
-          "question": "Hva er Dostojevskijs kritikk av ren fornuft?",
+          "question": "Hvordan begrunner inkvisitoren at han bør herske over den store mengde?",
           "options": [
             {
               "key": "A",
-              "text": "At den er ubrukelig"
+              "text": "De få tar på seg byrden ved å styre, slik at de mange kan leve lykkelig uten frihetens ansvar."
             },
             {
               "key": "B",
-              "text": "At den er farlig i seg selv"
+              "text": "De få har arvet makten og trenger derfor ingen annen begrunnelse."
             },
             {
               "key": "C",
-              "text": "At den ikke kan gi oss verken mening eller moral"
+              "text": "De mange har gjennom frie valg vedtatt at de aldri vil ha frihet igjen."
             },
             {
               "key": "D",
-              "text": "At den bør bekjempes med bomber og granater"
+              "text": "De mange må lide for at de få skal kunne utvikle kunst og vitenskap."
             }
           ],
-          "answer": "C",
-          "globalId": "p12-17"
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Han tar på seg byrden ved å styre, slik at den store mengde kan bli lykkelig uten frihet.",
+          "globalId": "12-17"
         },
         {
-          "id": "fjodor-dostojevskij-18",
           "number": 18,
-          "question": "Hvordan fremstilles mennesket hos Dostojevskij?",
+          "question": "Hvordan svarer Kristus på inkvisitorens lange tale?",
           "options": [
             {
               "key": "A",
-              "text": "Som entydig godt"
+              "text": "Han gjendriver argumentene ett for ett."
             },
             {
               "key": "B",
-              "text": "Som entydig ondt"
+              "text": "Han påkaller engler som åpner fengselet."
             },
             {
               "key": "C",
-              "text": "Som enkelt"
+              "text": "Han fordømmer inkvisitoren og forutsier hans død."
             },
             {
               "key": "D",
-              "text": "Som indre splittet og motsigelsesfullt"
+              "text": "Han forblir taus og kysser til slutt inkvisitoren på munnen."
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p12-18"
+          "explanation": "Han forblir taus og kysser til slutt inkvisitoren på munnen.",
+          "globalId": "12-18"
         },
         {
-          "id": "fjodor-dostojevskij-19",
           "number": 19,
-          "question": "Hva er en viktig tematikk i Dostojevksijs forfatterskap?",
+          "question": "Hva gjør inkvisitoren etter kysset?",
           "options": [
             {
               "key": "A",
-              "text": "Naturens skjønnhet"
+              "text": "Han trekker tilbake læren sin og følger Kristus."
             },
             {
               "key": "B",
-              "text": "Teknologisk fremgang"
+              "text": "Han løslater Kristus, men ber ham om aldri å komme tilbake."
             },
             {
               "key": "C",
-              "text": "Eksistensiell skyld og ansvar"
+              "text": "Han overgir Kristus til folkemengden for dom."
             },
             {
               "key": "D",
-              "text": "Humor og ironisk latter"
+              "text": "Han lar Kristus henrette samme natt."
             }
           ],
-          "answer": "C",
-          "globalId": "p12-19"
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Han løslater Kristus, ber ham om aldri å komme tilbake.",
+          "globalId": "12-19"
         },
         {
-          "id": "fjodor-dostojevskij-20",
           "number": 20,
-          "question": "Hvordan kan Dostojevskij plasseres idéhistorisk?",
+          "question": "Hvordan reagerer Aljosja mot slutten av samtalen med Ivan?",
           "options": [
             {
               "key": "A",
-              "text": "Som en opplysningstenker"
+              "text": "Han erklærer seg enig i inkvisitorens menneskesyn."
             },
             {
               "key": "B",
-              "text": "Som en forsvarer av det moderne prosjekt"
+              "text": "Han nekter å snakke mer med Ivan."
             },
             {
               "key": "C",
-              "text": "Som en logisk positivist"
+              "text": "Han kysser Ivan og gjentar dermed Kristi handling i legenden."
             },
             {
               "key": "D",
-              "text": "Som en kristen eksistensialist"
+              "text": "Han ber Ivan sende fortellingen til klosteret."
             }
           ],
-          "answer": "D",
-          "globalId": "p12-20"
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Han kysser Ivan og gjentar dermed Kristi handling i legenden.",
+          "globalId": "12-20"
         }
       ]
     },
     {
       "id": "13",
-      "title": "Pensumspørsmål 13: Friedrich Nietzsche",
-      "shortTitle": "Friedrich Nietzsche",
+      "title": "Friedrich Nietzsche",
+      "number": 13,
+      "sourceTitle": "Pensumsspørsmål 13: Friedrich Nietzsche",
       "questions": [
         {
-          "id": "friedrich-nietzsche-1",
           "number": 1,
           "question": "Hvem var Friedrich Nietzsche?",
           "options": [
@@ -6515,18 +6773,19 @@ window.QUIZ_DATA = {
             },
             {
               "key": "C",
-              "text": "En dansk filosof som mente at livet er et enten- eller"
+              "text": "En dansk filosof som mente at livet er et enten-eller"
             },
             {
               "key": "D",
               "text": "En tysk filosof som ble dømt til døden i Jerusalem i 1962"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p13-1"
+          "explanation": "",
+          "globalId": "13-1"
         },
         {
-          "id": "friedrich-nietzsche-2",
           "number": 2,
           "question": "Hvordan vil du plassere Nietzsche idéhistorisk?",
           "options": [
@@ -6547,11 +6806,12 @@ window.QUIZ_DATA = {
               "text": "Som en forsvarer av menneskerettigheter"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p13-2"
+          "explanation": "",
+          "globalId": "13-2"
         },
         {
-          "id": "friedrich-nietzsche-3",
           "number": 3,
           "question": "Hvilken av de følgende bøkene er skrevet av Nietzsche?",
           "options": [
@@ -6569,14 +6829,15 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "Gymnadenia"
+              "text": "Frankenstein"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p13-3"
+          "explanation": "",
+          "globalId": "13-3"
         },
         {
-          "id": "friedrich-nietzsche-4",
           "number": 4,
           "question": "Hva er hovedtanken i Nietzsches «Om sannhet og løgn i utenommoralsk forstand»?",
           "options": [
@@ -6597,11 +6858,12 @@ window.QUIZ_DATA = {
               "text": "At språket lyver"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p13-4"
+          "explanation": "",
+          "globalId": "13-4"
         },
         {
-          "id": "friedrich-nietzsche-5",
           "number": 5,
           "question": "Hva kan sies å være kjernen i Nietzsches modernitetskritikk?",
           "options": [
@@ -6622,11 +6884,12 @@ window.QUIZ_DATA = {
               "text": "At språket er i forfall og mange sliter med å skille mellom «da» og «når»"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p13-5"
+          "explanation": "",
+          "globalId": "13-5"
         },
         {
-          "id": "friedrich-nietzsche-6",
           "number": 6,
           "question": "Hva er nihilisme, slik Nietzsche ser det?",
           "options": [
@@ -6647,11 +6910,12 @@ window.QUIZ_DATA = {
               "text": "At Gud er død og vi mangler mening og verdier"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p13-6"
+          "explanation": "",
+          "globalId": "13-6"
         },
         {
-          "id": "friedrich-nietzsche-7",
           "number": 7,
           "question": "Hva er «herremoral», ifølge Nietzsche?",
           "options": [
@@ -6672,11 +6936,12 @@ window.QUIZ_DATA = {
               "text": "Protestantisk moral basert på skyld"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p13-7"
+          "explanation": "",
+          "globalId": "13-7"
         },
         {
-          "id": "friedrich-nietzsche-8",
           "number": 8,
           "question": "Hva er «slavemoral», ifølge Nietzsche?",
           "options": [
@@ -6697,11 +6962,12 @@ window.QUIZ_DATA = {
               "text": "Moral som er livssynsnøytral"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p13-8"
+          "explanation": "",
+          "globalId": "13-8"
         },
         {
-          "id": "friedrich-nietzsche-9",
           "number": 9,
           "question": "Hva er «vilje til makt», ifølge Nietzsche?",
           "options": [
@@ -6722,11 +6988,12 @@ window.QUIZ_DATA = {
               "text": "En vitenskapelig teori"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p13-9"
+          "explanation": "",
+          "globalId": "13-9"
         },
         {
-          "id": "friedrich-nietzsche-10",
           "number": 10,
           "question": "Hva betyr «alle tings evige gjenkomst», ifølge Nietzsche?",
           "options": [
@@ -6747,11 +7014,12 @@ window.QUIZ_DATA = {
               "text": "At tiden stopper"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p13-10"
+          "explanation": "",
+          "globalId": "13-10"
         },
         {
-          "id": "friedrich-nietzsche-11",
           "number": 11,
           "question": "Hva er et «overmenneske», ifølge Nietzsche?",
           "options": [
@@ -6772,11 +7040,12 @@ window.QUIZ_DATA = {
               "text": "En guddom"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p13-11"
+          "explanation": "",
+          "globalId": "13-11"
         },
         {
-          "id": "friedrich-nietzsche-12",
           "number": 12,
           "question": "Hvem er Zarathustra i Nietzsches verk?",
           "options": [
@@ -6797,11 +7066,12 @@ window.QUIZ_DATA = {
               "text": "En litterær figur som formidler Nietzsches ideer"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p13-12"
+          "explanation": "",
+          "globalId": "13-12"
         },
         {
-          "id": "friedrich-nietzsche-13",
           "number": 13,
           "question": "Hva er de tre forvandlingene i Nietzsches Slik talte Zarathustra?",
           "options": [
@@ -6822,11 +7092,12 @@ window.QUIZ_DATA = {
               "text": "Kropp, sjel, ånd"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p13-13"
+          "explanation": "",
+          "globalId": "13-13"
         },
         {
-          "id": "friedrich-nietzsche-14",
           "number": 14,
           "question": "Hva symboliserer kamelen i Nietzsches Slik talte Zarathustra?",
           "options": [
@@ -6847,11 +7118,12 @@ window.QUIZ_DATA = {
               "text": "Evnen til å bære byrder"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p13-14"
+          "explanation": "",
+          "globalId": "13-14"
         },
         {
-          "id": "friedrich-nietzsche-15",
           "number": 15,
           "question": "Hva symboliserer løven i Nietsches Slik talte Zarathustra?",
           "options": [
@@ -6872,11 +7144,12 @@ window.QUIZ_DATA = {
               "text": "Svakhet"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p13-15"
+          "explanation": "",
+          "globalId": "13-15"
         },
         {
-          "id": "friedrich-nietzsche-16",
           "number": 16,
           "question": "Hva symboliserer barnet i Nietzsches Slik talte Zarathustra?",
           "options": [
@@ -6897,11 +7170,12 @@ window.QUIZ_DATA = {
               "text": "Passivitet"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p13-16"
+          "explanation": "",
+          "globalId": "13-16"
         },
         {
-          "id": "friedrich-nietzsche-17",
           "number": 17,
           "question": "Hva er Nietzsches syn på «Sannheten»?",
           "options": [
@@ -6922,11 +7196,12 @@ window.QUIZ_DATA = {
               "text": "Sannhet er bare menneskeskapte perspektiver"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p13-17"
+          "explanation": "",
+          "globalId": "13-17"
         },
         {
-          "id": "friedrich-nietzsche-18",
           "number": 18,
           "question": "Hva gikk Nietzsche fornuftskritikk ut på?",
           "options": [
@@ -6947,21 +7222,22 @@ window.QUIZ_DATA = {
               "text": "At den er kjedelig"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p13-18"
+          "explanation": "",
+          "globalId": "13-18"
         },
         {
-          "id": "friedrich-nietzsche-19",
           "number": 19,
           "question": "Hvilken av disse inngår i Nietzsches modernitetskritikk?",
           "options": [
             {
               "key": "A",
-              "text": "At vitenskapen er en feiltagelse"
+              "text": "At vitenskapen ikke er vitenskapelig nok"
             },
             {
               "key": "B",
-              "text": "At moderne mennesker er for religiøse"
+              "text": "At moderne mennesker bruker for mye tid på Tiktok"
             },
             {
               "key": "C",
@@ -6972,11 +7248,12 @@ window.QUIZ_DATA = {
               "text": "At samfunnet er for stabilt"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p13-19"
+          "explanation": "",
+          "globalId": "13-19"
         },
         {
-          "id": "friedrich-nietzsche-20",
           "number": 20,
           "question": "Hvordan kan Nietzsche plasseres idéhistorisk?",
           "options": [
@@ -6997,525 +7274,1076 @@ window.QUIZ_DATA = {
               "text": "Som en middelaldertenker med stor fascinasjon for Thomas Aquinas"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p13-20"
+          "explanation": "",
+          "globalId": "13-20"
         }
       ]
     },
     {
       "id": "14",
-      "title": "Pensumspørsmål 14: Sigrid Undset",
-      "shortTitle": "Sigrid Undset",
+      "title": "Sigmund Freud",
+      "number": 14,
+      "sourceTitle": "Pensumspørsmål 14 Freud og Ubehaget i kulturen",
       "questions": [
         {
-          "id": "sigrid-undset-1",
           "number": 1,
-          "question": "Hvem var Sigrid Undset?",
+          "question": "Hva er en hovedtanke i Freuds Ubehaget i kulturen?",
           "options": [
             {
               "key": "A",
-              "text": "En prisvinnende norsk filosof som sloss mot likestilling"
+              "text": "Kulturens fremskritt vil fjerne enhver indre konflikt."
             },
             {
               "key": "B",
-              "text": "En nobelprisvinnende norsk forfatterinne"
+              "text": "Vi blir ulykkelige fordi kulturen gir dem for stor driftsfrihet."
             },
             {
               "key": "C",
-              "text": "En dansk kvinnesakskvinne som flørtet med Søren Kierkegaard i ungdommen"
+              "text": "Kulturen beskytter oss, men krever også forsakelser som skaper ubehag."
             },
             {
               "key": "D",
-              "text": "En tysk operasanger med Nietzsches sanger som spesialitet"
+              "text": "Våre psykiske konflikter er uten sammenheng med samfunnslivet."
             }
           ],
-          "answer": "B",
-          "globalId": "p14-1"
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Kulturen beskytter oss, men krever også forsakelser som skaper ubehag.",
+          "globalId": "14-1"
         },
         {
-          "id": "sigrid-undset-2",
           "number": 2,
-          "question": "Når levde hun?",
+          "question": "Hva omfatter «kultur» i Freuds bok Ubehaget i kulturen?",
           "options": [
             {
               "key": "A",
-              "text": "Fra 1789 til 1854"
+              "text": "Ordninger og prestasjoner som beskytter mot naturen og regulerer samlivet"
             },
             {
               "key": "B",
-              "text": "Fra 1882 til 1949"
+              "text": "Først og fremst kunstverk skapt av særlig begavede enkeltpersoner"
             },
             {
               "key": "C",
-              "text": "Fra 1945 til 1999."
+              "text": "Bare religiøse forestillinger og seremonier"
             },
             {
               "key": "D",
-              "text": "Fra 1929 til 2000."
+              "text": "Bare kunnskap som formidles gjennom skolen"
             }
           ],
-          "answer": "B",
-          "globalId": "p14-2"
-        },
-        {
-          "id": "sigrid-undset-3",
-          "number": 3,
-          "question": "Hvilket verk av Sigrid Undset er på pensum?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Kristin Lavransdatter"
-            },
-            {
-              "key": "B",
-              "text": "Olav Audunssøn"
-            },
-            {
-              "key": "C",
-              "text": "Gymnadenia"
-            },
-            {
-              "key": "D",
-              "text": "Jenny"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p14-3"
-        },
-        {
-          "id": "sigrid-undset-4",
-          "number": 4,
-          "question": "Ha heter hovedpersonen i romanen Gymnadenia?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Olav Selaas"
-            },
-            {
-              "key": "B",
-              "text": "Anders Johansen"
-            },
-            {
-              "key": "C",
-              "text": "Johannes Andersen"
-            },
-            {
-              "key": "D",
-              "text": "Paul Selmer"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p14-4"
-        },
-        {
-          "id": "sigrid-undset-5",
-          "number": 5,
-          "question": "Hva slags type roman er Gymnadenia?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En kriminalroman"
-            },
-            {
-              "key": "B",
-              "text": "En historisk roman"
-            },
-            {
-              "key": "C",
-              "text": "En religiøs utviklingsroman"
-            },
-            {
-              "key": "D",
-              "text": "En science fiction-roman"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p14-5"
-        },
-        {
-          "id": "sigrid-undset-6",
-          "number": 6,
-          "question": "Hva preger Paul Selmers utvikling i Undsets roman Gymnadenia?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Stadig nye politiske triumfer"
-            },
-            {
-              "key": "B",
-              "text": "Religiøs søken"
-            },
-            {
-              "key": "C",
-              "text": "Økonomisk suksess"
-            },
-            {
-              "key": "D",
-              "text": "Hans gradvise vitenskapelige gjennombrudd"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p14-6"
-        },
-        {
-          "id": "sigrid-undset-7",
-          "number": 7,
-          "question": "Hvordan forholdt Undset seg til moderniteten?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Hun omfavner den lidenskapelig"
-            },
-            {
-              "key": "B",
-              "text": "Hun beundrer den teknologiske utviklingen"
-            },
-            {
-              "key": "C",
-              "text": "Hun hyller det moderne individets frihet"
-            },
-            {
-              "key": "D",
-              "text": "Hun kritiserer dens overflatiskhet og mangel på mening"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p14-7"
-        },
-        {
-          "id": "sigrid-undset-8",
-          "number": 8,
-          "question": "Hva tiltrakk Undset ved middelalderen?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At livet den gang var ekkelt, dyrisk og kort."
-            },
-            {
-              "key": "B",
-              "text": "At man hadde stor sosial mobilitet"
-            },
-            {
-              "key": "C",
-              "text": "At man haddeydelige verdier og religiøs forankring"
-            },
-            {
-              "key": "D",
-              "text": "At man levde så lange og sunne liv i pakt med naturen"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p14-8"
-        },
-        {
-          "id": "sigrid-undset-9",
-          "number": 9,
-          "question": "Hva slags blomst er en gymnadenia?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En rose"
-            },
-            {
-              "key": "B",
-              "text": "En orkidé"
-            },
-            {
-              "key": "C",
-              "text": "En lilje"
-            },
-            {
-              "key": "D",
-              "text": "En tulipan"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p14-9"
-        },
-        {
-          "id": "sigrid-undset-10",
-          "number": 10,
-          "question": "Hva kan blomsten gymnadenia tenkes å symbolisere i Undsets roman?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Aristoteles’ begrep om eudaimonia"
-            },
-            {
-              "key": "B",
-              "text": "At mennesket ikke har noen essens"
-            },
-            {
-              "key": "C",
-              "text": "At den ikke lever opp til våre forventninger"
-            },
-            {
-              "key": "D",
-              "text": "At noen blomster har rare navn"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p14-10"
-        },
-        {
-          "id": "sigrid-undset-11",
-          "number": 11,
-          "question": "Hvilken religiøs retning nærmer Paul Selmer seg?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Protestantisme"
-            },
-            {
-              "key": "B",
-              "text": "Ortodoks kristendom"
-            },
-            {
-              "key": "C",
-              "text": "Islam"
-            },
-            {
-              "key": "D",
-              "text": "Katolisisme"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p14-11"
-        },
-        {
-          "id": "sigrid-undset-12",
-          "number": 12,
-          "question": "Hva skjedde med Undset selv i religiøs sammenheng?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Hun forble ateist"
-            },
-            {
-              "key": "B",
-              "text": "Hun konverterte til katolisismen"
-            },
-            {
-              "key": "C",
-              "text": "Hun ble prest"
-            },
-            {
-              "key": "D",
-              "text": "Hun avviste religion"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p14-12"
-        },
-        {
-          "id": "sigrid-undset-13",
-          "number": 13,
-          "question": "Hvilken middelaldertenker var sentral for Undsets katolsisme?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Arelius Augustin"
-            },
-            {
-              "key": "B",
-              "text": "Pico della Mirandola"
-            },
-            {
-              "key": "C",
-              "text": "Thomas Aquinas"
-            },
-            {
-              "key": "D",
-              "text": "Michel Foucault"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p14-13"
-        },
-        {
-          "id": "sigrid-undset-14",
-          "number": 14,
-          "question": "Hva kjennetegner Thomas Aquinas’ tenkning?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Avvisning av fornuft"
-            },
-            {
-              "key": "B",
-              "text": "Tro alene"
-            },
-            {
-              "key": "C",
-              "text": "Skepsis"
-            },
-            {
-              "key": "D",
-              "text": "Forsøk på å forene tro og fornuft"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p14-14"
-        },
-        {
-          "id": "sigrid-undset-15",
-          "number": 15,
-          "question": "Hvordan fremstilles moderniteten hos Undset?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som harmonisk"
-            },
-            {
-              "key": "B",
-              "text": "Som fremskritt uten problemer"
-            },
-            {
-              "key": "C",
-              "text": "Som moralsk forvirrende"
-            },
-            {
-              "key": "D",
-              "text": "Som irrelevant"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p14-15"
-        },
-        {
-          "id": "sigrid-undset-16",
-          "number": 16,
-          "question": "Hva var Paul Selmer på leting etter i romanen Gymnadenia?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Bitcoin"
-            },
-            {
-              "key": "B",
-              "text": "Mange følgere på Instagram"
-            },
-            {
-              "key": "C",
-              "text": "En plass i regjeringen"
-            },
-            {
-              "key": "D",
-              "text": "Sannhet og mening"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p14-16"
-        },
-        {
-          "id": "sigrid-undset-17",
-          "number": 17,
-          "question": "Hvordan kan Gymnadenia forstås idéhistorisk?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som en hyllest til moderniteten"
-            },
-            {
-              "key": "B",
-              "text": "Som en kritikk av religion"
-            },
-            {
-              "key": "C",
-              "text": "Som en modernitetskritikk"
-            },
-            {
-              "key": "D",
-              "text": "Som en politisk analyse"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p14-17"
-        },
-        {
-          "id": "sigrid-undset-18",
-          "number": 18,
-          "question": "Hva kjennetegner Undsets stil i Gymnadenia?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Ironisk distanse og humor"
-            },
-            {
-              "key": "B",
-              "text": "Eksperimentell modernistisk form"
-            },
-            {
-              "key": "C",
-              "text": "Vitenskapelig og nøkternt språk"
-            },
-            {
-              "key": "D",
-              "text": "Alvorlig og moralsk reflekterende"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p14-18"
-        },
-        {
-          "id": "sigrid-undset-19",
-          "number": 19,
-          "question": "Hva kan middelalderen sies å representere hos Undset?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som en kilde til autentiske verdier"
-            },
-            {
-              "key": "B",
-              "text": "Som et negativt eksempel"
-            },
-            {
-              "key": "C",
-              "text": "Som et tilfeldig bakteppe"
-            },
-            {
-              "key": "D",
-              "text": "Som ren fantasi"
-            }
-          ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p14-19"
+          "explanation": "Ordninger og prestasjoner som beskytter mot naturen og regulerer samlivet.",
+          "globalId": "14-2"
         },
         {
-          "id": "sigrid-undset-20",
-          "number": 20,
-          "question": "Hvordan kan Undsets roman Gymnadenia kort karakteriseres?",
+          "number": 3,
+          "question": "Hvilke tre kilder til lidelse fremhever Freud i Ubehaget i kulturen?",
           "options": [
             {
               "key": "A",
-              "text": "En svettedrivende politisk thriller"
+              "text": "Religionen, vitenskapen og kunsten"
             },
             {
               "key": "B",
-              "text": "En forførende kjærlighetskomedie"
+              "text": "Barndommen, ungdommen og alderdommen"
             },
             {
               "key": "C",
-              "text": "En tørr, men realistisk skildring av en mann som lever et kjedelig liv"
+              "text": "Fattigdommen, uvitenheten og arbeidsdelingen"
             },
             {
               "key": "D",
-              "text": "En tråkig åndelig utviklingshistorie"
+              "text": "Kroppen, den ytre verden og forholdet til andre mennesker"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p14-20"
+          "explanation": "Kroppen, den ytre verden og forholdet til andre mennesker.",
+          "globalId": "14-3"
+        },
+        {
+          "number": 4,
+          "question": "Hvorfor kan ikke kulturen oppfylle menneskets ønske om lykke?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fordi mennesker ifølge Freud mangler evne til å føle glede"
+            },
+            {
+              "key": "B",
+              "text": "Fordi samlivet krever begrensninger på individuell driftstilfredsstillelse"
+            },
+            {
+              "key": "C",
+              "text": "Fordi vitenskapelig kunnskap alltid gjør livet vanskeligere"
+            },
+            {
+              "key": "D",
+              "text": "Fordi alle mennesker egentlig ønsker å være alene"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Fordi samlivet begrenser individets driftstilfredsstillelse.",
+          "globalId": "14-4"
+        },
+        {
+          "number": 5,
+          "question": "Hvordan betrakter Freud menneskets aggresjon?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Som en følge av privat eiendomsrett alene"
+            },
+            {
+              "key": "B",
+              "text": "Som et sjeldent avvik hos psykisk syke mennesker"
+            },
+            {
+              "key": "C",
+              "text": "Som en grunnleggende tilbøyelighet kulturen må håndtere"
+            },
+            {
+              "key": "D",
+              "text": "Som en reaksjon som forsvinner når seksualiteten frigjøres"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Som en grunnleggende tilbøyelighet kulturen må håndtere.",
+          "globalId": "14-5"
+        },
+        {
+          "number": 6,
+          "question": "Hvorfor er Freud kritisk til budet «Du skal elske din neste som deg selv»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Det stiller et svært krevende krav som overser menneskets aggressive tilbøyeligheter."
+            },
+            {
+              "key": "B",
+              "text": "Det gir mennesket for stor anledning til å tilfredsstille sitt sinne."
+            },
+            {
+              "key": "C",
+              "text": "Det forutsetter at mennesket ikke er i stand til å elske seg selv."
+            },
+            {
+              "key": "D",
+              "text": "Det begrenser kjærligheten til bare å gjelde familiemedlemmer."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Det stiller et svært krevende krav som overser menneskets aggressive tilbøyeligheter.",
+          "globalId": "14-6"
+        },
+        {
+          "number": 7,
+          "question": "Hva betegner Eros i Freuds sene driftsteori?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Bare den romantiske forelskelsen mellom to mennesker"
+            },
+            {
+              "key": "B",
+              "text": "Trangen til å trekke seg bort fra alle fellesskap"
+            },
+            {
+              "key": "C",
+              "text": "Behovet for å straffe seg selv for forbudte ønsker"
+            },
+            {
+              "key": "D",
+              "text": "Livsdrifter som binder sammen og opprettholder større enheter"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Livsdrifter som binder sammen og opprettholder større enheter.",
+          "globalId": "14-7"
+        },
+        {
+          "number": 8,
+          "question": "Hvordan knytter Freud aggresjon til dødsdriften?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Aggresjon oppstår først når dødsdriften er fullstendig overvunnet."
+            },
+            {
+              "key": "B",
+              "text": "Aggresjon rettet utover er et uttrykk for dødsdriften."
+            },
+            {
+              "key": "C",
+              "text": "Dødsdriften er bare et annet navn på bevisst frykt for døden."
+            },
+            {
+              "key": "D",
+              "text": "Dødsdriften betegner bare kroppens biologiske aldring."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Aggresjon rettet utover er et uttrykk for dødsdriften.",
+          "globalId": "14-8"
+        },
+        {
+          "number": 9,
+          "question": "Hva skjer når aggresjon vendes innover og overtas av overjeget?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Individet blir ute av stand til å føle skyld."
+            },
+            {
+              "key": "B",
+              "text": "Alle aggressive ønsker blir bevisste og forsvinner."
+            },
+            {
+              "key": "C",
+              "text": "Aggresjonen kan rettes mot jeget som selvkritikk og skyldfølelse."
+            },
+            {
+              "key": "D",
+              "text": "Overjeget mister sin makt over individet."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Aggresjonen kan rettes mot jeget som selvkritikk og skyldfølelse.",
+          "globalId": "14-9"
+        },
+        {
+          "number": 10,
+          "question": "Hvorfor kan skyldfølelse oppstå selv om man ikke har utført en forbudt handling?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Overjeget kan fordømme selve ønsket, også når handlingen er unngått."
+            },
+            {
+              "key": "B",
+              "text": "Freud mener at ønsker og handlinger alltid har identiske ytre følger."
+            },
+            {
+              "key": "C",
+              "text": "Alle mennesker husker handlinger de aldri har utført."
+            },
+            {
+              "key": "D",
+              "text": "Skyldfølelse skyldes utelukkende andres synlige reaksjoner."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Overjeget kan fordømme selve ønsket, også når handlingen er unngått.",
+          "globalId": "14-10"
+        },
+        {
+          "number": 11,
+          "question": "Hva mener Freud med kulturens overjeg?",
+          "options": [
+            {
+              "key": "A",
+              "text": "En hersker som bestemmer hvilke drømmer innbyggerne får ha"
+            },
+            {
+              "key": "B",
+              "text": "Summen av alle ønsker som samfunnet forbyr"
+            },
+            {
+              "key": "C",
+              "text": "En felles bevissthet som gjør individuelle samvittigheter overflødige"
+            },
+            {
+              "key": "D",
+              "text": "Kulturelle idealer og krav som stiller moralske fordringer til menneskene"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Kulturelle idealer og krav som stiller moralske fordringer til menneskene.",
+          "globalId": "14-11"
+        },
+        {
+          "number": 12,
+          "question": "Hvilke tre instanser står sentralt i modellen Freud utvikler i Jeg’et og det’et?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Bevissthet, hukommelse og forestillingsevne"
+            },
+            {
+              "key": "B",
+              "text": "Det’et, jeg’et og overjeget"
+            },
+            {
+              "key": "C",
+              "text": "Fornuft, vilje og følelse"
+            },
+            {
+              "key": "D",
+              "text": "Sansning, erfaring og erkjennelse"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Det’et, jeg’et og overjeget.",
+          "globalId": "14-12"
+        },
+        {
+          "number": 13,
+          "question": "Hvilken beskrivelse passer best på det’et?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Det representerer samfunnets moralske idealer."
+            },
+            {
+              "key": "B",
+              "text": "Det vurderer først og fremst handlingers langsiktige konsekvenser."
+            },
+            {
+              "key": "C",
+              "text": "Det rommer driftsmessige krav og styres av lystprinsippet."
+            },
+            {
+              "key": "D",
+              "text": "Det består av alle tankene vi til enhver tid er bevisste om."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Det rommer driftsmessige krav og styres av lystprinsippet.",
+          "globalId": "14-13"
+        },
+        {
+          "number": 14,
+          "question": "Hva innebærer realitetsprinsippet, som forbindes med jeg’et?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At tilfredsstillelse kan måtte utsettes eller tilpasses virkelighetens betingelser"
+            },
+            {
+              "key": "B",
+              "text": "At alle ønsker bør tilfredsstilles så snart de oppstår"
+            },
+            {
+              "key": "C",
+              "text": "At moralske regler alltid skal følges uten vurdering"
+            },
+            {
+              "key": "D",
+              "text": "At mennesket bør forsøke å kvitte seg med alle drifter"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "At tilfredsstillelse kan måtte utsettes eller tilpasses virkelighetens betingelser.",
+          "globalId": "14-14"
+        },
+        {
+          "number": 15,
+          "question": "Hvilket av disse utsagnene om jeg’et er i tråd med Freuds modell?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Jeg’et er fullstendig bevisst og kjenner alle sine motiver."
+            },
+            {
+              "key": "B",
+              "text": "Jeg’et er identisk med samvittigheten og stiller bare moralske krav."
+            },
+            {
+              "key": "C",
+              "text": "Jeg’et oppstår først når mennesket har overvunnet sine drifter."
+            },
+            {
+              "key": "D",
+              "text": "Jeg’et er delvis ubevisst og må håndtere krav fra flere hold."
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Jeg’et er delvis ubevisst og må håndtere krav fra flere hold.",
+          "globalId": "14-15"
+        },
+        {
+          "number": 16,
+          "question": "Hva innebærer ødipuskomplekset i Freuds klassiske fremstilling av guttens utvikling?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Et bevisst ønske om å forlate begge foreldrene og leve alene"
+            },
+            {
+              "key": "B",
+              "text": "Et ubevisst begjær etter moren og et ønske om å drepe faren"
+            },
+            {
+              "key": "C",
+              "text": "En frykt for at foreldrene skal slutte å stille moralske krav"
+            },
+            {
+              "key": "D",
+              "text": "En fullstendig mangel på følelsesmessig tilknytning til foreldrene"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Et ubevisst begjær etter moren og et ønske om å drepe faren.",
+          "globalId": "14-16"
+        },
+        {
+          "number": 17,
+          "question": "Hvilken forbindelse trekker Freud mellom ødipuskomplekset og overjeget?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Overjeget dannes ved at barnet avviser enhver identifikasjon med foreldrene."
+            },
+            {
+              "key": "B",
+              "text": "Overjeget forsvinner når barnet opplever rivalisering med en forelder."
+            },
+            {
+              "key": "C",
+              "text": "Overjeget utvikles i forbindelse med at ødipuskompleksets løes."
+            },
+            {
+              "key": "D",
+              "text": "Overjeget er medfødt og påvirkes derfor ikke av forholdet til foreldrene."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Overjeget blir i forbindelse med at ødipuskomplekset løses.",
+          "globalId": "14-17"
+        },
+        {
+          "number": 18,
+          "question": "Hva er en hovedpåstand i Freuds Drømmetydning?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Drømmer uttrykker ønskeoppfyllelse, ofte i en fordreid eller forkledd form."
+            },
+            {
+              "key": "B",
+              "text": "Drømmer gir pålitelig kunnskap om fremtidige hendelser."
+            },
+            {
+              "key": "C",
+              "text": "Drømmer mangler mening og består bare av tilfeldige sanseinntrykk."
+            },
+            {
+              "key": "D",
+              "text": "Drømmer gjengir alltid dagens hendelser uten å forandre dem."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Drømmer uttrykker ønskeoppfyllelse, ofte i en fordreid eller forkledd form.",
+          "globalId": "14-18"
+        },
+        {
+          "number": 19,
+          "question": "Hva er forskjellen mellom manifest drømmeinnhold og latente drømmetanker?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Manifest innhold er barndomsminner; latente tanker gjelder bare fremtiden."
+            },
+            {
+              "key": "B",
+              "text": "Manifest innhold er ubevisst; latente tanker er det drømmeren forteller."
+            },
+            {
+              "key": "C",
+              "text": "Manifest innhold finnes bare i mareritt; latente tanker finnes bare i behagelige drømmer."
+            },
+            {
+              "key": "D",
+              "text": "Manifest innhold er drømmen slik den huskes; latente tanker er det analysen søker bak den."
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Manifest innhold er drømmen slik den huskes; latente tanker er det analysen søker bak den.",
+          "globalId": "14-19"
+        },
+        {
+          "number": 20,
+          "question": "Hvilket utsagn uttrykker et idéhistorisk poeng ved Freuds menneskesyn?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Vi kjenner sine egne motiver fullt ut gjennom bevisst refleksjon."
+            },
+            {
+              "key": "B",
+              "text": "Vi er ikke fullt ut herre i eget hus, pga. det ubevisste."
+            },
+            {
+              "key": "C",
+              "text": "Vi handler utelukkende ut fra bevisste beregninger av egen nytte."
+            },
+            {
+              "key": "D",
+              "text": "Vi kan frigjøre seg fra alle indre konflikter gjennom mer kunnskap alene."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Vi er ikke fullt ut herre i eget hus, pga det ubevisste.",
+          "globalId": "14-20"
         }
       ]
     },
     {
       "id": "15",
-      "title": "Pensumspørsmål 15: Thomas Mann",
-      "shortTitle": "Thomas Mann",
+      "title": "Walter Benjamin",
+      "number": 15,
+      "sourceTitle": "Pensumspørsmål 15. Walter Benjamin",
       "questions": [
         {
-          "id": "thomas-mann-1",
+          "number": 1,
+          "question": "Hvilken historisk situasjon danner bakgrunnen for Benjamins historiefilosofiske teser fra 1940?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Optimismen etter første verdenskrigs slutt"
+            },
+            {
+              "key": "B",
+              "text": "Nazismens fremmarsj og utbruddet av andre verdenskrig"
+            },
+            {
+              "key": "C",
+              "text": "Den kalde krigens deling av Tyskland"
+            },
+            {
+              "key": "D",
+              "text": "Revolusjonsbølgen i Europa i 1848"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Nazismens fremmarsj og utbruddet av andre verdenskrig.",
+          "globalId": "15-1"
+        },
+        {
+          "number": 2,
+          "question": "Hvilken forestilling om historien kritiserer Benjamin særlig?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At fortiden kan undersøkes gjennom skriftlige kilder"
+            },
+            {
+              "key": "B",
+              "text": "At økonomiske forhold påvirker samfunnsutviklingen"
+            },
+            {
+              "key": "C",
+              "text": "At historiske hendelser kan få uventede følger"
+            },
+            {
+              "key": "D",
+              "text": "At historien automatisk beveger seg mot stadig bedre forhold"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "At historien automatisk beveger seg mot stadig bedre forhold.",
+          "globalId": "15-2"
+        },
+        {
+          "number": 3,
+          "question": "Hvilken kunstners bilde inspirerer Benjamins fremstilling av «historiens engel»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Paul Klees Angelus Novus"
+            },
+            {
+              "key": "B",
+              "text": "Edvard Munchs Skrik"
+            },
+            {
+              "key": "C",
+              "text": "Pablo Picassos Guernica"
+            },
+            {
+              "key": "D",
+              "text": "Caspar David Friedrichs Vandreren over tåkehavet"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Paul Klees Angelus Novus.",
+          "globalId": "15-3"
+        },
+        {
+          "number": 4,
+          "question": "Hva ser historiens engel når den vender blikket mot fortiden?",
+          "options": [
+            {
+              "key": "A",
+              "text": "En harmonisk utvikling der hvert tap oppveies av en gevinst"
+            },
+            {
+              "key": "B",
+              "text": "En rekke hendelser uten noen forbindelse med hverandre"
+            },
+            {
+              "key": "C",
+              "text": "Én sammenhengende katastrofe som hoper opp ruiner"
+            },
+            {
+              "key": "D",
+              "text": "Et avsluttet hendelsesforløp som ikke angår nåtiden"
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Én sammenhengende katastrofe som hoper opp ruiner.",
+          "globalId": "15-4"
+        },
+        {
+          "number": 5,
+          "question": "Hva representerer stormen som driver engelen inn i fremtiden?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menneskets frie og veloverveide valg"
+            },
+            {
+              "key": "B",
+              "text": "Det vi kaller fremskritt"
+            },
+            {
+              "key": "C",
+              "text": "Historikerens ønske om å forstå fortiden"
+            },
+            {
+              "key": "D",
+              "text": "Naturens gjentakelse av de samme årstidene"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Det vi kaller fremskritt.",
+          "globalId": "15-5"
+        },
+        {
+          "number": 6,
+          "question": "Hva ønsker engelen å gjøre, men blir hindret i?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Glemme fortiden og undersøke fremtiden"
+            },
+            {
+              "key": "B",
+              "text": "Belønne seierherrene for deres historiske innsats"
+            },
+            {
+              "key": "C",
+              "text": "Gjøre historiens utvikling enda raskere"
+            },
+            {
+              "key": "D",
+              "text": "Vekke de døde og gjøre det sønderslåtte helt igjen"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Vekke de døde og gjøre det sønderknuste helt igjen.",
+          "globalId": "15-6"
+        },
+        {
+          "number": 7,
+          "question": "Hva innebærer oppfordringen om å «gre historien mothårs»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Å undersøke historien fra de beseiredes og undertryktes perspektiv"
+            },
+            {
+              "key": "B",
+              "text": "Å forkaste alle historiske kilder som upålitelige"
+            },
+            {
+              "key": "C",
+              "text": "Å snu rekkefølgen på hendelsene i historiebøkene"
+            },
+            {
+              "key": "D",
+              "text": "Å forklare fortiden utelukkende gjennom store lederes liv"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Å undersøke historien fra de beseiredes og undertryktes perspektiv.",
+          "globalId": "15-7"
+        },
+        {
+          "number": 8,
+          "question": "Hva ligger i Benjamins påstand om at kulturdokumenter samtidig er dokumenter om barbari?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Kunst har ingen verdi dersom den er skapt før demokratiets gjennombrudd."
+            },
+            {
+              "key": "B",
+              "text": "Alle kunstnere ønsker å forsvare vold og undertrykkelse."
+            },
+            {
+              "key": "C",
+              "text": "Kulturens skatter kan ikke skilles fra tvangen og lidelsen som inngår i deres historie."
+            },
+            {
+              "key": "D",
+              "text": "Det er umulig å skille mellom et kunstverk og et våpen."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Kulturens skatter kan ikke skilles fra tvangen og lidelsen som inngår i deres historie.",
+          "globalId": "15-8"
+        },
+        {
+          "number": 9,
+          "question": "Hva lærer «de undertryktes tradisjon» oss ifølge Benjamin?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At politisk undertrykkelse alltid er kortvarig"
+            },
+            {
+              "key": "B",
+              "text": "At unntakstilstanden de lever i, er regelen snarere enn unntaket"
+            },
+            {
+              "key": "C",
+              "text": "At historiske fremskritt alltid kommer de svakeste til gode først"
+            },
+            {
+              "key": "D",
+              "text": "At lidelse først oppstod med det moderne industrisamfunnet"
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "At unntakstilstanden de lever i, er regelen snarere enn unntaket.",
+          "globalId": "15-9"
+        },
+        {
+          "number": 10,
+          "question": "Hvorfor er fremskrittstroen politisk farlig i møte med fascismen?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Den gjør at mennesker legger for stor vekt på fortidens nederlag."
+            },
+            {
+              "key": "B",
+              "text": "Den fører nødvendigvis til motstand mot all teknologi."
+            },
+            {
+              "key": "C",
+              "text": "Den gjør det umulig å skille mellom demokrati og enevelde."
+            },
+            {
+              "key": "D",
+              "text": "Den kan skape passiv tillit til at den historiske utviklingen selv vil beseire fascismen."
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Den kan skape passiv tillit til at den historiske utviklingen selv vil beseire fascismen.",
+          "globalId": "15-10"
+        },
+        {
+          "number": 11,
+          "question": "Hva uttrykker begrepet Jetztzeit, gjerne oversatt med «nåtid» eller «nå-tid»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Et ladet øyeblikk der fortiden kan aktualiseres og historiens kontinuitet brytes"
+            },
+            {
+              "key": "B",
+              "text": "Et tidspunkt som bare får mening gjennom sin plass på kalenderen"
+            },
+            {
+              "key": "C",
+              "text": "En opplevelse av at fortiden er helt uten betydning"
+            },
+            {
+              "key": "D",
+              "text": "En fremtid der alle historiske konflikter er løst"
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Et ladet øyeblikk der fortiden kan aktualiseres og historiens kontinuitet brytes.",
+          "globalId": "15-11"
+        },
+        {
+          "number": 12,
+          "question": "Hvilken fremstilling passer best på forholdet mellom marxisme og teologi i tesene?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Benjamin forkaster begge som foreldede forklaringsmåter."
+            },
+            {
+              "key": "B",
+              "text": "Benjamin erstatter samfunnsanalyse med en bokstavelig lesning av Bibelen."
+            },
+            {
+              "key": "C",
+              "text": "Benjamin fører historisk materialisme sammen med teologiske og messianske motiver."
+            },
+            {
+              "key": "D",
+              "text": "Benjamin hevder at marxismen allerede har bevist alle religiøse læresetninger."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Benjamin fører historisk materialisme sammen med teologiske og messianske motiver. Forbindelsen er særpreget og lar seg ikke redusere til en enkel sammensmelting.",
+          "globalId": "15-12"
+        },
+        {
+          "number": 13,
+          "question": "Hvordan er Benjamins jødiske bakgrunn relevant for tesene?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Den får ham til å avvise enhver politisk forståelse av historien."
+            },
+            {
+              "key": "B",
+              "text": "Den inngår i hans bruk av messianske motiver, erindring og forløsning."
+            },
+            {
+              "key": "C",
+              "text": "Den gjør at han betrakter historien som en forutsigbar guddommelig tidsplan."
+            },
+            {
+              "key": "D",
+              "text": "Den får ham til å hevde at bare religiøse mennesker kan forstå fortiden."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "Den inngår i hans bruk av messianske motiver, erindring og forløsning. Dette innebærer ikke at tesene uttrykker en ortodoks jødisk lære.",
+          "globalId": "15-13"
+        },
+        {
+          "number": 14,
+          "question": "Hva betyr tanken om at nåtiden har en «svak messiansk kraft»?",
+          "options": [
+            {
+              "key": "A",
+              "text": "At hver generasjon vet når verdenshistorien vil ta slutt"
+            },
+            {
+              "key": "B",
+              "text": "At de døde automatisk får oppreisning når samfunnet blir rikere"
+            },
+            {
+              "key": "C",
+              "text": "At historikeren bør overlate fortiden til religiøse autoriteter"
+            },
+            {
+              "key": "D",
+              "text": "At nåtiden har en begrenset mulighet og forpliktelse til å svare på fortidens uinnfridde krav"
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "At nåtiden har en begrenset mulighet og forpliktelse til å svare på fortidens uinnfridde krav.",
+          "globalId": "15-14"
+        },
+        {
+          "number": 15,
+          "question": "Hva er en konkret forbindelse mellom Benjamin og romantikken?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han skrev doktoravhandling om tysk romantikks kunstkritikkbegrep."
+            },
+            {
+              "key": "B",
+              "text": "Han tilhørte den første generasjonen av romantiske diktere rundt 1800."
+            },
+            {
+              "key": "C",
+              "text": "Han skrev romantiske romaner sammen med Goethe."
+            },
+            {
+              "key": "D",
+              "text": "Han mente at romantikken manglet filosofisk interesse."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Han skrev doktoravhandling om tysk romantikks kunstkritikkbegrep.",
+          "globalId": "15-15"
+        },
+        {
+          "number": 16,
+          "question": "Hvordan kan Benjamin best knyttes til moderniteten?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han betrakter teknologisk utvikling som et sikkert mål på moralsk fremskritt."
+            },
+            {
+              "key": "B",
+              "text": "Han interesserer seg bare for førmoderne samfunn og religiøse tekster."
+            },
+            {
+              "key": "C",
+              "text": "Han undersøker moderne erfaringer samtidig som han kritiserer modernitetens fremskrittsløfter."
+            },
+            {
+              "key": "D",
+              "text": "Han mener at moderne samfunn har gjort historisk erindring overflødig."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Han undersøker moderne erfaringer samtidig som han kritiserer modernitetens fremskrittsløfter. Blant hans øvrige emner er storbyen, varekulturen og Baudelaire.",
+          "globalId": "15-16"
+        },
+        {
+          "number": 17,
+          "question": "Hva kjennetegnet forholdet mellom Walter Benjamin og Hannah Arendt?",
+          "options": [
+            {
+              "key": "A",
+              "text": "De var politiske motstandere som aldri møttes."
+            },
+            {
+              "key": "B",
+              "text": "De var venner i eksil, og Arendt bidro senere til å formidle hans forfatterskap."
+            },
+            {
+              "key": "C",
+              "text": "Arendt var hans doktorgradsveileder i Berlin."
+            },
+            {
+              "key": "D",
+              "text": "De skrev de historiefilosofiske tesene sammen."
+            }
+          ],
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "De var venner i eksil, og Arendt bidro senere til å formidle hans forfatterskap.",
+          "globalId": "15-17"
+        },
+        {
+          "number": 18,
+          "question": "Hvilken rolle spilte Arendt i overleveringen av de historiefilosofiske tesene?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hun rekonstruerte hele teksten fra hukommelsen etter krigen."
+            },
+            {
+              "key": "B",
+              "text": "Hun fant det eneste manuskriptet i Benjamins hotellrom i Portbou."
+            },
+            {
+              "key": "C",
+              "text": "Hun skrev teksten om til en sammenhengende historiebok."
+            },
+            {
+              "key": "D",
+              "text": "Hun tok med seg en kopi til USA."
+            }
+          ],
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "Hun tok med seg en kopi til USA.",
+          "globalId": "15-18"
+        },
+        {
+          "number": 19,
+          "question": "Hvorfor ville Benjamin krysse Pyreneene i september 1940?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han flyktet fra det nazistiske maktområdet og forsøkte å komme videre via Spania og Portugal."
+            },
+            {
+              "key": "B",
+              "text": "Han skulle besøke Arendt på et universitet i Madrid."
+            },
+            {
+              "key": "C",
+              "text": "Han var utsendt som journalist for å dekke den spanske borgerkrigen."
+            },
+            {
+              "key": "D",
+              "text": "Han ønsket å vende tilbake til Tyskland gjennom Spania."
+            }
+          ],
+          "subtopic": "",
+          "answer": "A",
+          "explanation": "Han flyktet fra det nazistiske maktområdet og forsøkte å komme videre via Spania og Portugal.",
+          "globalId": "15-19"
+        },
+        {
+          "number": 20,
+          "question": "Hva er den vanlig aksepterte fremstillingen av Benjamins død?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Han ble drept under bombingen av Paris i 1940."
+            },
+            {
+              "key": "B",
+              "text": "Han døde av utmattelse før han nådde den spanske grensen."
+            },
+            {
+              "key": "C",
+              "text": "Han tok sitt eget liv i Portbou."
+            },
+            {
+              "key": "D",
+              "text": "Han ble henrettet av spanske myndigheter etter en rettssak."
+            }
+          ],
+          "subtopic": "",
+          "answer": "C",
+          "explanation": "Han tok sitt eget liv i Portbou.",
+          "globalId": "15-20"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Thomas Mann",
+      "number": 16,
+      "sourceTitle": "Pensumspørsmål 16: Thomas Mann",
+      "questions": [
+        {
           "number": 1,
           "question": "Hvem var Thomas Mann?",
           "options": [
@@ -7536,13 +8364,14 @@ window.QUIZ_DATA = {
               "text": "En svensk dansebandmusiker"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p15-1"
+          "explanation": "",
+          "globalId": "16-1"
         },
         {
-          "id": "thomas-mann-2",
           "number": 2,
-          "question": "Hvor kan Thomas Mann plasseres idéhistorisk?",
+          "question": "Hvordan kan Thomas Mann plasseres idéhistorisk?",
           "options": [
             {
               "key": "A",
@@ -7561,11 +8390,12 @@ window.QUIZ_DATA = {
               "text": "Som en nølende kritiker av moderniteten"
             }
           ],
-          "answer": "C",
-          "globalId": "p15-2"
+          "subtopic": "",
+          "answer": "D",
+          "explanation": "",
+          "globalId": "16-2"
         },
         {
-          "id": "thomas-mann-3",
           "number": 3,
           "question": "Hvilket verk av Thomas Mann er på pensum?",
           "options": [
@@ -7586,11 +8416,12 @@ window.QUIZ_DATA = {
               "text": "Frankenstein"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p15-3"
+          "explanation": "",
+          "globalId": "16-3"
         },
         {
-          "id": "thomas-mann-4",
           "number": 4,
           "question": "Når ble Døden i Venezia utgitt?",
           "options": [
@@ -7611,11 +8442,12 @@ window.QUIZ_DATA = {
               "text": "1942"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p15-4"
+          "explanation": "",
+          "globalId": "16-4"
         },
         {
-          "id": "thomas-mann-5",
           "number": 5,
           "question": "Hvem er Gustav von Aschenbach?",
           "options": [
@@ -7636,11 +8468,12 @@ window.QUIZ_DATA = {
               "text": "En katolsk prest som har en hemmelig elsker"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p15-5"
+          "explanation": "",
+          "globalId": "16-5"
         },
         {
-          "id": "thomas-mann-6",
           "number": 6,
           "question": "Hvorfor dro Aschenbach til Venezia?",
           "options": [
@@ -7661,36 +8494,38 @@ window.QUIZ_DATA = {
               "text": "For å arbeide politisk"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p15-6"
+          "explanation": "",
+          "globalId": "16-6"
         },
         {
-          "id": "thomas-mann-7",
           "number": 7,
           "question": "Hvem er Tadzio?",
           "options": [
             {
               "key": "A",
-              "text": "En gammel venn"
+              "text": "Aschenbachs eldste venn"
             },
             {
               "key": "B",
-              "text": "En ung gutt som symboliserer skjønnhet"
+              "text": "Den vakre unge gutten Aschebach forelsket seg i"
             },
             {
               "key": "C",
-              "text": "En lege"
+              "text": "Aschenbachs vakre kone"
             },
             {
               "key": "D",
-              "text": "En tjener"
+              "text": "Aschenbachs kjekke tjener"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p15-7"
+          "explanation": "",
+          "globalId": "16-7"
         },
         {
-          "id": "thomas-mann-8",
           "number": 8,
           "question": "Hva skjedde da Aschenbach så Tadzio første gang?",
           "options": [
@@ -7711,13 +8546,14 @@ window.QUIZ_DATA = {
               "text": "Han bestilte et glass hvitvin"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p15-8"
+          "explanation": "",
+          "globalId": "16-8"
         },
         {
-          "id": "thomas-mann-9",
           "number": 9,
-          "question": "Hvordan kan Tadzio tolkes symbolsk?",
+          "question": "Hvordan kan Tadzio tolkes symbolsk i romanen Døden i Venezia?",
           "options": [
             {
               "key": "A",
@@ -7736,11 +8572,12 @@ window.QUIZ_DATA = {
               "text": "Som et uttrykk for det skjønnes idé"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p15-9"
+          "explanation": "",
+          "globalId": "16-9"
         },
         {
-          "id": "thomas-mann-10",
           "number": 10,
           "question": "Hvorfor forlot ikke Aschenbach Venezia da han fikk vite at det var livsfarlig å være der?",
           "options": [
@@ -7761,17 +8598,18 @@ window.QUIZ_DATA = {
               "text": "På grunn av at han ikke hadde råd til å reise hjem"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p15-10"
+          "explanation": "",
+          "globalId": "16-10"
         },
         {
-          "id": "thomas-mann-11",
           "number": 11,
-          "question": "Hvilken trussel stod Venezia overfor i Thomas Manns roman?",
+          "question": "Hvilken trussel sto Venezia overfor i Thomas Manns roman?",
           "options": [
             {
               "key": "A",
-              "text": "En epidemi brøt ut (kolera)"
+              "text": "En koleraepidemi brøt ut"
             },
             {
               "key": "B",
@@ -7786,11 +8624,12 @@ window.QUIZ_DATA = {
               "text": "En krig brøt ut (mot Østerrike)"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p15-11"
+          "explanation": "",
+          "globalId": "16-11"
         },
         {
-          "id": "thomas-mann-12",
           "number": 12,
           "question": "I Thomas Manns roman: Hvordan reagerte myndighetene i Venezia på koleraen?",
           "options": [
@@ -7811,11 +8650,12 @@ window.QUIZ_DATA = {
               "text": "De evakuerte byen umiddelbart"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p15-12"
+          "explanation": "",
+          "globalId": "16-12"
         },
         {
-          "id": "thomas-mann-13",
           "number": 13,
           "question": "Hvorfor døde Aschenbach?",
           "options": [
@@ -7836,11 +8676,12 @@ window.QUIZ_DATA = {
               "text": "Han ble værende Venezia og spiste et kolerabefengt jordbær"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p15-13"
+          "explanation": "",
+          "globalId": "16-13"
         },
         {
-          "id": "thomas-mann-14",
           "number": 14,
           "question": "Hvilken av de følgende er et sentralt tema i Døden i Venezia?",
           "options": [
@@ -7861,11 +8702,12 @@ window.QUIZ_DATA = {
               "text": "At religion spiller en altfor stor rolle i våre liv"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p15-14"
+          "explanation": "",
+          "globalId": "16-14"
         },
         {
-          "id": "thomas-mann-15",
           "number": 15,
           "question": "Hvordan kan Døden i Venezia forstås som modernitetskritikk?",
           "options": [
@@ -7886,11 +8728,12 @@ window.QUIZ_DATA = {
               "text": "Som en kritikk av overdreven tillit til fornuften"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p15-15"
+          "explanation": "",
+          "globalId": "16-15"
         },
         {
-          "id": "thomas-mann-16",
           "number": 16,
           "question": "Hvordan kan Aschenbachs utvikling forstås i lys av Kant?",
           "options": [
@@ -7911,11 +8754,12 @@ window.QUIZ_DATA = {
               "text": "Som en utvikling mot selvrealisering"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p15-16"
+          "explanation": "",
+          "globalId": "16-16"
         },
         {
-          "id": "thomas-mann-17",
           "number": 17,
           "question": "Hvilken dialog av Platon spiller en rolle i Døden i Venezia?",
           "options": [
@@ -7936,11 +8780,12 @@ window.QUIZ_DATA = {
               "text": "Faidros"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p15-17"
+          "explanation": "",
+          "globalId": "16-17"
         },
         {
-          "id": "thomas-mann-18",
           "number": 18,
           "question": "Hvilket motiv fra Platons dialog Faidros er særlig relevant i Døden i Venezia?",
           "options": [
@@ -7961,11 +8806,12 @@ window.QUIZ_DATA = {
               "text": "Gjenerindring"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p15-18"
+          "explanation": "",
+          "globalId": "16-18"
         },
         {
-          "id": "thomas-mann-19",
           "number": 19,
           "question": "Hva kjennetegner den modernismen Thomas Mann forbindes med?",
           "options": [
@@ -7986,11 +8832,12 @@ window.QUIZ_DATA = {
               "text": "At tradisjonen bør følges"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p15-19"
+          "explanation": "",
+          "globalId": "16-19"
         },
         {
-          "id": "thomas-mann-20",
           "number": 20,
           "question": "Hva var Thomas Manns forhold til Hitler og nazistenes «ødeleggelse av fornuften»?",
           "options": [
@@ -8011,28 +8858,30 @@ window.QUIZ_DATA = {
               "text": "Han mente den kunne ha noe for seg"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p15-20"
+          "explanation": "",
+          "globalId": "16-20"
         }
       ]
     },
     {
-      "id": "16",
-      "title": "Pensumspørsmål 16: Hannah Arendt",
-      "shortTitle": "Hannah Arendt",
+      "id": "17",
+      "title": "Hannah Arendt",
+      "number": 17,
+      "sourceTitle": "Pensumspørsmål 17: Hannah Arendt",
       "questions": [
         {
-          "id": "hannah-arendt-1",
           "number": 1,
           "question": "Hvem var Hannah Arendt?",
           "options": [
             {
               "key": "A",
-              "text": "En fransk forfatter som vant FIFAs nyopprettede litteraturpris"
+              "text": "En tysk forfatter som vant FIFAs nyopprettede litteraturpris"
             },
             {
               "key": "B",
-              "text": "En kjederøykende tysk-amerikansk politisk tenker"
+              "text": "En kjederøykende tysk politisk tenker"
             },
             {
               "key": "C",
@@ -8040,14 +8889,15 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "En engelsk filosof som hadde en hytte på Helgeland"
+              "text": "En tysk filosof som hadde en hytte på Helgeland"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p16-1"
+          "explanation": "",
+          "globalId": "17-1"
         },
         {
-          "id": "hannah-arendt-2",
           "number": 2,
           "question": "Når levde Hannah Arendt?",
           "options": [
@@ -8068,11 +8918,12 @@ window.QUIZ_DATA = {
               "text": "Fra 1889 til 1945"
             }
           ],
-          "answer": "C",
-          "globalId": "p16-2"
+          "subtopic": "",
+          "answer": "B",
+          "explanation": "",
+          "globalId": "17-2"
         },
         {
-          "id": "hannah-arendt-3",
           "number": 3,
           "question": "Hvilket verk av Arendt er på pensum?",
           "options": [
@@ -8093,11 +8944,12 @@ window.QUIZ_DATA = {
               "text": "Kunsten å forhandle"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p16-3"
+          "explanation": "",
+          "globalId": "17-3"
         },
         {
-          "id": "hannah-arendt-4",
           "number": 4,
           "question": "Hva handler Eichmann i Jerusalem om?",
           "options": [
@@ -8118,11 +8970,12 @@ window.QUIZ_DATA = {
               "text": "En rapport om rettssaken mot Adolf Eichmann"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p16-4"
+          "explanation": "",
+          "globalId": "17-4"
         },
         {
-          "id": "hannah-arendt-5",
           "number": 5,
           "question": "Hvem var Adolf Eichmann?",
           "options": [
@@ -8136,20 +8989,21 @@ window.QUIZ_DATA = {
             },
             {
               "key": "C",
-              "text": "En byråkrat i det nazistiske systemet"
+              "text": "En tjenestemann i det nazistiske systemet"
             },
             {
               "key": "D",
               "text": "En motstandsmann som forsøkte å ta livet av Hitler"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p16-5"
+          "explanation": "",
+          "globalId": "17-5"
         },
         {
-          "id": "hannah-arendt-6",
           "number": 6,
-          "question": "Hva er Arendts mest kjente begrep fra Eichmann i Jerusalem?",
+          "question": "Hva er det mest kjente begrepet fra Arendts Eichmann i Jerusalem?",
           "options": [
             {
               "key": "A",
@@ -8168,11 +9022,12 @@ window.QUIZ_DATA = {
               "text": "Ondskapens banalitet"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p16-6"
+          "explanation": "",
+          "globalId": "17-6"
         },
         {
-          "id": "hannah-arendt-7",
           "number": 7,
           "question": "Hva legger Arendt i uttrykket «ondskapens banalitet»?",
           "options": [
@@ -8193,11 +9048,12 @@ window.QUIZ_DATA = {
               "text": "At ondskap ikke finnes"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p16-7"
+          "explanation": "",
+          "globalId": "17-7"
         },
         {
-          "id": "hannah-arendt-8",
           "number": 8,
           "question": "Hvordan karakteriserte Arendt Eichmann?",
           "options": [
@@ -8218,11 +9074,12 @@ window.QUIZ_DATA = {
               "text": "Som en tankeløs byråkrat"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p16-8"
+          "explanation": "",
+          "globalId": "17-8"
         },
         {
-          "id": "hannah-arendt-9",
           "number": 9,
           "question": "Hva ville Arendt vise ved å fremstille Eichmann som en tankeløs byråkrat?",
           "options": [
@@ -8243,11 +9100,12 @@ window.QUIZ_DATA = {
               "text": "At bare psykopater gjør ondt"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p16-9"
+          "explanation": "",
+          "globalId": "17-9"
         },
         {
-          "id": "hannah-arendt-10",
           "number": 10,
           "question": "Hvordan forholdt Arendt seg til moderniteten?",
           "options": [
@@ -8265,14 +9123,15 @@ window.QUIZ_DATA = {
             },
             {
               "key": "D",
-              "text": "Hun forsvarte det moderne prosjekt"
+              "text": "Hun forsvarte prinsippene bak det moderne prosjekt"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p16-10"
+          "explanation": "",
+          "globalId": "17-10"
         },
         {
-          "id": "hannah-arendt-11",
           "number": 11,
           "question": "Hvilken av disse filosofene kan Arendt særlig knyttes til?",
           "options": [
@@ -8293,11 +9152,12 @@ window.QUIZ_DATA = {
               "text": "Thomas Aquinas"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p16-11"
+          "explanation": "",
+          "globalId": "17-11"
         },
         {
-          "id": "hannah-arendt-12",
           "number": 12,
           "question": "Hvilket sentralt poeng hos Kant er relevant også for Arendt?",
           "options": [
@@ -8318,11 +9178,12 @@ window.QUIZ_DATA = {
               "text": "At vi lar oss styre av tradisjonen"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p16-12"
+          "explanation": "",
+          "globalId": "17-12"
         },
         {
-          "id": "hannah-arendt-13",
           "number": 13,
           "question": "Hva sviktet hos Eichmann, ifølge Arendt?",
           "options": [
@@ -8343,11 +9204,12 @@ window.QUIZ_DATA = {
               "text": "Hans ulydighet"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p16-13"
+          "explanation": "",
+          "globalId": "17-13"
         },
         {
-          "id": "hannah-arendt-14",
           "number": 14,
           "question": "Hva innebærer Eichmanns manglende evne til å tenke selv i praksis?",
           "options": [
@@ -8368,11 +9230,12 @@ window.QUIZ_DATA = {
               "text": "At han ukritisk følger ordre"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p16-14"
+          "explanation": "",
+          "globalId": "17-14"
         },
         {
-          "id": "hannah-arendt-15",
           "number": 15,
           "question": "Hvordan forholdt Eichmann seg til Kants etikk?",
           "options": [
@@ -8393,11 +9256,12 @@ window.QUIZ_DATA = {
               "text": "Han likte den så godt at han skrev et dikt om den"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p16-15"
+          "explanation": "",
+          "globalId": "17-15"
         },
         {
-          "id": "hannah-arendt-16",
           "number": 16,
           "question": "Hva slags ondskap analyserte Arendt?",
           "options": [
@@ -8418,11 +9282,12 @@ window.QUIZ_DATA = {
               "text": "Politisk og praktisk ondskap"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p16-16"
+          "explanation": "",
+          "globalId": "17-16"
         },
         {
-          "id": "hannah-arendt-17",
           "number": 17,
           "question": "Hva er avgjørende for å unngå ondskap, ifølge Arendt?",
           "options": [
@@ -8443,11 +9308,12 @@ window.QUIZ_DATA = {
               "text": "At vi aldri setter oss opp mot autoriteter"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p16-17"
+          "explanation": "",
+          "globalId": "17-17"
         },
         {
-          "id": "hannah-arendt-18",
           "number": 18,
           "question": "Hva var Arendts syn på fornuften?",
           "options": [
@@ -8468,11 +9334,12 @@ window.QUIZ_DATA = {
               "text": "Den må brukes aktivt og kritisk"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p16-18"
+          "explanation": "",
+          "globalId": "17-18"
         },
         {
-          "id": "hannah-arendt-19",
           "number": 19,
           "question": "Hvorfor beskrev ikke Arendt Eichmann som et «monster»?",
           "options": [
@@ -8493,11 +9360,12 @@ window.QUIZ_DATA = {
               "text": "Hun mener han er ganske alminnelig"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p16-19"
+          "explanation": "",
+          "globalId": "17-19"
         },
         {
-          "id": "hannah-arendt-20",
           "number": 20,
           "question": "Hvordan kan Arendt plasseres idéhistorisk?",
           "options": [
@@ -8507,7 +9375,7 @@ window.QUIZ_DATA = {
             },
             {
               "key": "B",
-              "text": "Som et kantiansk forsvar for opplysning og modernitet"
+              "text": "Som et kantiansk preget forsvar for opplysning og modernitet"
             },
             {
               "key": "C",
@@ -8518,18 +9386,20 @@ window.QUIZ_DATA = {
               "text": "Som en metafysiker i tradisjonen etter Platon"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p16-20"
+          "explanation": "",
+          "globalId": "17-20"
         }
       ]
     },
     {
-      "id": "17",
-      "title": "Pensumspørsmål 17: Jürgen Habermas",
-      "shortTitle": "Jürgen Habermas",
+      "id": "18",
+      "title": "Jürgen Habermas",
+      "number": 18,
+      "sourceTitle": "Pensumspørsmål 18: Jürgen Habermas",
       "questions": [
         {
-          "id": "jürgen-habermas-1",
           "number": 1,
           "question": "Hvem var Jürgen Habermas?",
           "options": [
@@ -8550,11 +9420,12 @@ window.QUIZ_DATA = {
               "text": "En russisk historiker og spion"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p17-1"
+          "explanation": "",
+          "globalId": "18-1"
         },
         {
-          "id": "jürgen-habermas-2",
           "number": 2,
           "question": "Når døde Habermas?",
           "options": [
@@ -8575,11 +9446,12 @@ window.QUIZ_DATA = {
               "text": "April 2026"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p17-2"
+          "explanation": "",
+          "globalId": "18-2"
         },
         {
-          "id": "jürgen-habermas-3",
           "number": 3,
           "question": "Hvordan kan Habermas plasseres idéhistorisk?",
           "options": [
@@ -8589,7 +9461,7 @@ window.QUIZ_DATA = {
             },
             {
               "key": "B",
-              "text": "Som en romantiker i Schellings tradisjon"
+              "text": "Som en romantiker i Percy Shelleys tradisjon"
             },
             {
               "key": "C",
@@ -8600,11 +9472,12 @@ window.QUIZ_DATA = {
               "text": "Som en forsvarer av det moderne prosjekt i tradisjon fra Kant"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p17-3"
+          "explanation": "",
+          "globalId": "18-3"
         },
         {
-          "id": "jürgen-habermas-4",
           "number": 4,
           "question": "Hvilken hendelse i barndommen preget Habermas’ filosofi i særlig høy grad?",
           "options": [
@@ -8614,22 +9487,23 @@ window.QUIZ_DATA = {
             },
             {
               "key": "B",
-              "text": "Hans aktive motstand mot nazismen fra 1933"
+              "text": "Hans aktive motstand mot nazismen i barndommen"
             },
             {
               "key": "C",
-              "text": "Hans medlemskap i Hitlerjugend 1941"
+              "text": "Medlemskapet i Hitlerjugend i barndommen"
             },
             {
               "key": "D",
               "text": "Hans tre månder lange ferie i USA i 1935"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p17-4"
+          "explanation": "",
+          "globalId": "18-4"
         },
         {
-          "id": "jürgen-habermas-5",
           "number": 5,
           "question": "Hvordan forholdt Habermas’ filosofi seg til nazismen?",
           "options": [
@@ -8650,11 +9524,12 @@ window.QUIZ_DATA = {
               "text": "Han bekjempet den og alt som ligner den"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p17-5"
+          "explanation": "",
+          "globalId": "18-5"
         },
         {
-          "id": "jürgen-habermas-6",
           "number": 6,
           "question": "Hva mener Habermas med at moderniteten er «et ufullendt prosjekt»?",
           "options": [
@@ -8675,11 +9550,12 @@ window.QUIZ_DATA = {
               "text": "At moderniteten bør erstattes av en postmoderne tilstand"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p17-6"
+          "explanation": "",
+          "globalId": "18-6"
         },
         {
-          "id": "jürgen-habermas-7",
           "number": 7,
           "question": "Hva mente Habermas med at «moralen har en kognitivt gehalt»?",
           "options": [
@@ -8689,7 +9565,7 @@ window.QUIZ_DATA = {
             },
             {
               "key": "B",
-              "text": "At moral kan være sant og usant"
+              "text": "At moral kan være sann og usann"
             },
             {
               "key": "C",
@@ -8700,11 +9576,12 @@ window.QUIZ_DATA = {
               "text": "At moral er religiøs, som Thomas Aquinas"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p17-7"
+          "explanation": "",
+          "globalId": "18-7"
         },
         {
-          "id": "jürgen-habermas-8",
           "number": 8,
           "question": "Hva kjennetegnet Habermas’ syn på fornuften?",
           "options": [
@@ -8725,11 +9602,12 @@ window.QUIZ_DATA = {
               "text": "Tro på intuisjon"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p17-8"
+          "explanation": "",
+          "globalId": "18-8"
         },
         {
-          "id": "jürgen-habermas-9",
           "number": 9,
           "question": "Hvilket av de følgende er et sentralt begrep hos Habermas?",
           "options": [
@@ -8750,11 +9628,12 @@ window.QUIZ_DATA = {
               "text": "Arvesynd"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p17-9"
+          "explanation": "",
+          "globalId": "18-9"
         },
         {
-          "id": "jürgen-habermas-10",
           "number": 10,
           "question": "Hva betyr «diskursetikk» hos Habermas?",
           "options": [
@@ -8775,11 +9654,12 @@ window.QUIZ_DATA = {
               "text": "Moral må begrunnes gjennom fri og rasjonell samtale"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p17-10"
+          "explanation": "",
+          "globalId": "18-10"
         },
         {
-          "id": "jürgen-habermas-11",
           "number": 11,
           "question": "Hva er målet i en ideell diskusjon, ifølge Habermas?",
           "options": [
@@ -8800,11 +9680,12 @@ window.QUIZ_DATA = {
               "text": "Å forføre samtalepartnerne"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p17-11"
+          "explanation": "",
+          "globalId": "18-11"
         },
         {
-          "id": "jürgen-habermas-12",
           "number": 12,
           "question": "Hva mener Habermas med «de bedre argumenter»?",
           "options": [
@@ -8825,11 +9706,12 @@ window.QUIZ_DATA = {
               "text": "De mest rasjonelt begrunnede argumentene"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p17-12"
+          "explanation": "",
+          "globalId": "18-12"
         },
         {
-          "id": "jürgen-habermas-13",
           "number": 13,
           "question": "Hva er kommunikativ handling i Habermas’ filosofi?",
           "options": [
@@ -8850,11 +9732,12 @@ window.QUIZ_DATA = {
               "text": "Politisk propaganda"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p17-13"
+          "explanation": "",
+          "globalId": "18-13"
         },
         {
-          "id": "jürgen-habermas-14",
           "number": 14,
           "question": "Hvilken av de følgende er en særlig stor trussel mot ekte kommunikasjon, ifølge Habermas?",
           "options": [
@@ -8875,11 +9758,12 @@ window.QUIZ_DATA = {
               "text": "Makt og manipulering"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p17-14"
+          "explanation": "",
+          "globalId": "18-14"
         },
         {
-          "id": "jürgen-habermas-15",
           "number": 15,
           "question": "Hvordan kan Habermas’ filosofi forstås idéhistorisk?",
           "options": [
@@ -8893,18 +9777,19 @@ window.QUIZ_DATA = {
             },
             {
               "key": "C",
-              "text": "Som romantikk type Schelling"
+              "text": "Som romantikk type Shelley"
             },
             {
               "key": "D",
               "text": "Som nihilisme, type Ivan Karamasov"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p17-15"
+          "explanation": "",
+          "globalId": "18-15"
         },
         {
-          "id": "jürgen-habermas-16",
           "number": 16,
           "question": "Hvilken filosof kan Habermas særlig knyttes til?",
           "options": [
@@ -8925,11 +9810,12 @@ window.QUIZ_DATA = {
               "text": "Thomas Aquinas"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p17-16"
+          "explanation": "",
+          "globalId": "18-16"
         },
         {
-          "id": "jürgen-habermas-17",
           "number": 17,
           "question": "Hva er poenget med åpen samtale hos Habermas?",
           "options": [
@@ -8950,11 +9836,12 @@ window.QUIZ_DATA = {
               "text": "Å underholde"
             }
           ],
+          "subtopic": "",
           "answer": "B",
-          "globalId": "p17-17"
+          "explanation": "",
+          "globalId": "18-17"
         },
         {
-          "id": "jürgen-habermas-18",
           "number": 18,
           "question": "Hva er Habermas’ syn på sannhet?",
           "options": [
@@ -8975,13 +9862,14 @@ window.QUIZ_DATA = {
               "text": "Den kan settes på prøve i en fri diskurs"
             }
           ],
+          "subtopic": "",
           "answer": "D",
-          "globalId": "p17-18"
+          "explanation": "",
+          "globalId": "18-18"
         },
         {
-          "id": "jürgen-habermas-19",
           "number": 19,
-          "question": "Hvilken biografisk detalj kan ses i sammenheng med Habermas opptatthet av kommunikasjon?",
+          "question": "Hvilken biografisk detalj kan tenkes å ha sammenheng med Habermas opptatthet av kommunikasjon?",
           "options": [
             {
               "key": "A",
@@ -9000,540 +9888,36 @@ window.QUIZ_DATA = {
               "text": "Hans militærtjeneste der alt bare handlet om å adlyde ordrer"
             }
           ],
+          "subtopic": "",
           "answer": "C",
-          "globalId": "p17-19"
+          "explanation": "",
+          "globalId": "18-19"
         },
         {
-          "id": "jürgen-habermas-20",
           "number": 20,
           "question": "Hvordan kan Habermas’ prosjekt kort karakteriseres?",
           "options": [
             {
               "key": "A",
-              "text": "Den er et forsvar for fornuft og dialog"
+              "text": "Den er et forsvar for moderniteten"
             },
             {
               "key": "B",
-              "text": "Den er et forsvar for tradisjon"
+              "text": "Den er et forsvar for tradisjonen"
             },
             {
               "key": "C",
-              "text": "Den er en avvisning av modernitet"
+              "text": "Den er en avvisning av moderniteten"
             },
             {
               "key": "D",
-              "text": "Den er en kritikk av fornuften"
+              "text": "Den er en kritikk av religionen"
             }
           ],
+          "subtopic": "",
           "answer": "A",
-          "globalId": "p17-20"
-        }
-      ]
-    },
-    {
-      "id": "18",
-      "title": "Pensumspørsmål 18: Beauvoir og Moi",
-      "shortTitle": "Beauvoir og Moi",
-      "questions": [
-        {
-          "id": "beauvoir-og-moi-1",
-          "number": 1,
-          "question": "Hvem var Simone de Beauvoir?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En fransk filosof og forfatter"
-            },
-            {
-              "key": "B",
-              "text": "En tysk teolog"
-            },
-            {
-              "key": "C",
-              "text": "En sveitsisk politiker"
-            },
-            {
-              "key": "D",
-              "text": "En fransk psykolog"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p18-1"
-        },
-        {
-          "id": "beauvoir-og-moi-2",
-          "number": 2,
-          "question": "Hvem er Toril Moi?",
-          "options": [
-            {
-              "key": "A",
-              "text": "En tidlig representant for «skeiv teori»"
-            },
-            {
-              "key": "B",
-              "text": "En amerikansk feminist"
-            },
-            {
-              "key": "C",
-              "text": "En norsk filosof og litteraturviter"
-            },
-            {
-              "key": "D",
-              "text": "En norsk romanforfatter"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p18-2"
-        },
-        {
-          "id": "beauvoir-og-moi-3",
-          "number": 3,
-          "question": "Hva heter Beauvoirs mest kjente verk?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Væren og intet"
-            },
-            {
-              "key": "B",
-              "text": "Det annet kjønn"
-            },
-            {
-              "key": "C",
-              "text": "Om sannhet og løgn"
-            },
-            {
-              "key": "D",
-              "text": "Enten-eller"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p18-3"
-        },
-        {
-          "id": "beauvoir-og-moi-4",
-          "number": 4,
-          "question": "Hvilken filosofisk retning forbindes Beauvoir med?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Positivismen"
-            },
-            {
-              "key": "B",
-              "text": "Rasjonalismen"
-            },
-            {
-              "key": "C",
-              "text": "Empirismen"
-            },
-            {
-              "key": "D",
-              "text": "Eksistensialismen"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p18-4"
-        },
-        {
-          "id": "beauvoir-og-moi-5",
-          "number": 5,
-          "question": "Hvem var Beauvoir særlig nært knyttet til?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Immanuel Kant"
-            },
-            {
-              "key": "B",
-              "text": "Friedrich Nietzsche"
-            },
-            {
-              "key": "C",
-              "text": "Jean-Paul Sartre"
-            },
-            {
-              "key": "D",
-              "text": "Thomas Aquinas"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p18-5"
-        },
-        {
-          "id": "beauvoir-og-moi-6",
-          "number": 6,
-          "question": "Hva er hovedtemaet i Det annet kjønn?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At uten religion er livet meningsløst"
-            },
-            {
-              "key": "B",
-              "text": "Kjønn og undertrykkelse"
-            },
-            {
-              "key": "C",
-              "text": "At naturvitenskapen gir oss lyst til å leve"
-            },
-            {
-              "key": "D",
-              "text": "At den som har råd til det kan reise mye"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p18-6"
-        },
-        {
-          "id": "beauvoir-og-moi-7",
-          "number": 7,
-          "question": "Hvordan kan dette utsagnet tolkes: «Man fødes ikke som kvinne, man blir det»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At biologi er irrelevant"
-            },
-            {
-              "key": "B",
-              "text": "At kjønn er helt tilfeldig"
-            },
-            {
-              "key": "C",
-              "text": "At kvinner ikke finnes"
-            },
-            {
-              "key": "D",
-              "text": "At kjønnsroller formes gjennom samfunn og erfaring"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p18-7"
-        },
-        {
-          "id": "beauvoir-og-moi-8",
-          "number": 8,
-          "question": "Hva er «levd erfaring» hos de Beauvoir?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Teoretisk kunnskap"
-            },
-            {
-              "key": "B",
-              "text": "Objektive fakta som er positivt gitt"
-            },
-            {
-              "key": "C",
-              "text": "Subjektets konkrete erfaring av verden"
-            },
-            {
-              "key": "D",
-              "text": "Statistisk analyse av hverdagens små og ståre opplevelser"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p18-8"
-        },
-        {
-          "id": "beauvoir-og-moi-9",
-          "number": 9,
-          "question": "Hvordan forstås mennesket i eksistensialismen?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som bestemt av naturen"
-            },
-            {
-              "key": "B",
-              "text": "Som fritt og ansvarlig"
-            },
-            {
-              "key": "C",
-              "text": "Som en ubetydelig ting"
-            },
-            {
-              "key": "D",
-              "text": "Som en mekanisme"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p18-9"
-        },
-        {
-          "id": "beauvoir-og-moi-10",
-          "number": 10,
-          "question": "Hva kritiserte Beauvoir i Det annet kjønn?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At kvinner har for mye frihet"
-            },
-            {
-              "key": "B",
-              "text": "At kvinner er biologisk overlegne"
-            },
-            {
-              "key": "C",
-              "text": "At kvinner gjøres til «den andre»"
-            },
-            {
-              "key": "D",
-              "text": "At altfor få kvinner blir tradwifes"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p18-10"
-        },
-        {
-          "id": "beauvoir-og-moi-11",
-          "number": 11,
-          "question": "Hva betyr det at kvinnen er «den andre», ifølge Beauvoir?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At hun er lik mannen"
-            },
-            {
-              "key": "B",
-              "text": "At hun er biologisk annerledes"
-            },
-            {
-              "key": "C",
-              "text": "At hun er uavhengig"
-            },
-            {
-              "key": "D",
-              "text": "At hun defineres i forhold til mannen"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p18-11"
-        },
-        {
-          "id": "beauvoir-og-moi-12",
-          "number": 12,
-          "question": "Hvordan forholdt Beauvoir seg til biologi og kropp?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Hun avviste det helt"
-            },
-            {
-              "key": "B",
-              "text": "Hun mente det bestemmer alt"
-            },
-            {
-              "key": "C",
-              "text": "Hun ignorerte det"
-            },
-            {
-              "key": "D",
-              "text": "Hun mente det er viktig, men ikke avgjørende"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p18-12"
-        },
-        {
-          "id": "beauvoir-og-moi-13",
-          "number": 13,
-          "question": "Hvilken av de følgende påstander er en sentral innsikt i Beauvoirs analyse?",
-          "options": [
-            {
-              "key": "A",
-              "text": "At frihet ikke finnes"
-            },
-            {
-              "key": "B",
-              "text": "At kultur og samfunn former kjønnsroller"
-            },
-            {
-              "key": "C",
-              "text": "At naturen bestemmer alt"
-            },
-            {
-              "key": "D",
-              "text": "At individet er irrelevant"
-            }
-          ],
-          "answer": "B",
-          "globalId": "p18-13"
-        },
-        {
-          "id": "beauvoir-og-moi-14",
-          "number": 14,
-          "question": "Hvordan tolker Judith Butler Beauvoirs syn på«kjønn»?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som rent biologisk"
-            },
-            {
-              "key": "B",
-              "text": "Som sosial rolle"
-            },
-            {
-              "key": "C",
-              "text": "Som kroppslig essens"
-            },
-            {
-              "key": "D",
-              "text": "Som noe som ikke er bundet til kroppen"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p18-14"
-        },
-        {
-          "id": "beauvoir-og-moi-15",
-          "number": 15,
-          "question": "Hvordan tolker Toril Moi Beauvoirs syn på kjønn?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som en illusjon"
-            },
-            {
-              "key": "B",
-              "text": "Som ren kultur"
-            },
-            {
-              "key": "C",
-              "text": "Som kropp, men ikke skjebne"
-            },
-            {
-              "key": "D",
-              "text": "Som uforanderlig natur"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p18-15"
-        },
-        {
-          "id": "beauvoir-og-moi-16",
-          "number": 16,
-          "question": "Hva er forskjellen mellom Butler og Mois tolkning av Beauvoir?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Ingen forskjell"
-            },
-            {
-              "key": "B",
-              "text": "Butler vektlegger kropp, Moi ikke"
-            },
-            {
-              "key": "C",
-              "text": "Moi avviser kjønn"
-            },
-            {
-              "key": "D",
-              "text": "Butler løsriver kjønn mer fra kroppen enn Moi"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p18-16"
-        },
-        {
-          "id": "beauvoir-og-moi-17",
-          "number": 17,
-          "question": "Hva innebærer frihet hos Beauvoir?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Fravær av ansvar"
-            },
-            {
-              "key": "B",
-              "text": "Full uavhengighet"
-            },
-            {
-              "key": "C",
-              "text": "Muligheten til å skape seg selv innenfor rammer"
-            },
-            {
-              "key": "D",
-              "text": "Determinisme"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p18-17"
-        },
-        {
-          "id": "beauvoir-og-moi-18",
-          "number": 18,
-          "question": "Hva er et hovedmål i Beauvoirs tenkning?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Å avskaffe samfunnet"
-            },
-            {
-              "key": "B",
-              "text": "Å eliminere forskjeller"
-            },
-            {
-              "key": "C",
-              "text": "Å styrke biologiske forskjeller"
-            },
-            {
-              "key": "D",
-              "text": "Å frigjøre kvinner"
-            }
-          ],
-          "answer": "D",
-          "globalId": "p18-18"
-        },
-        {
-          "id": "beauvoir-og-moi-19",
-          "number": 19,
-          "question": "Hvordan kan Det annet kjønn forstås idehistorisk?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som et forsvar for Thomas Aquinas kvinnesyn"
-            },
-            {
-              "key": "B",
-              "text": "Som en bilogisk analyse av kjønnsceller"
-            },
-            {
-              "key": "C",
-              "text": "Som eksistensialistisk feminisme"
-            },
-            {
-              "key": "D",
-              "text": "Som ren fiksjon"
-            }
-          ],
-          "answer": "C",
-          "globalId": "p18-19"
-        },
-        {
-          "id": "beauvoir-og-moi-20",
-          "number": 20,
-          "question": "Hva er en kort karakteristikk av Beauvoirs prosjekt?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Som et forsøk på å forstå og utfordre undertrykkelse"
-            },
-            {
-              "key": "B",
-              "text": "Som et forsøk på å forsvare de tradisjonelle kjønnsrollene"
-            },
-            {
-              "key": "C",
-              "text": "Som et forssøk på å avvise frihet"
-            },
-            {
-              "key": "D",
-              "text": "Som et forsøk på å vende tilbake til et middelaldersk kvinnesyn"
-            }
-          ],
-          "answer": "A",
-          "globalId": "p18-20"
+          "explanation": "",
+          "globalId": "18-20"
         }
       ]
     }
